@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="bersama-banner.gif" alt="Bersama - public services for migrant workers in Taiwan, in your language" width="100%">
+</p>
+
 # Bersama
 
 An AI public-service companion for migrant workers in Taiwan. A worker asks a
