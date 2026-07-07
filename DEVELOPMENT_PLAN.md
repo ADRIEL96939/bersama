@@ -3,8 +3,7 @@
 *2026 Presidential Hackathon International Track. Theme: Digital Inclusion in the AI Era.*
 
 This document is the development plan and task breakdown for Bersama. It states
-what is already built, what remains before the July 31 submission, how long the
-remaining work takes, and how the project develops after the competition. It is
+what is already built, how long the remaining work takes, and how the project develops after the competition. It is
 written to match the Feasibility criterion (maturity of the solution, overview
 and development plan, future plans) and the finals Implementation and
 Verification criterion (progress, completeness, verification status).
