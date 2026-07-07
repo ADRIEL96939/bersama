@@ -3,54 +3,18 @@
 An AI public-service companion for migrant workers in Taiwan. A worker asks a
 question in their own language, and Bersama explains the relevant rule or service
 in plain language, **grounded in official sources**, then can draft a real form
-for them. Built for the 2026 Presidential Hackathon International Track.
+for them.
 
 This is a working **prototype** that implements the full flow end to end. It runs
 with zero setup in an offline demo mode, and turns into a fluent multilingual
 assistant when you plug in a language model.
 
-## Submission deliverables (start here)
+## Submission deliverables
 
 - **Working demo:** this repository. See [Quickstart](#quickstart) to run the
   full flow in about a minute.
 - **Development plan and task breakdown:** [`DEVELOPMENT_PLAN.md`](DEVELOPMENT_PLAN.md)
   - what is built, what remains, time estimates, timeline, and future roadmap.
-- **Demo video:** script and recording guide in [`DEMO_VIDEO.md`](DEMO_VIDEO.md).
-  Video link: _add your unlisted YouTube or Vimeo URL here after recording._
-
----
-
-## What works right now, and what needs your input
-
-**Works out of the box (no API key, no internet):**
-- Retrieval over a seed knowledge base of official-source passages
-- Grounded answers that cite their sources, with a guard that declines when no
-  source fits (so it does not make things up)
-- The employer-transfer form co-pilot (drafts a form from a short Q&A)
-- A command-line demo and a web chat page
-- An evaluation harness that reports retrieval accuracy
-
-**Needs your input before real use:**
-1. **Do a final review of the knowledge base and keep it current.**
-   `data/knowledge_base.json` now holds ~52 passages across the four topics, each
-   grounded in an official or authoritative source. Passages marked
-   `"verified": true` were cross-checked against their source during the build;
-   passages marked `"verified": false` contain a figure or detail that changes
-   over time (amounts, fees, exact document lists) and should be re-confirmed. Any
-   figure (minimum wage, premium rate, copays, broker and stabilization fees)
-   should be re-checked each year. This is still the biggest driver of answer
-   quality; keep expanding it.
-2. **Add a language model key** to get fluent answers and real translation into
-   Bahasa Indonesia, Vietnamese, and the other languages (see below). Without it,
-   answers come back in English.
-3. **Install sentence-transformers** to switch on semantic retrieval (see the
-   retriever section below). Optional but recommended.
-4. **Confirm the real form fields** for the employer-transfer application in
-   `src/form_copilot.py`.
-
-Being clear about this split matters: the pipeline is real, and the content is now
-a sourced starting point rather than a placeholder.
-
 ---
 
 ## Quickstart
@@ -137,7 +101,7 @@ The project follows the agreed build order, one concern per file:
 
 ---
 
-## Extending the knowledge base (do this first)
+## Extending the knowledge base (to be done)
 
 Each passage is a small, self-contained chunk with a source. Add entries to the
 `passages` array in `data/knowledge_base.json`:
@@ -179,7 +143,7 @@ a lot) can produce a wrong match. As the knowledge base grows and passages share
 more vocabulary, this gets noticeable. `eval.py` keeps a couple of these
 "known-hard" cases visible on purpose.
 
-**Semantic embeddings (recommended)** fix this. Install the optional dependency:
+**Semantic embeddings (recommended)** to be fixed. Install the optional dependency:
 
 ```bash
 pip install sentence-transformers
@@ -211,27 +175,8 @@ sources do not actually fit the question.
 
 - **The form drafts only. It never submits anything** to any government system.
   A person (worker, NGO caseworker, or labor bureau) reviews and submits.
-- **Verify all legal and administrative content.** This is a prototype; treat its
+- **All legal and administrative content are to be verified.** This is a prototype; treat its
   answers as a starting point that points to official sources, not as legal advice.
 - Do not commit an API key. The code reads it from the environment only.
 
 ---
-
-## Suggested next steps toward the submission
-
-1. Verify and expand the knowledge base to 40-60 passages across the four topics,
-   and have native speakers review the Bahasa Indonesia and Vietnamese
-   translations.
-2. Turn on the language model and test Thai and Filipino end to end (English,
-   Indonesian, and Vietnamese already work offline).
-3. Grow the benchmarks and re-run `python eval.py`, `python eval.py id`, and
-   `python eval.py vi` to produce citable accuracy numbers. All three are
-   112-question sets (four topics) reporting retrieval top-1 accuracy, a
-   grounded-answer key-fact check, and out-of-scope decline rates. On the default
-   keyword retriever the current retrieval / grounded-key-fact numbers are roughly
-   82% / 78% (English), 88% / 84% (Indonesian), and 87% / 87% (Vietnamese). This
-   is verification evidence you can quote directly in the application, and you can
-   generate it yourself without any partner.
-4. Do a small pilot with an NGO or migrant-service centre and capture real usage
-   numbers (this feeds the competition's implementation-and-verification score).
-5. Record a 2-minute demo video of one full flow.

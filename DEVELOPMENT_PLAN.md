@@ -3,8 +3,7 @@
 *2026 Presidential Hackathon International Track. Theme: Digital Inclusion in the AI Era.*
 
 This document is the development plan and task breakdown for Bersama. It states
-what is already built, what remains before the July 31 submission, how long the
-remaining work takes, and how the project develops after the competition. It is
+what is already built, how long the remaining work takes, and how the project develops after the competition. It is
 written to match the Feasibility criterion (maturity of the solution, overview
 and development plan, future plans) and the finals Implementation and
 Verification criterion (progress, completeness, verification status).
@@ -110,7 +109,6 @@ To do = not started. Estimates are for the remaining work only.
 | Development plan and task breakdown (this document) | Done | - |
 | 2-minute demo video | To do | 1 day (script is ready) |
 | Public GitHub repository | In progress | 0.5 day |
-| Team eligibility check (>=1 non-ROC member, 3-10 people) | To do | Team action |
 
 ---
 
@@ -129,22 +127,6 @@ accuracy and grounded key-fact presence of roughly 82% / 78% (English),
 88% / 84% (Indonesian), and 87% / 87% (Vietnamese). These are honest numbers on a
 deliberately hard, paraphrase-rich set; the optional semantic retriever raises
 the harder cases further.
-
----
-
-## 5. What remains before July 31, in priority order
-
-1. Record the 2-minute demo video. The script is ready (see `DEMO_VIDEO.md`).
-   Estimated 1 day including retakes and captions. Highest remaining value.
-2. Publish the public GitHub repository with this plan, the code, and the video
-   link. Estimated 0.5 day.
-3. Finalize the application-form text and confirm team eligibility. 0.5 day plus
-   a team action.
-4. Native-speaker review of the Indonesian and Vietnamese passages. This is a
-   prerequisite for a real pilot, not for the submission, but starting it now is
-   worthwhile. 3-4 days once a reviewer is available.
-
-Everything above the pilot line is achievable within the window by a small team.
 
 ---
 
