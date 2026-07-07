@@ -11,8 +11,8 @@ assistant when you plug in a language model.
 
 ## Submission deliverables
 
-- **Working demo:** this repository. See [Quickstart](#quickstart) to run the
-  full flow in about a minute.
+- **Working demo:** this repository (https://adriel96939.github.io/bersama/) . See [Quickstart](#quickstart) to run the
+  full flow in about a minute in your own computer.
 - **Development plan and task breakdown:** [`DEVELOPMENT_PLAN.md`](DEVELOPMENT_PLAN.md)
   - what is built, what remains, time estimates, timeline, and future roadmap.
 ---
