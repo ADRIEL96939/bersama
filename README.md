@@ -3,7 +3,7 @@
 An AI public-service companion for migrant workers in Taiwan. A worker asks a
 question in their own language, and Bersama explains the relevant rule or service
 in plain language, **grounded in official sources**, then can draft a real form
-for them. Built for the 2026 Presidential Hackathon International Track.
+for them.
 
 This is a working **prototype** that implements the full flow end to end. It runs
 with zero setup in an offline demo mode, and turns into a fluent multilingual
