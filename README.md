@@ -28,7 +28,7 @@ Requires Python 3.10+.
 ```bash
 pip install -r requirements.txt
 
-# Option A: command-line demo (quickest, good for screen-recording)
+# Option A: command-line (quickest)
 python bersama_cli.py
 
 # Option B: web chat page
