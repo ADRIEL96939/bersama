@@ -9,15 +9,12 @@ This is a working **prototype** that implements the full flow end to end. It run
 with zero setup in an offline demo mode, and turns into a fluent multilingual
 assistant when you plug in a language model.
 
-## Submission deliverables (start here)
+## Submission deliverables
 
 - **Working demo:** this repository. See [Quickstart](#quickstart) to run the
   full flow in about a minute.
 - **Development plan and task breakdown:** [`DEVELOPMENT_PLAN.md`](DEVELOPMENT_PLAN.md)
   - what is built, what remains, time estimates, timeline, and future roadmap.
-- **Demo video:** script and recording guide in [`DEMO_VIDEO.md`](DEMO_VIDEO.md).
-  Video link: _add your unlisted YouTube or Vimeo URL here after recording._
-
 ---
 
 ## What works right now, and what needs your input
