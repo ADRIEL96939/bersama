@@ -1,0 +1,478 @@
+{
+  "_meta": {
+    "description": "Bersama knowledge base in Vietnamese (Tieng Viet). Each passage mirrors an English passage (same topic and official source). Loaded automatically alongside the other languages.",
+    "verified_flag_meaning": "All passages verified:false: the Vietnamese text is a translation a native speaker should review. Facts come from the same official sources as the English passages.",
+    "language": "vi",
+    "count": 52
+  },
+  "passages": [
+    {
+      "id": "hotline-001-vi",
+      "topic": "wage_complaint",
+      "language": "vi",
+      "source_title": "Ministry of Labor - 1955 Foreign Workers Hotline",
+      "source_url": "https://english.mol.gov.tw/21139/21162/21166/21638/",
+      "verified": false,
+      "text": "Đường dây nóng 1955 là dịch vụ miễn phí 24 giờ do Bộ Lao động điều hành dành cho lao động di trú tại Đài Loan. Bạn có thể bấm số 1955 từ điện thoại di động, điện thoại bàn hoặc điện thoại công cộng bất kỳ mà không mất phí, vào bất cứ lúc nào, mỗi ngày trong năm. Nhân viên nói được tiếng Trung, tiếng Anh, tiếng Indonesia, tiếng Việt, tiếng Thái và tiếng Philippines."
+    },
+    {
+      "id": "hotline-002-vi",
+      "topic": "wage_complaint",
+      "language": "vi",
+      "source_title": "Ministry of Labor - 1955 hotline services",
+      "source_url": "https://english.mol.gov.tw/21139/21162/21166/21638/",
+      "verified": false,
+      "text": "Đường dây nóng 1955 cung cấp dịch vụ tư vấn và xử lý khiếu nại. Về tư vấn, bạn có thể hỏi về hợp đồng, tiền lương, giờ làm việc và tai nạn lao động. Về khiếu nại như bị nợ lương, bị đối xử tệ hoặc bạo hành, nhân viên sẽ chuyển hồ sơ của bạn đến sở lao động địa phương hoặc cảnh sát để điều tra."
+    },
+    {
+      "id": "hotline-003-vi",
+      "topic": "wage_complaint",
+      "language": "vi",
+      "source_title": "Taiwan OFW guide - 1955 hotline case number",
+      "source_url": "https://taiwanofw.com/foreign-workers-free-hotline/",
+      "verified": false,
+      "text": "Sau khi bạn gọi đường dây nóng 1955, thông thường bạn sẽ nhận được một tin nhắn có mã số hồ sơ chính thức trong khoảng hai giờ. Hãy giữ lại mã số này để bạn có thể kiểm tra tiến độ hồ sơ sau này. Đường dây nóng cũng có thể cung cấp thông dịch viên trực tiếp để giúp bạn và chủ hiểu nhau."
+    },
+    {
+      "id": "minwage-001-vi",
+      "topic": "wage_complaint",
+      "language": "vi",
+      "source_title": "Ministry of Labor - minimum wage from 1 January 2026",
+      "source_url": "https://english.mol.gov.tw/21139/40790/87087/",
+      "verified": false,
+      "text": "Từ ngày 1 tháng 1 năm 2026, lương tối thiểu tại Đài Loan là 29.500 Đài tệ mỗi tháng, hoặc 196 Đài tệ mỗi giờ. Mức tối thiểu hợp pháp này áp dụng cho người lao động được Luật Tiêu chuẩn Lao động bảo vệ, như lao động trong ngành sản xuất, xây dựng và người chăm sóc tại cơ sở. Nếu bạn thuộc diện được bảo vệ mà bị trả thấp hơn mức này, đó có thể là vi phạm."
+    },
+    {
+      "id": "lsa-coverage-001-vi",
+      "topic": "wage_complaint",
+      "language": "vi",
+      "source_title": "Ministry of Labor - Labor Standards Act coverage",
+      "source_url": "https://english.mol.gov.tw/",
+      "verified": false,
+      "text": "Luật Tiêu chuẩn Lao động bảo vệ phần lớn lao động di trú trong ngành sản xuất và xây dựng, người chăm sóc tại cơ sở, và nhiều ngư dân. Luật này quy định lương tối thiểu, giới hạn giờ làm việc và ngày nghỉ. Người lao động trên tàu đánh cá xa bờ thường không được bảo vệ, nên họ có ít quyền lợi hơn."
+    },
+    {
+      "id": "domestic-excluded-001-vi",
+      "topic": "wage_complaint",
+      "language": "vi",
+      "source_title": "Direct Hiring Service Center - rules for domestic workers",
+      "source_url": "https://dhsc.wda.gov.tw/en/Media/Notice",
+      "verified": false,
+      "text": "Người chăm sóc tại gia và người giúp việc gia đình làm việc trong nhà riêng không được Luật Tiêu chuẩn Lao động bảo vệ. Điều đó có nghĩa là lương tối thiểu, giờ làm việc cố định và ngày nghỉ bắt buộc không tự động áp dụng cho họ. Thay vào đó, tiền lương và thời gian nghỉ của họ do hợp đồng ký với chủ quy định, vì vậy điều quan trọng là phải đọc kỹ hợp đồng."
+    },
+    {
+      "id": "file-wage-001-vi",
+      "topic": "wage_complaint",
+      "language": "vi",
+      "source_title": "Ministry of Labor - reporting unpaid wages",
+      "source_url": "https://english.mol.gov.tw/",
+      "verified": false,
+      "text": "Nếu chủ không trả đủ lương hoặc không trả đúng hạn, bạn có thể báo cáo việc bị nợ lương và nộp đơn khiếu nại về lương bằng cách gọi đường dây nóng miễn phí 1955 hoặc liên hệ sở lao động địa phương. Sở lao động có thể điều tra và giúp hòa giải. Bạn không phải tự mình đối mặt."
+    },
+    {
+      "id": "records-001-vi",
+      "topic": "wage_complaint",
+      "language": "vi",
+      "source_title": "Ministry of Labor - keeping records for a wage dispute",
+      "source_url": "https://english.mol.gov.tw/",
+      "verified": false,
+      "text": "Đối với các vấn đề về lương, bạn nên giữ lại bằng chứng: hợp đồng lao động, phiếu lương, sao kê ngân hàng cho thấy số tiền bạn nhận, và ghi chép giờ làm việc của bạn. Hồ sơ rõ ràng giúp sở lao động hoặc đường dây nóng 1955 dễ dàng hỗ trợ bạn hơn nhiều."
+    },
+    {
+      "id": "centers-001-vi",
+      "topic": "wage_complaint",
+      "language": "vi",
+      "source_title": "Ministry of Labor - Foreign Workers Consultation Service Centers",
+      "source_url": "https://english.mol.gov.tw/homeinfo/6458/6556/6567/",
+      "verified": false,
+      "text": "Có các Trung tâm Tư vấn Dịch vụ cho Lao động Nước ngoài trên khắp Đài Loan, với nhân viên nói được tiếng Anh, tiếng Indonesia, tiếng Việt và tiếng Thái. Bạn có thể đến trực tiếp trung tâm, hoặc liên hệ qua điện thoại, để được giúp về vấn đề việc làm, tranh chấp lương và phiên dịch giữa tiếng của bạn và tiếng Trung."
+    },
+    {
+      "id": "broker-fee-001-vi",
+      "topic": "wage_complaint",
+      "language": "vi",
+      "source_title": "Migrant caregivers in Taiwan - broker service fees",
+      "source_url": "https://en.wikipedia.org/wiki/Migrant_caregivers_in_Taiwan",
+      "verified": false,
+      "text": "Nhiều người lao động trả phí dịch vụ hằng tháng cho công ty môi giới, thường khoảng 1.500 đến 1.800 Đài tệ. Có giới hạn hợp pháp về số tiền môi giới được thu. Nếu bạn cảm thấy bị thu quá nhiều, hoặc bị thu cho những thứ lẽ ra miễn phí, bạn có thể hỏi đường dây nóng 1955 xem khoản phí đó có được phép không."
+    },
+    {
+      "id": "illegal-fee-001-vi",
+      "topic": "wage_complaint",
+      "language": "vi",
+      "source_title": "Borgen Project - illegal broker referral fees",
+      "source_url": "https://borgenproject.org/migration-to-taiwan/",
+      "verified": false,
+      "text": "Môi giới không được thu phí tuyển dụng hoặc phí giới thiệu bất hợp pháp, kể cả khoản phí thêm chỉ để gia hạn hợp đồng của bạn. Một số người lao động bị thu sai những khoản như vậy. Nếu môi giới đòi khoản phí có vẻ không hợp lý, hãy giữ bằng chứng và báo cho đường dây nóng 1955."
+    },
+    {
+      "id": "deductions-001-vi",
+      "topic": "wage_complaint",
+      "language": "vi",
+      "source_title": "Ministry of Labor - understanding pay deductions",
+      "source_url": "https://english.mol.gov.tw/",
+      "verified": false,
+      "text": "Phiếu lương của bạn có thể ghi các khoản khấu trừ như bảo hiểm lao động, bảo hiểm y tế, thuế thu nhập và phí dịch vụ môi giới được phép. Những khoản này có thể là bình thường, nhưng bạn có quyền hiểu rõ từng khoản khấu trừ. Nếu một khoản nào đó không rõ ràng hoặc có vẻ sai, hãy hỏi chủ hoặc gọi đường dây nóng 1955."
+    },
+    {
+      "id": "backpay-001-vi",
+      "topic": "wage_complaint",
+      "language": "vi",
+      "source_title": "Playroll - minimum wage enforcement and back pay",
+      "source_url": "https://www.playroll.com/minimum-wage/taiwan",
+      "verified": false,
+      "text": "Chủ trả thấp hơn mức lương tối thiểu hợp pháp có thể bị phạt nặng. Yêu cầu đòi tiền lương bị nợ hoặc bị trả thiếu thường có thể nộp cho thời gian lên đến năm năm về trước. Đó là lý do việc giữ hồ sơ rất quan trọng, ngay cả với những vấn đề về lương đã xảy ra khá lâu."
+    },
+    {
+      "id": "injury-001-vi",
+      "topic": "wage_complaint",
+      "language": "vi",
+      "source_title": "Ministry of Labor - help after a workplace accident",
+      "source_url": "https://english.mol.gov.tw/21139/40790/87087/",
+      "verified": false,
+      "text": "Nếu bạn bị thương trong một tai nạn lao động, bạn có quyền được bồi thường và hỗ trợ, và điều này áp dụng cho cả lao động nước ngoài. Bộ Lao động có chương trình hỗ trợ cho người lao động bị thương khi làm việc và gia đình họ. Hãy báo cáo vụ tai nạn và gọi đường dây nóng miễn phí 1955 để được hướng dẫn."
+    },
+    {
+      "id": "transfer-basic-001-vi",
+      "topic": "employer_transfer",
+      "language": "vi",
+      "source_title": "Borgen Project - transferring employers in Taiwan",
+      "source_url": "https://borgenproject.org/migration-to-taiwan/",
+      "verified": false,
+      "text": "Lao động di trú tại Đài Loan có quyền tự do hạn chế trong việc đổi chủ trong thời gian hợp đồng. Việc chuyển chủ thường chỉ được phép trong những trường hợp nhất định, như nơi làm việc đóng cửa, chủ không còn cần bạn, hoặc trường hợp bị đối xử tệ, hoặc khi chủ của bạn đồng ý. Quy định cụ thể tùy thuộc vào loại công việc và quy định hiện hành."
+    },
+    {
+      "id": "transfer-factory-001-vi",
+      "topic": "employer_transfer",
+      "language": "vi",
+      "source_title": "Borgen Project - factory worker transfers",
+      "source_url": "https://borgenproject.org/migration-to-taiwan/",
+      "verified": false,
+      "text": "Công nhân nhà máy và sản xuất chỉ có thể đổi chủ trong thời gian hợp đồng trong những điều kiện hạn chế, hoặc khi chủ đồng ý. Điều này đã có thể từ năm 2008, nhưng điều kiện rất cụ thể, vì vậy hãy hỏi đường dây nóng 1955 về tình huống của bạn trước khi hành động."
+    },
+    {
+      "id": "transfer-caregiver-001-vi",
+      "topic": "employer_transfer",
+      "language": "vi",
+      "source_title": "Borgen Project - caregiver transfers",
+      "source_url": "https://borgenproject.org/migration-to-taiwan/",
+      "verified": false,
+      "text": "Người chăm sóc tại gia thường có thể chuyển sang chủ mới nếu chủ hiện tại đồng ý. Nếu chủ của bạn đồng ý, việc chuyển chủ được xử lý cùng với cơ quan lao động. Nếu bạn cảm thấy có lý do để chuyển mà không cần sự đồng ý, chẳng hạn bị đối xử tệ, hãy xin tư vấn từ đường dây nóng 1955 trước."
+    },
+    {
+      "id": "transfer-crossindustry-001-vi",
+      "topic": "employer_transfer",
+      "language": "vi",
+      "source_title": "Borgen Project - cross-industry transfer limits",
+      "source_url": "https://borgenproject.org/migration-to-taiwan/",
+      "verified": false,
+      "text": "Việc chuyển giữa các ngành (ví dụ từ chăm sóc sang làm nhà máy) lâu nay bị hạn chế, và quy định thay đổi theo thời gian. Vì các hạn chế này được cập nhật định kỳ, hãy xác nhận quy định chuyển ngành hiện hành với đường dây nóng 1955 hoặc sở lao động trước khi lên kế hoạch chuyển."
+    },
+    {
+      "id": "transfer-verification-001-vi",
+      "topic": "employer_transfer",
+      "language": "vi",
+      "source_title": "Ministry of Labor - checks before a contract ends",
+      "source_url": "https://english.mol.gov.tw/",
+      "verified": false,
+      "text": "Đài Loan áp dụng bước xác minh để ngăn việc người lao động bị đưa về nước một cách bất công. Nếu chủ muốn chấm dứt hợp đồng của bạn, hồ sơ có thể được cơ quan lao động kiểm tra. Nếu bạn không đồng ý với việc chấm dứt, hoặc sợ bị buộc phải rời đi, hãy liên hệ đường dây nóng 1955 hoặc sở lao động địa phương để được giúp đỡ."
+    },
+    {
+      "id": "transfer-steps-001-vi",
+      "topic": "employer_transfer",
+      "language": "vi",
+      "source_title": "Workforce Development Agency - transfer application (general)",
+      "source_url": "https://www.wda.gov.tw/en/",
+      "verified": false,
+      "text": "Việc chuyển chủ thường có nghĩa là nộp đơn cho cơ quan lao động, thường kèm hộ chiếu, ARC, giấy phép làm việc hiện tại và lý do chuyển. Giấy tờ và thời hạn cụ thể có thể thay đổi, vì vậy hãy xác nhận yêu cầu mới nhất trước khi bạn nộp đơn."
+    },
+    {
+      "id": "transfer-newemployer-001-vi",
+      "topic": "employer_transfer",
+      "language": "vi",
+      "source_title": "Workforce Development Agency - finding a new employer",
+      "source_url": "https://www.wda.gov.tw/en/",
+      "verified": false,
+      "text": "Để chuyển chủ, thông thường bạn cần một chủ mới sẵn sàng thuê bạn trong loại công việc mà bạn được phép làm. Trong thời gian chuyển chủ có quy định về việc bạn có bao nhiêu thời gian để tìm chủ mới, vì vậy hãy hỏi đường dây nóng 1955 xem bạn có bao nhiêu thời gian."
+    },
+    {
+      "id": "duration-cap-001-vi",
+      "topic": "employer_transfer",
+      "language": "vi",
+      "source_title": "Direct Hiring Service Center - maximum employment period",
+      "source_url": "https://dhsc.wda.gov.tw/en/Media/Notice",
+      "verified": false,
+      "text": "Theo Luật Dịch vụ Việc làm, tổng thời gian một lao động di trú làm việc tại Đài Loan thường không được quá 12 năm. Đối với người chăm sóc, giới hạn có thể lên đến 14 năm. Nếu bạn muốn ở lại lâu hơn, chương trình lao động kỹ năng trung cấp có thể là một con đường, vì vậy hãy hỏi thăm."
+    },
+    {
+      "id": "lost-contact-001-vi",
+      "topic": "employer_transfer",
+      "language": "vi",
+      "source_title": "Direct Hiring Service Center - leaving work without process",
+      "source_url": "https://dhsc.wda.gov.tw/en/Media/Notice",
+      "verified": false,
+      "text": "Nếu bạn rời bỏ công việc và mất liên lạc ba ngày liên tiếp mà không làm theo đúng thủ tục, giấy phép làm việc của bạn có thể bị hủy và bạn có thể bị buộc rời khỏi Đài Loan. Nếu bạn gặp rắc rối với chủ, đừng bỏ trốn ngay. Hãy gọi đường dây nóng miễn phí 1955 trước và xin giúp đỡ."
+    },
+    {
+      "id": "oneday-exit-001-vi",
+      "topic": "employer_transfer",
+      "language": "vi",
+      "source_title": "Borgen Project - end of the one-day exit rule",
+      "source_url": "https://borgenproject.org/migration-to-taiwan/",
+      "verified": false,
+      "text": "Trước đây, người lao động phải rời Đài Loan ngay sau khi hợp đồng kết thúc. Từ năm 2016, quy định phải xuất cảnh trong một ngày đó đã được bãi bỏ, nên giờ đây bạn có thể chuyển sang chủ mới mà không phải ra khỏi nước trước. Hãy hỏi đường dây nóng 1955 xem điều này áp dụng cho trường hợp của bạn thế nào."
+    },
+    {
+      "id": "transfer-mistreatment-001-vi",
+      "topic": "employer_transfer",
+      "language": "vi",
+      "source_title": "Ministry of Labor - transfer on grounds of mistreatment",
+      "source_url": "https://english.mol.gov.tw/21139/21162/21166/21638/",
+      "verified": false,
+      "text": "Nếu bạn bị đối xử tệ, bị nợ lương hoặc bị bạo hành, bạn có thể có lý do để chuyển sang chủ mới ngay cả khi không có sự đồng ý của chủ hiện tại. Đây là một bước nghiêm trọng với thủ tục nhất định. Hãy gọi đường dây nóng 1955 để được hướng dẫn trước khi hành động, và giữ lại mọi bằng chứng về sự việc."
+    },
+    {
+      "id": "transfer-help-001-vi",
+      "topic": "employer_transfer",
+      "language": "vi",
+      "source_title": "Long-term Retention Service Center - help with transfers",
+      "source_url": "https://go.104.com.tw/expats/article/long-term-retention-of-migrant-workers-guide/",
+      "verified": false,
+      "text": "Bạn không phải tự mình lo việc chuyển chủ. Đường dây nóng 1955, các Trung tâm Tư vấn Dịch vụ cho Lao động Nước ngoài, và Trung tâm Dịch vụ Giữ chân Lao động Di trú Dài hạn đều cung cấp hỗ trợ bằng tiếng của bạn. Họ có thể giải thích các lựa chọn của bạn và các bước cần làm."
+    },
+    {
+      "id": "nhi-enroll-001-vi",
+      "topic": "nhi_healthcare",
+      "language": "vi",
+      "source_title": "National Health Insurance Administration - enrollment for foreign workers",
+      "source_url": "https://www.nhi.gov.tw/en/np-24-2.html",
+      "verified": false,
+      "text": "Phần lớn lao động di trú tham gia Bảo hiểm Y tế Quốc dân (NHI) của Đài Loan. Nếu bạn làm việc hợp pháp, bạn được đăng ký kể từ ngày bắt đầu làm việc, và chủ của bạn có trách nhiệm đăng ký cho bạn. Không có thời gian chờ sáu tháng đối với người lao động có việc làm."
+    },
+    {
+      "id": "nhi-nowait-001-vi",
+      "topic": "nhi_healthcare",
+      "language": "vi",
+      "source_title": "NHIA - no waiting period for employees",
+      "source_url": "https://www.nhi.gov.tw/en/cp-1169-2d460-8-2.html",
+      "verified": false,
+      "text": "Người dân không đi làm thường phải cư trú tại Đài Loan sáu tháng trước khi tham gia NHI, nhưng người lao động có việc làm và giấy phép làm việc được bảo hiểm ngay. Vì vậy, là một lao động di trú có việc làm, bạn phải có bảo hiểm y tế ngay từ ngày đầu đi làm."
+    },
+    {
+      "id": "nhi-premium-001-vi",
+      "topic": "nhi_healthcare",
+      "language": "vi",
+      "source_title": "Foreign Talent Act FAQ - NHI premiums",
+      "source_url": "https://foreigntalentact.ndc.gov.tw/en/Content_List.aspx?n=9D9AEFDF9A45B299",
+      "verified": false,
+      "text": "Phí bảo hiểm NHI của bạn là một tỷ lệ phần trăm của tiền lương và được chia sẻ giữa bạn, chủ của bạn và chính phủ. Đối với người làm công, phần bạn tự trả vào khoảng 1,41% lương hằng tháng, và chủ thường khấu trừ khoản đó từ lương của bạn rồi nộp cho cơ quan bảo hiểm."
+    },
+    {
+      "id": "nhi-card-001-vi",
+      "topic": "nhi_healthcare",
+      "language": "vi",
+      "source_title": "NHIA - receiving your NHI card",
+      "source_url": "https://www.nhi.gov.tw/en/np-24-2.html",
+      "verified": false,
+      "text": "Thẻ NHI của bạn do cơ quan bảo hiểm cấp và thường được gửi qua đường bưu điện trong khoảng một đến hai tuần. Trong khi chờ thẻ, bạn có thể được cấp một giấy chứng nhận bảo hiểm tạm thời được các phòng khám và bệnh viện chấp nhận, để bạn vẫn có thể đi khám."
+    },
+    {
+      "id": "nhi-usecard-001-vi",
+      "topic": "nhi_healthcare",
+      "language": "vi",
+      "source_title": "NHIA - using your NHI card",
+      "source_url": "https://www.nhi.gov.tw/en/",
+      "verified": false,
+      "text": "Khi bị bệnh, hãy mang thẻ NHI đến phòng khám, bệnh viện, nha sĩ, nhà thuốc hoặc phòng khám y học cổ truyền Trung Hoa. Họ quét thẻ của bạn khi đăng ký, bạn trả một phần nhỏ chi phí (đồng chi trả), và bảo hiểm chi trả phần lớn còn lại."
+    },
+    {
+      "id": "nhi-copay-001-vi",
+      "topic": "nhi_healthcare",
+      "language": "vi",
+      "source_title": "NHI foreigner guide - copayment amounts",
+      "source_url": "https://migaku.com/blog/language-fun/taiwan-nhi-for-foreigners-enrolling-in-national-health-insurance",
+      "verified": false,
+      "text": "Khoản đồng chi trả nhỏ hơn ở phòng khám địa phương so với bệnh viện lớn. Với bệnh nhẹ như cảm lạnh, đến phòng khám trước sẽ rẻ hơn là đến thẳng trung tâm y tế lớn mà không có giấy chuyển. Giấy chuyển viện từ phòng khám giúp giảm chi phí nếu bạn thực sự cần đến bệnh viện."
+    },
+    {
+      "id": "nhi-arclink-001-vi",
+      "topic": "nhi_healthcare",
+      "language": "vi",
+      "source_title": "NHIA - NHI depends on a valid ARC",
+      "source_url": "https://www.nhi.gov.tw/en/cp-1169-2d460-8-2.html",
+      "verified": false,
+      "text": "NHI của bạn gắn liền với ARC. Nếu ARC hết hạn hoặc bạn mất tư cách cư trú, NHI của bạn kết thúc cùng ngày và bạn không thể dùng thẻ nữa. Đó là lý do giữ cho ARC còn hiệu lực rất quan trọng đối với bảo hiểm y tế của bạn."
+    },
+    {
+      "id": "nhi-replace-001-vi",
+      "topic": "nhi_healthcare",
+      "language": "vi",
+      "source_title": "NHIA - replacing a lost NHI card",
+      "source_url": "https://www.nhi.gov.tw/en/",
+      "verified": false,
+      "text": "Nếu bạn mất thẻ NHI, bạn có thể xin cấp lại. Chủ của bạn hoặc Cơ quan Bảo hiểm Y tế Quốc dân có thể giúp bạn. Trong thời gian chờ, hãy hỏi xem có thể cấp giấy chứng nhận tạm thời không để bạn vẫn có thể đi khám."
+    },
+    {
+      "id": "nhi-dependents-001-vi",
+      "topic": "nhi_healthcare",
+      "language": "vi",
+      "source_title": "NHIA - enrolling family members",
+      "source_url": "https://www.nhi.gov.tw/en/np-24-2.html",
+      "verified": false,
+      "text": "Nếu vợ/chồng hoặc con của bạn sống tại Đài Loan và có thẻ cư trú, họ có thể tham gia NHI với tư cách người phụ thuộc của bạn. Hãy báo cho chủ về các thành viên gia đình để hồ sơ của bạn được cập nhật và họ có thể có bảo hiểm y tế riêng."
+    },
+    {
+      "id": "nhi-abroad-001-vi",
+      "topic": "nhi_healthcare",
+      "language": "vi",
+      "source_title": "NHIA - emergency care outside Taiwan",
+      "source_url": "https://www.nhi.gov.tw/en/",
+      "verified": false,
+      "text": "NHI chủ yếu chi trả cho việc khám chữa bệnh trong Đài Loan, nhưng có thể hoàn lại một phần chi phí cho việc chăm sóc cấp cứu hoặc khẩn cấp mà bạn nhận ở nước ngoài. Nếu điều này xảy ra, hãy giữ biên lai và giấy tờ chẩn đoán, và nộp yêu cầu trong vòng sáu tháng kể từ khi khám."
+    },
+    {
+      "id": "nhi-penalty-001-vi",
+      "topic": "nhi_healthcare",
+      "language": "vi",
+      "source_title": "NHIA - penalty for not enrolling",
+      "source_url": "https://www.nhi.gov.tw/en/cp-1169-2d460-8-2.html",
+      "verified": false,
+      "text": "NHI là bắt buộc, không phải tùy chọn. Nếu một người lẽ ra phải đăng ký mà không đăng ký, họ có thể bị phạt và phải trả các khoản phí bảo hiểm đã bỏ lỡ kể từ khi lẽ ra phải tham gia. Sẽ không có quyền lợi nào được cấp cho đến khi các khoản phí còn nợ được trả, vì vậy tốt nhất là bảo đảm bạn đã đăng ký đúng."
+    },
+    {
+      "id": "nhi-interpret-001-vi",
+      "topic": "nhi_healthcare",
+      "language": "vi",
+      "source_title": "Workforce Development Agency - medical interpretation via 1955",
+      "source_url": "https://www.wda.gov.tw/en/",
+      "verified": false,
+      "text": "Nếu bạn cần đi khám nhưng lo về ngôn ngữ, đường dây nóng miễn phí 1955 có thể cung cấp thông dịch viên để giúp bạn và bác sĩ hiểu nhau. Hãy mang theo thẻ NHI, và nếu được, một danh sách đơn giản các triệu chứng cùng bất kỳ loại thuốc nào bạn đang dùng."
+    },
+    {
+      "id": "nhi-renew-001-vi",
+      "topic": "nhi_healthcare",
+      "language": "vi",
+      "source_title": "NHIA - renew your ARC to keep NHI",
+      "source_url": "https://www.nhi.gov.tw/en/cp-1169-2d460-8-2.html",
+      "verified": false,
+      "text": "Hãy gia hạn ARC trước khi nó hết hạn, vì ARC hết hạn sẽ cắt NHI của bạn ngay lập tức. Mỗi tháng đều có người nước ngoài mất quyền dùng NHI chỉ vì thẻ cư trú hết hạn. Hãy đánh dấu ngày gia hạn của bạn sớm để điều này không xảy ra với bạn."
+    },
+    {
+      "id": "arc-basic-001-vi",
+      "topic": "visa_residency",
+      "language": "vi",
+      "source_title": "National Immigration Agency - Alien Resident Certificate",
+      "source_url": "https://www.immigration.gov.tw/",
+      "verified": false,
+      "text": "Là lao động di trú, bạn thường giữ Thẻ Cư trú (ARC), là giấy tờ cư trú chính thức của bạn tại Đài Loan. ARC của bạn gắn với giấy phép làm việc và chủ của bạn. Hãy giữ cho thẻ còn hiệu lực và mang theo thẻ hoặc bản sao, vì bạn có thể cần nó cho dịch vụ y tế, ngân hàng và các dịch vụ khác."
+    },
+    {
+      "id": "permit-tied-001-vi",
+      "topic": "visa_residency",
+      "language": "vi",
+      "source_title": "Workforce Development Agency - work permit basics",
+      "source_url": "https://www.wda.gov.tw/en/",
+      "verified": false,
+      "text": "Giấy phép làm việc của bạn tại Đài Loan gắn với một chủ và một công việc cụ thể. Nếu quan hệ lao động của bạn kết thúc, giấy phép làm việc và tư cách cư trú của bạn có thể bị ảnh hưởng, vì vậy điều quan trọng là nhanh chóng lo việc chuyển chủ hoặc bước tiếp theo. Nếu bạn không chắc về tình trạng của mình, hãy liên hệ đường dây nóng 1955 hoặc Cục Di trú Quốc gia."
+    },
+    {
+      "id": "intermediate-program-001-vi",
+      "topic": "visa_residency",
+      "language": "vi",
+      "source_title": "Workforce Development Agency - intermediate skilled worker program",
+      "source_url": "https://fw.wda.gov.tw/wda-employer/home/mid-foreign-labor/index?locale=en",
+      "verified": false,
+      "text": "Từ tháng 4 năm 2022, Đài Loan có chương trình cho phép lao động di trú có kinh nghiệm trở thành lao động kỹ năng trung cấp. Chương trình này bao gồm ngành sản xuất, xây dựng, nông nghiệp, lò mổ và chăm sóc dài hạn. Người lao động có sáu năm trở lên tại Đài Loan đáp ứng yêu cầu về lương và kỹ năng có thể chuyển sang tư cách này, tư cách này không có giới hạn tối đa về số năm làm việc."
+    },
+    {
+      "id": "intermediate-wage-001-vi",
+      "topic": "visa_residency",
+      "language": "vi",
+      "source_title": "OCAC - intermediate skilled worker wage requirement",
+      "source_url": "https://www.ocac.gov.tw/OCAC/Eng/Pages/Detail.aspx?nodeid=329&pid=80957715",
+      "verified": false,
+      "text": "Để đủ điều kiện là lao động kỹ năng trung cấp, bạn phải được trả cao hơn mức lương tối thiểu thông thường. Ví dụ, trong ngành sản xuất mức lương yêu cầu khoảng 33.000 Đài tệ mỗi tháng. Con số chính xác tùy thuộc vào ngành của bạn, vì vậy hãy kiểm tra yêu cầu hiện hành với chủ hoặc sở lao động."
+    },
+    {
+      "id": "pr-pathway-001-vi",
+      "topic": "visa_residency",
+      "language": "vi",
+      "source_title": "Long-term retention guide - path to permanent residency",
+      "source_url": "https://go.104.com.tw/expats/article/long-term-retention-of-migrant-workers-guide/",
+      "verified": false,
+      "text": "Sau khi làm lao động kỹ năng trung cấp trong năm năm, bạn có thể xin thường trú nếu đủ điều kiện. Vì chương trình bắt đầu vào năm 2022, những người lao động sớm nhất đủ điều kiện vào khoảng năm 2027. Thường trú là một bước lớn hướng tới một tương lai ổn định lâu dài tại Đài Loan."
+    },
+    {
+      "id": "pr-conditions-001-vi",
+      "topic": "visa_residency",
+      "language": "vi",
+      "source_title": "Long-term retention guide - permanent residency conditions",
+      "source_url": "https://go.104.com.tw/expats/article/long-term-retention-of-migrant-workers-guide/",
+      "verified": false,
+      "text": "Điều kiện thường trú theo chương trình này bao gồm việc có tổng lương hằng tháng khoảng gấp đôi mức lương cơ bản, hoặc có chứng chỉ kỹ năng chuyên môn Hạng B. Vì các yêu cầu này có thể được cập nhật, hãy xác nhận quy định mới nhất với Cục Di trú Quốc gia trước khi nộp đơn."
+    },
+    {
+      "id": "pr-freedom-001-vi",
+      "topic": "visa_residency",
+      "language": "vi",
+      "source_title": "Long-term retention guide - freedom with permanent residency",
+      "source_url": "https://go.104.com.tw/expats/article/long-term-retention-of-migrant-workers-guide/",
+      "verified": false,
+      "text": "Sau khi có thường trú, bạn có thể tự xin giấy phép làm việc cho riêng mình, không còn bị ràng buộc vào một chủ duy nhất. Điều này cho bạn quyền tự do lớn hơn nhiều trong việc chọn công việc và lên kế hoạch dài hạn, điều không thể có với giấy phép lao động di trú thông thường."
+    },
+    {
+      "id": "family-reunification-001-vi",
+      "topic": "visa_residency",
+      "language": "vi",
+      "source_title": "Long-term retention guide - bringing your family",
+      "source_url": "https://go.104.com.tw/expats/article/long-term-retention-of-migrant-workers-guide/",
+      "verified": false,
+      "text": "Nếu lương trung bình hằng tháng của bạn đạt khoảng 53.000 Đài tệ trở lên, bạn có thể đưa vợ/chồng và con sang Đài Loan để đoàn tụ gia đình, và vợ/chồng của bạn cũng có thể xin giấy phép làm việc. Hãy kiểm tra yêu cầu về lương và các bước hiện hành với Cục Di trú Quốc gia."
+    },
+    {
+      "id": "duration-caps-002-vi",
+      "topic": "visa_residency",
+      "language": "vi",
+      "source_title": "Long-term retention guide - work-year limits",
+      "source_url": "https://go.104.com.tw/expats/article/long-term-retention-of-migrant-workers-guide/",
+      "verified": false,
+      "text": "Theo quy định thông thường, phần lớn lao động di trú có thể làm việc tại Đài Loan tối đa 12 năm, và người chăm sóc tối đa 14 năm, rồi phải rời đi. Chuyển sang diện lao động kỹ năng trung cấp sẽ xóa bỏ giới hạn số năm này, đó là một trong những lợi ích chính của nó."
+    },
+    {
+      "id": "stabilization-fee-001-vi",
+      "topic": "visa_residency",
+      "language": "vi",
+      "source_title": "Taipei Times - employment stabilization fee",
+      "source_url": "https://www.taipeitimes.com/News/editorials/archives/2025/11/15/2003847231",
+      "verified": false,
+      "text": "Các hộ gia đình thuê người chăm sóc tại gia người nước ngoài trả một khoản phí ổn định việc làm hằng tháng cho chính phủ (gần đây khoảng 2.000 Đài tệ, dù mức này có thay đổi). Lưu ý đây là khoản phí do chủ trả, không phải khoản được trừ vào lương của bạn. Nếu khoản này bị trừ vào lương của bạn, hãy hỏi đường dây nóng 1955."
+    },
+    {
+      "id": "undocumented-risk-001-vi",
+      "topic": "visa_residency",
+      "language": "vi",
+      "source_title": "Borgen Project - risks of becoming undocumented",
+      "source_url": "https://borgenproject.org/migration-to-taiwan/",
+      "verified": false,
+      "text": "Nếu bạn rời bỏ chủ mà không theo đúng quy định, hoặc để giấy phép hết hạn, bạn có nguy cơ trở thành người cư trú bất hợp pháp. Người lao động không giấy tờ, mà tại Đài Loan có tới hàng chục nghìn người, mất quyền tiếp cận dịch vụ y tế và sự bảo vệ pháp lý, và có nguy cơ bị trục xuất. Nếu bạn đang ở trong tình huống khó khăn, hãy gọi đường dây nóng miễn phí 1955 trước khi tư cách của bạn hết hạn."
+    },
+    {
+      "id": "renew-early-001-vi",
+      "topic": "visa_residency",
+      "language": "vi",
+      "source_title": "National Immigration Agency - renew your ARC early",
+      "source_url": "https://www.immigration.gov.tw/",
+      "verified": false,
+      "text": "Luôn gia hạn ARC trước khi nó hết hạn. ARC hết hạn không chỉ ảnh hưởng đến tư cách cư trú của bạn, mà còn chấm dứt bảo hiểm y tế của bạn ngay lập tức. Nếu bạn sắp đến ngày gia hạn, hãy lo sớm với chủ của bạn hoặc Cục Di trú Quốc gia."
+    },
+    {
+      "id": "retention-center-001-vi",
+      "topic": "visa_residency",
+      "language": "vi",
+      "source_title": "Long-term retention guide - service center and hotline",
+      "source_url": "https://go.104.com.tw/expats/article/long-term-retention-of-migrant-workers-guide/",
+      "verified": false,
+      "text": "Đối với các câu hỏi về việc trở thành lao động kỹ năng trung cấp hoặc xin thường trú, Trung tâm Dịch vụ Giữ chân Lao động Di trú Dài hạn cung cấp hỗ trợ bằng nhiều ngôn ngữ. Bạn có thể liên hệ họ qua đường dây nóng miễn phí 1955. Sự trợ giúp từ chính phủ là miễn phí, vì vậy bạn không cần trả tiền cho môi giới để có thông tin cơ bản."
+    }
+  ]
+}

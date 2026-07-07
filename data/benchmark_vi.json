@@ -1,0 +1,972 @@
+{
+  "_meta": {
+    "description": "Bersama evaluation benchmark in Vietnamese. Same questions and labels as the English benchmark, translated, with Vietnamese keywords a correct grounded answer should contain. Run: python eval.py vi",
+    "language": "vi",
+    "counts": {
+      "in_scope": 112,
+      "out_of_scope_clear": 13,
+      "out_of_scope_hard": 10
+    }
+  },
+  "in_scope": [
+    {
+      "id": "w01",
+      "question": "Đường dây nóng 1955 có miễn phí không?",
+      "expected_topic": "wage_complaint",
+      "expect_contains": [
+        "1955"
+      ]
+    },
+    {
+      "id": "w02",
+      "question": "Đường dây nóng 1955 nói được những tiếng nào?",
+      "expected_topic": "wage_complaint",
+      "expect_contains": [
+        "indonesia"
+      ]
+    },
+    {
+      "id": "w03",
+      "question": "Tôi có thể gọi 24 giờ cho vấn đề công việc không?",
+      "expected_topic": "wage_complaint",
+      "expect_contains": [
+        "24 giờ"
+      ]
+    },
+    {
+      "id": "w04",
+      "question": "Đường dây nóng 1955 có thể giúp tôi việc gì?",
+      "expected_topic": "wage_complaint",
+      "expect_contains": [
+        "khiếu nại"
+      ]
+    },
+    {
+      "id": "w05",
+      "question": "Tôi có nhận được mã số hồ sơ sau khi gọi 1955 không?",
+      "expected_topic": "wage_complaint",
+      "expect_contains": [
+        "mã số"
+      ]
+    },
+    {
+      "id": "w06",
+      "question": "Lương tối thiểu ở Đài Loan là bao nhiêu?",
+      "expected_topic": "wage_complaint",
+      "expect_contains": [
+        "29.500"
+      ]
+    },
+    {
+      "id": "w07",
+      "question": "Lương tối thiểu mỗi giờ là bao nhiêu?",
+      "expected_topic": "wage_complaint",
+      "expect_contains": [
+        "196"
+      ]
+    },
+    {
+      "id": "w08",
+      "question": "Tôi có được Luật Tiêu chuẩn Lao động bảo vệ không?",
+      "expected_topic": "wage_complaint",
+      "expect_contains": [
+        "tiêu chuẩn lao động"
+      ]
+    },
+    {
+      "id": "w09",
+      "question": "Người chăm sóc tại gia có được luật lao động bảo vệ không?",
+      "expected_topic": "wage_complaint",
+      "expect_contains": [
+        "giúp việc gia đình"
+      ]
+    },
+    {
+      "id": "w10",
+      "question": "Chủ không trả lương cho tôi, tôi phải làm gì?",
+      "expected_topic": "wage_complaint",
+      "expect_contains": [
+        "nợ lương"
+      ]
+    },
+    {
+      "id": "w11",
+      "question": "Làm sao để báo cáo việc bị nợ lương?",
+      "expected_topic": "wage_complaint",
+      "expect_contains": [
+        "nợ lương"
+      ]
+    },
+    {
+      "id": "w12",
+      "question": "Tôi nên giữ những giấy tờ gì cho tranh chấp lương?",
+      "expected_topic": "wage_complaint",
+      "expect_contains": [
+        "phiếu lương"
+      ]
+    },
+    {
+      "id": "w13",
+      "question": "Tôi có thể được giúp bằng tiếng của tôi cho vấn đề lương ở đâu?",
+      "expected_topic": "wage_complaint",
+      "expect_contains": [
+        "trung tâm tư vấn dịch vụ"
+      ]
+    },
+    {
+      "id": "w14",
+      "question": "Môi giới được thu tôi bao nhiêu mỗi tháng?",
+      "expected_topic": "wage_complaint",
+      "expect_contains": [
+        "môi giới"
+      ]
+    },
+    {
+      "id": "w15",
+      "question": "Môi giới có được thu phí chỉ để gia hạn hợp đồng của tôi không?",
+      "expected_topic": "wage_complaint",
+      "expect_contains": [
+        "giới thiệu"
+      ]
+    },
+    {
+      "id": "w16",
+      "question": "Các khoản khấu trừ trên phiếu lương của tôi là gì?",
+      "expected_topic": "wage_complaint",
+      "expect_contains": [
+        "khấu trừ"
+      ]
+    },
+    {
+      "id": "w17",
+      "question": "Tôi có thể đòi lương từ rất lâu trước đây không?",
+      "expected_topic": "wage_complaint",
+      "expect_contains": [
+        "năm năm"
+      ]
+    },
+    {
+      "id": "w18",
+      "question": "Tôi bị thương khi làm việc, tôi có quyền gì?",
+      "expected_topic": "wage_complaint",
+      "expect_contains": [
+        "tai nạn"
+      ]
+    },
+    {
+      "id": "w19",
+      "question": "Tôi báo việc bị đối xử tệ tại nơi làm cho ai?",
+      "expected_topic": "wage_complaint",
+      "expect_contains": [
+        "khiếu nại"
+      ]
+    },
+    {
+      "id": "w20",
+      "question": "Có trợ giúp miễn phí cho lao động nước ngoài gặp vấn đề tiền bạc không?",
+      "expected_topic": "wage_complaint",
+      "expect_contains": [
+        "miễn phí"
+      ]
+    },
+    {
+      "id": "t01",
+      "question": "Làm sao để tôi chuyển sang chủ mới?",
+      "expected_topic": "employer_transfer",
+      "expect_contains": [
+        "chuyển"
+      ]
+    },
+    {
+      "id": "t02",
+      "question": "Tôi có thể đổi chủ trong thời gian hợp đồng không?",
+      "expected_topic": "employer_transfer",
+      "expect_contains": [
+        "chuyển"
+      ]
+    },
+    {
+      "id": "t03",
+      "question": "Công nhân nhà máy có thể đổi chủ không?",
+      "expected_topic": "employer_transfer",
+      "expect_contains": [
+        "nhà máy"
+      ]
+    },
+    {
+      "id": "t04",
+      "question": "Người chăm sóc có thể chuyển sang chủ mới không?",
+      "expected_topic": "employer_transfer",
+      "expect_contains": [
+        "chăm sóc"
+      ]
+    },
+    {
+      "id": "t05",
+      "question": "Tôi có thể chuyển từ chăm sóc sang làm nhà máy không?",
+      "expected_topic": "employer_transfer",
+      "expect_contains": [
+        "chuyển ngành"
+      ]
+    },
+    {
+      "id": "t06",
+      "question": "Chủ muốn chấm dứt hợp đồng của tôi, tôi có thể làm gì?",
+      "expected_topic": "employer_transfer",
+      "expect_contains": [
+        "xác minh"
+      ]
+    },
+    {
+      "id": "t07",
+      "question": "Tôi cần những giấy tờ gì để chuyển chủ?",
+      "expected_topic": "employer_transfer",
+      "expect_contains": [
+        "giấy tờ"
+      ]
+    },
+    {
+      "id": "t08",
+      "question": "Tôi có cần chủ mới trước khi chuyển không?",
+      "expected_topic": "employer_transfer",
+      "expect_contains": [
+        "chủ mới"
+      ]
+    },
+    {
+      "id": "t09",
+      "question": "Tổng cộng tôi có thể làm việc ở Đài Loan bao nhiêu năm?",
+      "expected_topic": "employer_transfer",
+      "expect_contains": [
+        "12 năm"
+      ],
+      "acceptable_topics": [
+        "employer_transfer",
+        "visa_residency"
+      ]
+    },
+    {
+      "id": "t10",
+      "question": "Điều gì xảy ra nếu tôi bỏ trốn khỏi chủ?",
+      "expected_topic": "employer_transfer",
+      "expect_contains": [
+        "ba ngày"
+      ]
+    },
+    {
+      "id": "t11",
+      "question": "Tôi có phải rời Đài Loan khi hợp đồng kết thúc không?",
+      "expected_topic": "employer_transfer",
+      "expect_contains": [
+        "một ngày"
+      ]
+    },
+    {
+      "id": "t12",
+      "question": "Chủ bạo hành tôi, tôi có thể chuyển chủ không?",
+      "expected_topic": "employer_transfer",
+      "expect_contains": [
+        "đối xử tệ"
+      ]
+    },
+    {
+      "id": "t13",
+      "question": "Ai có thể giúp tôi chuyển chủ?",
+      "expected_topic": "employer_transfer",
+      "expect_contains": [
+        "trung tâm dịch vụ"
+      ]
+    },
+    {
+      "id": "t14",
+      "question": "Tôi có thể đổi chủ mà không cần chủ đồng ý không?",
+      "expected_topic": "employer_transfer",
+      "expect_contains": [
+        "đồng ý"
+      ]
+    },
+    {
+      "id": "t15",
+      "question": "Chuyển chủ ở Đài Loan có dễ không?",
+      "expected_topic": "employer_transfer",
+      "expect_contains": [
+        "hạn chế"
+      ]
+    },
+    {
+      "id": "t16",
+      "question": "Giấy phép làm việc của tôi có bị hủy nếu tôi bỏ việc không?",
+      "expected_topic": "employer_transfer",
+      "expect_contains": [
+        "bị hủy"
+      ]
+    },
+    {
+      "id": "t17",
+      "question": "Tôi muốn nghỉ việc với chủ một cách an toàn, tôi nên làm gì?",
+      "expected_topic": "employer_transfer",
+      "expect_contains": [
+        "1955"
+      ]
+    },
+    {
+      "id": "t18",
+      "question": "Người chăm sóc có cần chủ đồng ý để chuyển không?",
+      "expected_topic": "employer_transfer",
+      "expect_contains": [
+        "đồng ý"
+      ]
+    },
+    {
+      "id": "t19",
+      "question": "Quy định chuyển giữa các ngành là gì?",
+      "expected_topic": "employer_transfer",
+      "expect_contains": [
+        "chuyển ngành"
+      ]
+    },
+    {
+      "id": "t20",
+      "question": "Sở lao động có thể kiểm tra trước khi hợp đồng của tôi bị chấm dứt không?",
+      "expected_topic": "employer_transfer",
+      "expect_contains": [
+        "xác minh"
+      ]
+    },
+    {
+      "id": "n01",
+      "question": "Lao động di trú có được bảo hiểm y tế không?",
+      "expected_topic": "nhi_healthcare",
+      "expect_contains": [
+        "bảo hiểm y tế quốc dân"
+      ]
+    },
+    {
+      "id": "n02",
+      "question": "Bảo hiểm y tế của tôi bắt đầu khi nào?",
+      "expected_topic": "nhi_healthcare",
+      "expect_contains": [
+        "bắt đầu làm việc"
+      ]
+    },
+    {
+      "id": "n03",
+      "question": "Tôi có phải chờ sáu tháng để có bảo hiểm y tế không?",
+      "expected_topic": "nhi_healthcare",
+      "expect_contains": [
+        "bảo hiểm ngay"
+      ]
+    },
+    {
+      "id": "n04",
+      "question": "Phí bảo hiểm y tế của tôi là bao nhiêu?",
+      "expected_topic": "nhi_healthcare",
+      "expect_contains": [
+        "phí bảo hiểm"
+      ]
+    },
+    {
+      "id": "n05",
+      "question": "Làm sao để dùng thẻ NHI của tôi?",
+      "expected_topic": "nhi_healthcare",
+      "expect_contains": [
+        "phòng khám"
+      ]
+    },
+    {
+      "id": "n06",
+      "question": "Khi nào tôi nhận được thẻ NHI?",
+      "expected_topic": "nhi_healthcare",
+      "expect_contains": [
+        "hai tuần"
+      ]
+    },
+    {
+      "id": "n07",
+      "question": "Tôi có thể đi khám trước khi thẻ đến không?",
+      "expected_topic": "nhi_healthcare",
+      "expect_contains": [
+        "tạm thời"
+      ]
+    },
+    {
+      "id": "n08",
+      "question": "Đi phòng khám hay bệnh viện lớn rẻ hơn?",
+      "expected_topic": "nhi_healthcare",
+      "expect_contains": [
+        "đồng chi trả"
+      ]
+    },
+    {
+      "id": "n09",
+      "question": "Điều gì xảy ra với NHI của tôi nếu ARC hết hạn?",
+      "expected_topic": "nhi_healthcare",
+      "expect_contains": [
+        "kết thúc"
+      ]
+    },
+    {
+      "id": "n10",
+      "question": "Tôi mất thẻ bảo hiểm y tế, tôi phải làm gì?",
+      "expected_topic": "nhi_healthcare",
+      "expect_contains": [
+        "cấp lại"
+      ]
+    },
+    {
+      "id": "n11",
+      "question": "Con của tôi có được bảo hiểm y tế không?",
+      "expected_topic": "nhi_healthcare",
+      "expect_contains": [
+        "người phụ thuộc"
+      ]
+    },
+    {
+      "id": "n12",
+      "question": "Vợ/chồng của tôi có thể tham gia NHI không?",
+      "expected_topic": "nhi_healthcare",
+      "expect_contains": [
+        "vợ/chồng"
+      ]
+    },
+    {
+      "id": "n13",
+      "question": "NHI có chi trả cho tôi khi ở nước ngoài không?",
+      "expected_topic": "nhi_healthcare",
+      "expect_contains": [
+        "nước ngoài"
+      ]
+    },
+    {
+      "id": "n14",
+      "question": "Nếu tôi không đăng ký bảo hiểm y tế thì sao?",
+      "expected_topic": "nhi_healthcare",
+      "expect_contains": [
+        "phạt"
+      ]
+    },
+    {
+      "id": "n15",
+      "question": "Tôi cần thông dịch viên để đi khám bác sĩ",
+      "expected_topic": "nhi_healthcare",
+      "expect_contains": [
+        "thông dịch"
+      ]
+    },
+    {
+      "id": "n16",
+      "question": "Làm sao để giữ bảo hiểm y tế của tôi luôn hiệu lực?",
+      "expected_topic": "nhi_healthcare",
+      "expect_contains": [
+        "gia hạn"
+      ]
+    },
+    {
+      "id": "n17",
+      "question": "Ngoài bệnh viện tôi có thể dùng thẻ NHI ở đâu?",
+      "expected_topic": "nhi_healthcare",
+      "expect_contains": [
+        "nhà thuốc"
+      ]
+    },
+    {
+      "id": "n18",
+      "question": "Bảo hiểm y tế có bắt buộc với lao động nước ngoài không?",
+      "expected_topic": "nhi_healthcare",
+      "expect_contains": [
+        "bắt buộc"
+      ]
+    },
+    {
+      "id": "n19",
+      "question": "Ai sắp xếp việc đăng ký NHI cho tôi?",
+      "expected_topic": "nhi_healthcare",
+      "expect_contains": [
+        "chủ"
+      ]
+    },
+    {
+      "id": "n20",
+      "question": "Thẻ NHI của tôi không dùng được, có thể do ARC không?",
+      "expected_topic": "nhi_healthcare",
+      "expect_contains": [
+        "arc"
+      ]
+    },
+    {
+      "id": "v01",
+      "question": "ARC là gì?",
+      "expected_topic": "visa_residency",
+      "expect_contains": [
+        "giấy tờ cư trú"
+      ]
+    },
+    {
+      "id": "v02",
+      "question": "Tôi dùng ARC để làm gì?",
+      "expected_topic": "visa_residency",
+      "expect_contains": [
+        "ngân hàng"
+      ]
+    },
+    {
+      "id": "v03",
+      "question": "Giấy phép làm việc của tôi có gắn với chủ không?",
+      "expected_topic": "visa_residency",
+      "expect_contains": [
+        "gắn"
+      ]
+    },
+    {
+      "id": "v04",
+      "question": "Điều gì xảy ra với visa của tôi nếu tôi mất việc?",
+      "expected_topic": "visa_residency",
+      "expect_contains": [
+        "quan hệ lao động"
+      ],
+      "acceptable_topics": [
+        "visa_residency",
+        "employer_transfer"
+      ]
+    },
+    {
+      "id": "v05",
+      "question": "Lao động kỹ năng trung cấp là gì?",
+      "expected_topic": "visa_residency",
+      "expect_contains": [
+        "kỹ năng trung cấp"
+      ],
+      "acceptable_topics": [
+        "visa_residency",
+        "employer_transfer"
+      ]
+    },
+    {
+      "id": "v06",
+      "question": "Bao nhiêu năm để tôi có thể thành lao động kỹ năng trung cấp?",
+      "expected_topic": "visa_residency",
+      "expect_contains": [
+        "kỹ năng trung cấp"
+      ],
+      "acceptable_topics": [
+        "visa_residency",
+        "employer_transfer"
+      ]
+    },
+    {
+      "id": "v07",
+      "question": "Tôi phải kiếm bao nhiêu để thành lao động kỹ năng trung cấp?",
+      "expected_topic": "visa_residency",
+      "expect_contains": [
+        "33.000"
+      ],
+      "acceptable_topics": [
+        "visa_residency",
+        "employer_transfer"
+      ]
+    },
+    {
+      "id": "v08",
+      "question": "Tôi có thể được thường trú ở Đài Loan không?",
+      "expected_topic": "visa_residency",
+      "expect_contains": [
+        "thường trú"
+      ]
+    },
+    {
+      "id": "v09",
+      "question": "Khi nào tôi có thể xin thường trú?",
+      "expected_topic": "visa_residency",
+      "expect_contains": [
+        "năm năm"
+      ]
+    },
+    {
+      "id": "v10",
+      "question": "Điều kiện để được thường trú là gì?",
+      "expected_topic": "visa_residency",
+      "expect_contains": [
+        "chứng chỉ kỹ năng"
+      ]
+    },
+    {
+      "id": "v11",
+      "question": "Với thường trú tôi có thể tự chọn công việc không?",
+      "expected_topic": "visa_residency",
+      "expect_contains": [
+        "tự xin giấy phép"
+      ]
+    },
+    {
+      "id": "v12",
+      "question": "Tôi có thể đưa gia đình sang Đài Loan không?",
+      "expected_topic": "visa_residency",
+      "expect_contains": [
+        "đoàn tụ"
+      ]
+    },
+    {
+      "id": "v13",
+      "question": "Tôi cần lương bao nhiêu để đưa vợ/chồng sang?",
+      "expected_topic": "visa_residency",
+      "expect_contains": [
+        "53.000"
+      ]
+    },
+    {
+      "id": "v14",
+      "question": "Số năm tối đa tôi có thể làm việc ở đây là bao nhiêu?",
+      "expected_topic": "visa_residency",
+      "expect_contains": [
+        "12 năm"
+      ],
+      "acceptable_topics": [
+        "visa_residency",
+        "employer_transfer"
+      ]
+    },
+    {
+      "id": "v15",
+      "question": "Phí ổn định việc làm là gì?",
+      "expected_topic": "visa_residency",
+      "expect_contains": [
+        "ổn định việc làm"
+      ]
+    },
+    {
+      "id": "v16",
+      "question": "Điều gì xảy ra nếu tôi trở thành cư trú bất hợp pháp?",
+      "expected_topic": "visa_residency",
+      "expect_contains": [
+        "bất hợp pháp"
+      ]
+    },
+    {
+      "id": "v17",
+      "question": "Tại sao tôi nên gia hạn ARC sớm?",
+      "expected_topic": "visa_residency",
+      "expect_contains": [
+        "hết hạn"
+      ]
+    },
+    {
+      "id": "v18",
+      "question": "Ai giúp nộp đơn xin thường trú?",
+      "expected_topic": "visa_residency",
+      "expect_contains": [
+        "trung tâm dịch vụ"
+      ]
+    },
+    {
+      "id": "v19",
+      "question": "Người chăm sóc có thể làm việc quá 14 năm không?",
+      "expected_topic": "visa_residency",
+      "expect_contains": [
+        "14 năm"
+      ],
+      "acceptable_topics": [
+        "visa_residency",
+        "employer_transfer"
+      ]
+    },
+    {
+      "id": "v20",
+      "question": "Giấy phép cư trú của tôi có gắn với công việc không?",
+      "expected_topic": "visa_residency",
+      "expect_contains": [
+        "gắn"
+      ]
+    },
+    {
+      "id": "w21",
+      "question": "Chủ trả tôi thấp hơn lương tối thiểu",
+      "expected_topic": "wage_complaint",
+      "expect_contains": [
+        "29.500"
+      ]
+    },
+    {
+      "id": "w22",
+      "question": "Chủ khấu trừ quá nhiều từ lương của tôi",
+      "expected_topic": "wage_complaint",
+      "expect_contains": [
+        "khấu trừ"
+      ]
+    },
+    {
+      "id": "w23",
+      "question": "Làm sao để gọi đường dây nóng 1955?",
+      "expected_topic": "wage_complaint",
+      "expect_contains": [
+        "1955"
+      ]
+    },
+    {
+      "id": "w24",
+      "question": "Chủ không chịu đưa phiếu lương cho tôi",
+      "expected_topic": "wage_complaint",
+      "expect_contains": [
+        "phiếu lương"
+      ]
+    },
+    {
+      "id": "w25",
+      "question": "Đường dây nóng lao động có mở vào ban đêm không?",
+      "expected_topic": "wage_complaint",
+      "expect_contains": [
+        "24 giờ"
+      ]
+    },
+    {
+      "id": "w26",
+      "question": "Môi giới lấy quá nhiều tiền của tôi",
+      "expected_topic": "wage_complaint",
+      "expect_contains": [
+        "môi giới"
+      ]
+    },
+    {
+      "id": "w27",
+      "question": "Tôi bị thương khi làm việc, ai giúp tôi?",
+      "expected_topic": "wage_complaint",
+      "expect_contains": [
+        "tai nạn"
+      ]
+    },
+    {
+      "id": "w28",
+      "question": "Có văn phòng nào mà nhân viên nói tiếng của tôi không?",
+      "expected_topic": "wage_complaint",
+      "expect_contains": [
+        "trung tâm tư vấn dịch vụ"
+      ]
+    },
+    {
+      "id": "t21",
+      "question": "Tôi ghét công việc của mình, tôi có thể có chủ mới không?",
+      "expected_topic": "employer_transfer",
+      "expect_contains": [
+        "chuyển"
+      ]
+    },
+    {
+      "id": "t22",
+      "question": "Chủ đồng ý thả tôi, bước tiếp theo là gì?",
+      "expected_topic": "employer_transfer",
+      "expect_contains": [
+        "giấy tờ"
+      ]
+    },
+    {
+      "id": "t23",
+      "question": "Nếu tôi biến mất khỏi công việc vài ngày thì sao?",
+      "expected_topic": "employer_transfer",
+      "expect_contains": [
+        "ba ngày"
+      ]
+    },
+    {
+      "id": "t24",
+      "question": "Tôi có thể có chủ mới nếu chủ của tôi bạo lực không?",
+      "expected_topic": "employer_transfer",
+      "expect_contains": [
+        "đối xử tệ"
+      ]
+    },
+    {
+      "id": "t25",
+      "question": "Một lao động nước ngoài có thể tiếp tục làm việc ở đây bao lâu?",
+      "expected_topic": "employer_transfer",
+      "expect_contains": [
+        "12 năm"
+      ],
+      "acceptable_topics": [
+        "employer_transfer",
+        "visa_residency"
+      ]
+    },
+    {
+      "id": "t26",
+      "question": "Tôi có cần hộ chiếu để chuyển chủ không?",
+      "expected_topic": "employer_transfer",
+      "expect_contains": [
+        "hộ chiếu"
+      ]
+    },
+    {
+      "id": "t27",
+      "question": "Chuyển từ làm nhà máy sang chăm sóc có được phép không?",
+      "expected_topic": "employer_transfer",
+      "expect_contains": [
+        "chuyển ngành"
+      ]
+    },
+    {
+      "id": "t28",
+      "question": "Bỏ trốn khỏi chủ có nguy hiểm không?",
+      "expected_topic": "employer_transfer",
+      "expect_contains": [
+        "bị hủy"
+      ]
+    },
+    {
+      "id": "n21",
+      "question": "Làm sao để đăng ký bảo hiểm y tế?",
+      "expected_topic": "nhi_healthcare",
+      "expect_contains": [
+        "bảo hiểm y tế quốc dân"
+      ]
+    },
+    {
+      "id": "n22",
+      "question": "Mỗi tháng tôi trả bao nhiêu cho NHI?",
+      "expected_topic": "nhi_healthcare",
+      "expect_contains": [
+        "phí bảo hiểm"
+      ]
+    },
+    {
+      "id": "n23",
+      "question": "Tôi có thể đi nha sĩ bằng thẻ NHI không?",
+      "expected_topic": "nhi_healthcare",
+      "expect_contains": [
+        "nha sĩ"
+      ]
+    },
+    {
+      "id": "n24",
+      "question": "Thẻ bảo hiểm y tế của tôi bị mất",
+      "expected_topic": "nhi_healthcare",
+      "expect_contains": [
+        "cấp lại"
+      ]
+    },
+    {
+      "id": "n25",
+      "question": "Em bé của tôi có được bảo hiểm y tế không?",
+      "expected_topic": "nhi_healthcare",
+      "expect_contains": [
+        "người phụ thuộc"
+      ]
+    },
+    {
+      "id": "n26",
+      "question": "Nếu tôi bị bệnh ngoài Đài Loan thì sao?",
+      "expected_topic": "nhi_healthcare",
+      "expect_contains": [
+        "nước ngoài"
+      ]
+    },
+    {
+      "id": "n27",
+      "question": "Có bị phạt nếu không có bảo hiểm y tế không?",
+      "expected_topic": "nhi_healthcare",
+      "expect_contains": [
+        "phạt"
+      ]
+    },
+    {
+      "id": "n28",
+      "question": "Tôi không nói được tiếng Trung ở bệnh viện, tôi có thể làm gì?",
+      "expected_topic": "nhi_healthcare",
+      "expect_contains": [
+        "thông dịch"
+      ]
+    },
+    {
+      "id": "v21",
+      "question": "Thẻ nào cho thấy tôi được phép sống ở Đài Loan?",
+      "expected_topic": "visa_residency",
+      "expect_contains": [
+        "giấy tờ cư trú"
+      ]
+    },
+    {
+      "id": "v22",
+      "question": "ARC của tôi sắp hết hạn, tôi nên làm gì?",
+      "expected_topic": "visa_residency",
+      "expect_contains": [
+        "hết hạn"
+      ]
+    },
+    {
+      "id": "v23",
+      "question": "Tôi có thể ở lại Đài Loan vĩnh viễn không?",
+      "expected_topic": "visa_residency",
+      "expect_contains": [
+        "thường trú"
+      ]
+    },
+    {
+      "id": "v24",
+      "question": "Tôi muốn đưa chồng và các con sang Đài Loan",
+      "expected_topic": "visa_residency",
+      "expect_contains": [
+        "đoàn tụ"
+      ]
+    },
+    {
+      "id": "v25",
+      "question": "Điều gì xảy ra nếu tôi ở quá hạn giấy phép?",
+      "expected_topic": "visa_residency",
+      "expect_contains": [
+        "bất hợp pháp"
+      ]
+    },
+    {
+      "id": "v26",
+      "question": "Làm sao để tôi thành lao động có kỹ năng để lương cao hơn?",
+      "expected_topic": "visa_residency",
+      "expect_contains": [
+        "kỹ năng trung cấp"
+      ],
+      "acceptable_topics": [
+        "visa_residency",
+        "employer_transfer"
+      ]
+    },
+    {
+      "id": "v27",
+      "question": "Nếu được thường trú tôi có thể tự làm cho mình không?",
+      "expected_topic": "visa_residency",
+      "expect_contains": [
+        "tự xin giấy phép"
+      ]
+    },
+    {
+      "id": "v28",
+      "question": "Tôi liên hệ với ai về tình trạng cư trú của tôi?",
+      "expected_topic": "visa_residency",
+      "expect_contains": [
+        "trung tâm dịch vụ"
+      ]
+    }
+  ],
+  "out_of_scope_clear": [
+    "Làm sao để nấu phở bò?",
+    "Ai thắng trận bóng chày tối qua?",
+    "Bạn có thể giúp tôi viết thư tình không?",
+    "Làm sao để học chơi ghi-ta?",
+    "Thủ đô của Indonesia là gì?",
+    "Cuối tuần này có phim gì đang chiếu?",
+    "Tôi có thể mua quần áo rẻ ở đâu?",
+    "Bài karaoke nào hay?",
+    "Làm sao để chụp một tấm ảnh đẹp?",
+    "Làm sao để nấu cơm?",
+    "Bạn kể cho tôi một câu chuyện cười được không?",
+    "Món quà nào tốt cho mẹ tôi?",
+    "Màu yêu thích của bạn là gì?"
+  ],
+  "out_of_scope_hard": [
+    "Điện thoại nào tốt nhất để mua ở Đài Loan?",
+    "Ngọn núi cao nhất ở Đài Loan là gì?",
+    "Chợ đêm ở Đài Bắc mở lúc mấy giờ?",
+    "Thời tiết hôm nay ở Đài Bắc thế nào?",
+    "Làm sao để đến Taipei 101?",
+    "Tỷ giá đô la Mỹ là bao nhiêu?",
+    "Làm sao để kết bạn ở Đài Loan?",
+    "Tôi nên thử món ăn nào ở Đài Loan?",
+    "Bãi biển nào đẹp nhất ở Đài Loan?",
+    "Làm sao để chào bằng tiếng Trung?"
+  ]
+}

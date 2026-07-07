@@ -1,0 +1,13 @@
+# Core (needed for the offline demo — no API key required)
+scikit-learn>=1.3
+numpy>=1.24
+Flask>=3.0
+
+# Optional (only needed if you turn on the language model with BERSAMA_LLM=1)
+anthropic>=0.40
+
+# Optional (semantic retrieval). Installing this switches retrieval from keyword
+# matching to multilingual embeddings, which fixes keyword false-matches and lets
+# non-English questions match directly. Pulls in torch, so it is a large install.
+# A multilingual model (~500MB) downloads once on first run.
+sentence-transformers>=2.6

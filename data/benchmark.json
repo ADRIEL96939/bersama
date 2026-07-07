@@ -1,0 +1,973 @@
+{
+  "_meta": {
+    "description": "Bersama evaluation benchmark. Realistic questions a migrant worker might ask, each labelled with the topic it should route to and a distinctive keyword that a correct, grounded answer should contain. Plus two out-of-scope sets the system should decline. This is your citable verification evidence: run eval.py to produce accuracy numbers you can quote in the application.",
+    "how_to_grow": "Add entries in the same shape. Keep questions in the words workers actually use (including short or imperfect phrasings). Aim to keep each topic balanced. expect_contains is a lowercase substring the grounded answer should include; choose something distinctive to the correct passage.",
+    "counts": {
+      "in_scope": 112,
+      "out_of_scope_clear": 13,
+      "out_of_scope_hard": 10,
+      "total": 135
+    }
+  },
+  "in_scope": [
+    {
+      "id": "w01",
+      "question": "Is the 1955 hotline free?",
+      "expected_topic": "wage_complaint",
+      "expect_contains": [
+        "1955"
+      ]
+    },
+    {
+      "id": "w02",
+      "question": "What languages can the 1955 hotline speak?",
+      "expected_topic": "wage_complaint",
+      "expect_contains": [
+        "indonesian"
+      ]
+    },
+    {
+      "id": "w03",
+      "question": "Can I call someone 24 hours for a work problem?",
+      "expected_topic": "wage_complaint",
+      "expect_contains": [
+        "24-hour"
+      ]
+    },
+    {
+      "id": "w04",
+      "question": "What can the 1955 hotline help me with?",
+      "expected_topic": "wage_complaint",
+      "expect_contains": [
+        "complaint"
+      ]
+    },
+    {
+      "id": "w05",
+      "question": "Will I get a case number after I call 1955?",
+      "expected_topic": "wage_complaint",
+      "expect_contains": [
+        "case number"
+      ]
+    },
+    {
+      "id": "w06",
+      "question": "What is the minimum wage in Taiwan?",
+      "expected_topic": "wage_complaint",
+      "expect_contains": [
+        "29,500"
+      ]
+    },
+    {
+      "id": "w07",
+      "question": "How much is the minimum wage per hour?",
+      "expected_topic": "wage_complaint",
+      "expect_contains": [
+        "196"
+      ]
+    },
+    {
+      "id": "w08",
+      "question": "Am I protected by the Labor Standards Act?",
+      "expected_topic": "wage_complaint",
+      "expect_contains": [
+        "labor standards"
+      ]
+    },
+    {
+      "id": "w09",
+      "question": "Are domestic caregivers covered by labor law?",
+      "expected_topic": "wage_complaint",
+      "expect_contains": [
+        "not covered"
+      ]
+    },
+    {
+      "id": "w10",
+      "question": "My employer did not pay my salary, what do I do?",
+      "expected_topic": "wage_complaint",
+      "expect_contains": [
+        "unpaid wages"
+      ]
+    },
+    {
+      "id": "w11",
+      "question": "How do I report unpaid wages?",
+      "expected_topic": "wage_complaint",
+      "expect_contains": [
+        "unpaid wages"
+      ]
+    },
+    {
+      "id": "w12",
+      "question": "What records should I keep for a pay dispute?",
+      "expected_topic": "wage_complaint",
+      "expect_contains": [
+        "pay slips"
+      ]
+    },
+    {
+      "id": "w13",
+      "question": "Where can I get help in my language for a salary problem?",
+      "expected_topic": "wage_complaint",
+      "expect_contains": [
+        "consultation service centers"
+      ]
+    },
+    {
+      "id": "w14",
+      "question": "How much can a broker charge me each month?",
+      "expected_topic": "wage_complaint",
+      "expect_contains": [
+        "broker"
+      ]
+    },
+    {
+      "id": "w15",
+      "question": "Can my broker charge a fee just to renew my contract?",
+      "expected_topic": "wage_complaint",
+      "expect_contains": [
+        "referral"
+      ]
+    },
+    {
+      "id": "w16",
+      "question": "What are the deductions on my payslip?",
+      "expected_topic": "wage_complaint",
+      "expect_contains": [
+        "deductions"
+      ]
+    },
+    {
+      "id": "w17",
+      "question": "Can I claim wages from a long time ago?",
+      "expected_topic": "wage_complaint",
+      "expect_contains": [
+        "five years"
+      ]
+    },
+    {
+      "id": "w18",
+      "question": "I was injured at work, what are my rights?",
+      "expected_topic": "wage_complaint",
+      "expect_contains": [
+        "accident"
+      ]
+    },
+    {
+      "id": "w19",
+      "question": "Who do I tell about mistreatment at work?",
+      "expected_topic": "wage_complaint",
+      "expect_contains": [
+        "complaint"
+      ]
+    },
+    {
+      "id": "w20",
+      "question": "Is there free help for foreign workers with money problems?",
+      "expected_topic": "wage_complaint",
+      "expect_contains": [
+        "free"
+      ]
+    },
+    {
+      "id": "t01",
+      "question": "How can I change to a new employer?",
+      "expected_topic": "employer_transfer",
+      "expect_contains": [
+        "transfer"
+      ]
+    },
+    {
+      "id": "t02",
+      "question": "Can I switch employers during my contract?",
+      "expected_topic": "employer_transfer",
+      "expect_contains": [
+        "transfer"
+      ]
+    },
+    {
+      "id": "t03",
+      "question": "Can factory workers change employer?",
+      "expected_topic": "employer_transfer",
+      "expect_contains": [
+        "factory"
+      ]
+    },
+    {
+      "id": "t04",
+      "question": "Can a caregiver move to a new employer?",
+      "expected_topic": "employer_transfer",
+      "expect_contains": [
+        "caregiver"
+      ]
+    },
+    {
+      "id": "t05",
+      "question": "Can I move from caregiving to a factory job?",
+      "expected_topic": "employer_transfer",
+      "expect_contains": [
+        "cross-industry"
+      ]
+    },
+    {
+      "id": "t06",
+      "question": "My employer wants to end my contract, what can I do?",
+      "expected_topic": "employer_transfer",
+      "expect_contains": [
+        "verification"
+      ]
+    },
+    {
+      "id": "t07",
+      "question": "What documents do I need to transfer employer?",
+      "expected_topic": "employer_transfer",
+      "expect_contains": [
+        "documents"
+      ]
+    },
+    {
+      "id": "t08",
+      "question": "Do I need a new employer before I transfer?",
+      "expected_topic": "employer_transfer",
+      "expect_contains": [
+        "new employer"
+      ]
+    },
+    {
+      "id": "t09",
+      "question": "How many years can I work in Taiwan in total?",
+      "expected_topic": "employer_transfer",
+      "expect_contains": [
+        "12 years"
+      ],
+      "acceptable_topics": [
+        "employer_transfer",
+        "visa_residency"
+      ]
+    },
+    {
+      "id": "t10",
+      "question": "What happens if I run away from my employer?",
+      "expected_topic": "employer_transfer",
+      "expect_contains": [
+        "three days"
+      ]
+    },
+    {
+      "id": "t11",
+      "question": "Do I have to leave Taiwan when my contract ends?",
+      "expected_topic": "employer_transfer",
+      "expect_contains": [
+        "one-day"
+      ]
+    },
+    {
+      "id": "t12",
+      "question": "My employer abuses me, can I transfer?",
+      "expected_topic": "employer_transfer",
+      "expect_contains": [
+        "mistreated"
+      ]
+    },
+    {
+      "id": "t13",
+      "question": "Who can help me with a transfer?",
+      "expected_topic": "employer_transfer",
+      "expect_contains": [
+        "service center"
+      ]
+    },
+    {
+      "id": "t14",
+      "question": "Can I change employer without my boss agreeing?",
+      "expected_topic": "employer_transfer",
+      "expect_contains": [
+        "consent"
+      ]
+    },
+    {
+      "id": "t15",
+      "question": "Is it easy to transfer employers in Taiwan?",
+      "expected_topic": "employer_transfer",
+      "expect_contains": [
+        "limited"
+      ]
+    },
+    {
+      "id": "t16",
+      "question": "Can my work permit be cancelled if I leave my job?",
+      "expected_topic": "employer_transfer",
+      "expect_contains": [
+        "cancelled"
+      ]
+    },
+    {
+      "id": "t17",
+      "question": "I want to quit my employer safely, what should I do?",
+      "expected_topic": "employer_transfer",
+      "expect_contains": [
+        "1955"
+      ]
+    },
+    {
+      "id": "t18",
+      "question": "Do caregivers need employer approval to transfer?",
+      "expected_topic": "employer_transfer",
+      "expect_contains": [
+        "approval"
+      ]
+    },
+    {
+      "id": "t19",
+      "question": "What are the rules for changing between industries?",
+      "expected_topic": "employer_transfer",
+      "expect_contains": [
+        "cross-industry"
+      ]
+    },
+    {
+      "id": "t20",
+      "question": "Can the labor office check before my contract is ended?",
+      "expected_topic": "employer_transfer",
+      "expect_contains": [
+        "verification"
+      ]
+    },
+    {
+      "id": "n01",
+      "question": "Do migrant workers get health insurance?",
+      "expected_topic": "nhi_healthcare",
+      "expect_contains": [
+        "national health insurance"
+      ]
+    },
+    {
+      "id": "n02",
+      "question": "When does my health insurance start?",
+      "expected_topic": "nhi_healthcare",
+      "expect_contains": [
+        "start work"
+      ]
+    },
+    {
+      "id": "n03",
+      "question": "Do I have to wait six months for health insurance?",
+      "expected_topic": "nhi_healthcare",
+      "expect_contains": [
+        "right away"
+      ]
+    },
+    {
+      "id": "n04",
+      "question": "How much is my health insurance premium?",
+      "expected_topic": "nhi_healthcare",
+      "expect_contains": [
+        "premium"
+      ]
+    },
+    {
+      "id": "n05",
+      "question": "How do I use my NHI card?",
+      "expected_topic": "nhi_healthcare",
+      "expect_contains": [
+        "clinic"
+      ]
+    },
+    {
+      "id": "n06",
+      "question": "When will I get my NHI card?",
+      "expected_topic": "nhi_healthcare",
+      "expect_contains": [
+        "two weeks"
+      ]
+    },
+    {
+      "id": "n07",
+      "question": "Can I see a doctor before my card arrives?",
+      "expected_topic": "nhi_healthcare",
+      "expect_contains": [
+        "temporary"
+      ]
+    },
+    {
+      "id": "n08",
+      "question": "Is it cheaper to go to a clinic or a big hospital?",
+      "expected_topic": "nhi_healthcare",
+      "expect_contains": [
+        "copayment"
+      ]
+    },
+    {
+      "id": "n09",
+      "question": "What happens to my NHI if my ARC expires?",
+      "expected_topic": "nhi_healthcare",
+      "expect_contains": [
+        "ends"
+      ]
+    },
+    {
+      "id": "n10",
+      "question": "I lost my health insurance card, what do I do?",
+      "expected_topic": "nhi_healthcare",
+      "expect_contains": [
+        "replacement"
+      ]
+    },
+    {
+      "id": "n11",
+      "question": "Can my children get health insurance?",
+      "expected_topic": "nhi_healthcare",
+      "expect_contains": [
+        "dependents"
+      ]
+    },
+    {
+      "id": "n12",
+      "question": "Can my spouse join NHI?",
+      "expected_topic": "nhi_healthcare",
+      "expect_contains": [
+        "spouse"
+      ]
+    },
+    {
+      "id": "n13",
+      "question": "Does NHI cover me when I am abroad?",
+      "expected_topic": "nhi_healthcare",
+      "expect_contains": [
+        "abroad"
+      ]
+    },
+    {
+      "id": "n14",
+      "question": "What if I do not enroll in health insurance?",
+      "expected_topic": "nhi_healthcare",
+      "expect_contains": [
+        "fine"
+      ]
+    },
+    {
+      "id": "n15",
+      "question": "I need an interpreter to see a doctor",
+      "expected_topic": "nhi_healthcare",
+      "expect_contains": [
+        "interpretation"
+      ]
+    },
+    {
+      "id": "n16",
+      "question": "How do I keep my health insurance active?",
+      "expected_topic": "nhi_healthcare",
+      "expect_contains": [
+        "renew"
+      ]
+    },
+    {
+      "id": "n17",
+      "question": "Where can I use my NHI card besides the hospital?",
+      "expected_topic": "nhi_healthcare",
+      "expect_contains": [
+        "pharmacy"
+      ]
+    },
+    {
+      "id": "n18",
+      "question": "Is health insurance required for foreign workers?",
+      "expected_topic": "nhi_healthcare",
+      "expect_contains": [
+        "required"
+      ]
+    },
+    {
+      "id": "n19",
+      "question": "Who arranges my NHI enrollment?",
+      "expected_topic": "nhi_healthcare",
+      "expect_contains": [
+        "employer"
+      ]
+    },
+    {
+      "id": "n20",
+      "question": "My NHI card is not working, could it be my ARC?",
+      "expected_topic": "nhi_healthcare",
+      "expect_contains": [
+        "arc"
+      ]
+    },
+    {
+      "id": "v01",
+      "question": "What is an ARC?",
+      "expected_topic": "visa_residency",
+      "expect_contains": [
+        "residence document"
+      ]
+    },
+    {
+      "id": "v02",
+      "question": "What do I use my ARC for?",
+      "expected_topic": "visa_residency",
+      "expect_contains": [
+        "banking"
+      ]
+    },
+    {
+      "id": "v03",
+      "question": "Is my work permit tied to my employer?",
+      "expected_topic": "visa_residency",
+      "expect_contains": [
+        "tied"
+      ]
+    },
+    {
+      "id": "v04",
+      "question": "What happens to my visa if I lose my job?",
+      "expected_topic": "visa_residency",
+      "expect_contains": [
+        "employment ends"
+      ],
+      "acceptable_topics": [
+        "visa_residency",
+        "employer_transfer"
+      ]
+    },
+    {
+      "id": "v05",
+      "question": "What is an intermediate skilled worker?",
+      "expected_topic": "visa_residency",
+      "expect_contains": [
+        "intermediate skilled"
+      ],
+      "acceptable_topics": [
+        "visa_residency",
+        "employer_transfer"
+      ]
+    },
+    {
+      "id": "v06",
+      "question": "How many years until I can be an intermediate skilled worker?",
+      "expected_topic": "visa_residency",
+      "expect_contains": [
+        "intermediate skilled"
+      ],
+      "acceptable_topics": [
+        "visa_residency",
+        "employer_transfer"
+      ]
+    },
+    {
+      "id": "v07",
+      "question": "How much must I earn to be an intermediate skilled worker?",
+      "expected_topic": "visa_residency",
+      "expect_contains": [
+        "33,000"
+      ],
+      "acceptable_topics": [
+        "visa_residency",
+        "employer_transfer"
+      ]
+    },
+    {
+      "id": "v08",
+      "question": "Can I get permanent residency in Taiwan?",
+      "expected_topic": "visa_residency",
+      "expect_contains": [
+        "permanent residency"
+      ]
+    },
+    {
+      "id": "v09",
+      "question": "When can I apply for permanent residency?",
+      "expected_topic": "visa_residency",
+      "expect_contains": [
+        "five years"
+      ]
+    },
+    {
+      "id": "v10",
+      "question": "What are the conditions for permanent residency?",
+      "expected_topic": "visa_residency",
+      "expect_contains": [
+        "skill certificate"
+      ]
+    },
+    {
+      "id": "v11",
+      "question": "Can I choose my own job with permanent residency?",
+      "expected_topic": "visa_residency",
+      "expect_contains": [
+        "own work permit"
+      ]
+    },
+    {
+      "id": "v12",
+      "question": "Can I bring my family to Taiwan?",
+      "expected_topic": "visa_residency",
+      "expect_contains": [
+        "family reunification"
+      ]
+    },
+    {
+      "id": "v13",
+      "question": "How much salary do I need to bring my spouse?",
+      "expected_topic": "visa_residency",
+      "expect_contains": [
+        "53,000"
+      ]
+    },
+    {
+      "id": "v14",
+      "question": "What is the maximum number of years I can work here?",
+      "expected_topic": "visa_residency",
+      "expect_contains": [
+        "12 years"
+      ],
+      "acceptable_topics": [
+        "visa_residency",
+        "employer_transfer"
+      ]
+    },
+    {
+      "id": "v15",
+      "question": "What is the employment stabilization fee?",
+      "expected_topic": "visa_residency",
+      "expect_contains": [
+        "stabilization"
+      ]
+    },
+    {
+      "id": "v16",
+      "question": "What happens if I become undocumented?",
+      "expected_topic": "visa_residency",
+      "expect_contains": [
+        "undocumented"
+      ]
+    },
+    {
+      "id": "v17",
+      "question": "Why should I renew my ARC early?",
+      "expected_topic": "visa_residency",
+      "expect_contains": [
+        "expires"
+      ]
+    },
+    {
+      "id": "v18",
+      "question": "Who helps with permanent residency applications?",
+      "expected_topic": "visa_residency",
+      "expect_contains": [
+        "service center"
+      ]
+    },
+    {
+      "id": "v19",
+      "question": "Can caregivers work longer than 14 years?",
+      "expected_topic": "visa_residency",
+      "expect_contains": [
+        "14 years"
+      ],
+      "acceptable_topics": [
+        "visa_residency",
+        "employer_transfer"
+      ]
+    },
+    {
+      "id": "v20",
+      "question": "Is my residence permit connected to my job?",
+      "expected_topic": "visa_residency",
+      "expect_contains": [
+        "tied"
+      ]
+    },
+    {
+      "id": "w21",
+      "question": "My boss pays me less than the minimum wage",
+      "expected_topic": "wage_complaint",
+      "expect_contains": [
+        "29,500"
+      ]
+    },
+    {
+      "id": "w22",
+      "question": "My boss deducts too much from my pay",
+      "expected_topic": "wage_complaint",
+      "expect_contains": [
+        "deductions"
+      ]
+    },
+    {
+      "id": "w23",
+      "question": "How do I call the 1955 hotline?",
+      "expected_topic": "wage_complaint",
+      "expect_contains": [
+        "dial 1955"
+      ]
+    },
+    {
+      "id": "w24",
+      "question": "My employer will not give me a pay slip",
+      "expected_topic": "wage_complaint",
+      "expect_contains": [
+        "pay slips"
+      ]
+    },
+    {
+      "id": "w25",
+      "question": "Is the labor hotline open at night?",
+      "expected_topic": "wage_complaint",
+      "expect_contains": [
+        "24-hour"
+      ]
+    },
+    {
+      "id": "w26",
+      "question": "The broker is taking too much money from me",
+      "expected_topic": "wage_complaint",
+      "expect_contains": [
+        "broker"
+      ]
+    },
+    {
+      "id": "w27",
+      "question": "I got hurt on the job, who helps me?",
+      "expected_topic": "wage_complaint",
+      "expect_contains": [
+        "accident"
+      ]
+    },
+    {
+      "id": "w28",
+      "question": "Are there offices where staff speak my language?",
+      "expected_topic": "wage_complaint",
+      "expect_contains": [
+        "consultation service centers"
+      ]
+    },
+    {
+      "id": "t21",
+      "question": "I hate my job, can I get a new employer?",
+      "expected_topic": "employer_transfer",
+      "expect_contains": [
+        "transfer"
+      ]
+    },
+    {
+      "id": "t22",
+      "question": "My employer agrees to release me, what next?",
+      "expected_topic": "employer_transfer",
+      "expect_contains": [
+        "documents"
+      ]
+    },
+    {
+      "id": "t23",
+      "question": "What if I disappear from work for a few days?",
+      "expected_topic": "employer_transfer",
+      "expect_contains": [
+        "three days"
+      ]
+    },
+    {
+      "id": "t24",
+      "question": "Can I get a new boss if mine is violent?",
+      "expected_topic": "employer_transfer",
+      "expect_contains": [
+        "mistreated"
+      ]
+    },
+    {
+      "id": "t25",
+      "question": "How long can a foreign worker keep working here?",
+      "expected_topic": "employer_transfer",
+      "acceptable_topics": [
+        "employer_transfer",
+        "visa_residency"
+      ],
+      "expect_contains": [
+        "12 years"
+      ]
+    },
+    {
+      "id": "t26",
+      "question": "Do I need my passport to transfer?",
+      "expected_topic": "employer_transfer",
+      "expect_contains": [
+        "passport"
+      ]
+    },
+    {
+      "id": "t27",
+      "question": "Is moving from factory work to caregiving allowed?",
+      "expected_topic": "employer_transfer",
+      "expect_contains": [
+        "cross-industry"
+      ]
+    },
+    {
+      "id": "t28",
+      "question": "Is running away from my employer dangerous?",
+      "expected_topic": "employer_transfer",
+      "expect_contains": [
+        "cancelled"
+      ]
+    },
+    {
+      "id": "n21",
+      "question": "How do I sign up for health insurance?",
+      "expected_topic": "nhi_healthcare",
+      "expect_contains": [
+        "national health insurance"
+      ]
+    },
+    {
+      "id": "n22",
+      "question": "How much do I pay for NHI each month?",
+      "expected_topic": "nhi_healthcare",
+      "expect_contains": [
+        "premium"
+      ]
+    },
+    {
+      "id": "n23",
+      "question": "Can I go to the dentist with my NHI card?",
+      "expected_topic": "nhi_healthcare",
+      "expect_contains": [
+        "dentist"
+      ]
+    },
+    {
+      "id": "n24",
+      "question": "My health insurance card is lost",
+      "expected_topic": "nhi_healthcare",
+      "expect_contains": [
+        "replacement"
+      ]
+    },
+    {
+      "id": "n25",
+      "question": "Does my baby get health insurance?",
+      "expected_topic": "nhi_healthcare",
+      "expect_contains": [
+        "dependents"
+      ]
+    },
+    {
+      "id": "n26",
+      "question": "What if I get sick outside Taiwan?",
+      "expected_topic": "nhi_healthcare",
+      "expect_contains": [
+        "abroad"
+      ]
+    },
+    {
+      "id": "n27",
+      "question": "Is there a penalty for having no health insurance?",
+      "expected_topic": "nhi_healthcare",
+      "expect_contains": [
+        "fine"
+      ]
+    },
+    {
+      "id": "n28",
+      "question": "I do not speak Chinese at the hospital, what can I do?",
+      "expected_topic": "nhi_healthcare",
+      "expect_contains": [
+        "interpretation"
+      ]
+    },
+    {
+      "id": "v21",
+      "question": "What card shows I am allowed to live in Taiwan?",
+      "expected_topic": "visa_residency",
+      "expect_contains": [
+        "residence document"
+      ]
+    },
+    {
+      "id": "v22",
+      "question": "My ARC is expiring soon, what should I do?",
+      "expected_topic": "visa_residency",
+      "expect_contains": [
+        "expires"
+      ]
+    },
+    {
+      "id": "v23",
+      "question": "Can I stay in Taiwan permanently?",
+      "expected_topic": "visa_residency",
+      "expect_contains": [
+        "permanent residency"
+      ]
+    },
+    {
+      "id": "v24",
+      "question": "I want to bring my husband and children to Taiwan",
+      "expected_topic": "visa_residency",
+      "expect_contains": [
+        "family reunification"
+      ]
+    },
+    {
+      "id": "v25",
+      "question": "What happens if I overstay my permit?",
+      "expected_topic": "visa_residency",
+      "expect_contains": [
+        "undocumented"
+      ]
+    },
+    {
+      "id": "v26",
+      "question": "How do I become a skilled worker for higher pay?",
+      "expected_topic": "visa_residency",
+      "acceptable_topics": [
+        "visa_residency",
+        "employer_transfer"
+      ],
+      "expect_contains": [
+        "intermediate skilled"
+      ]
+    },
+    {
+      "id": "v27",
+      "question": "Can I work for myself if I get permanent residency?",
+      "expected_topic": "visa_residency",
+      "expect_contains": [
+        "own work permit"
+      ]
+    },
+    {
+      "id": "v28",
+      "question": "Who do I contact about my residency status?",
+      "expected_topic": "visa_residency",
+      "expect_contains": [
+        "service center"
+      ]
+    }
+  ],
+  "out_of_scope_clear": [
+    "How do I cook beef noodle soup?",
+    "Who won the baseball game last night?",
+    "Can you help me write a love letter?",
+    "How do I learn to play guitar?",
+    "What is the capital of Indonesia?",
+    "What movies are playing this weekend?",
+    "Where can I buy cheap clothes?",
+    "What is a good karaoke song?",
+    "How do I take a nice photo?",
+    "How do I cook rice?",
+    "Can you tell me a joke?",
+    "What is a good gift for my mother?",
+    "What is your favorite color?"
+  ],
+  "out_of_scope_hard": [
+    "What is the best phone to buy in Taiwan?",
+    "What is the tallest mountain in Taiwan?",
+    "What time does the night market open in Taipei?",
+    "What is the weather today in Taipei?",
+    "How do I get to Taipei 101?",
+    "What is the exchange rate for US dollars?",
+    "How do I make friends in Taiwan?",
+    "What food should I try in Taiwan?",
+    "What is the best beach in Taiwan?",
+    "How do I say hello in Chinese?"
+  ]
+}

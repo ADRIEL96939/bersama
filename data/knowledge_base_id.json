@@ -1,0 +1,478 @@
+{
+  "_meta": {
+    "description": "Bersama knowledge base in Bahasa Indonesia. Each passage mirrors an English passage (same topic and official source) with an Indonesian translation for migrant workers from Indonesia. Loaded automatically alongside the English file.",
+    "verified_flag_meaning": "All passages here are verified:false because the Indonesian text is a translation that a native speaker should review before real use. The facts come from the same official sources as the English passages.",
+    "language": "id",
+    "count": 52
+  },
+  "passages": [
+    {
+      "id": "hotline-001-id",
+      "topic": "wage_complaint",
+      "language": "id",
+      "source_title": "Ministry of Labor - 1955 Foreign Workers Hotline",
+      "source_url": "https://english.mol.gov.tw/21139/21162/21166/21638/",
+      "verified": false,
+      "text": "Hotline 1955 adalah layanan gratis 24 jam yang dikelola oleh Kementerian Tenaga Kerja untuk pekerja migran di Taiwan. Anda bisa menekan 1955 dari ponsel, telepon rumah, atau telepon umum mana pun tanpa biaya, kapan saja, setiap hari sepanjang tahun. Petugas berbicara bahasa Mandarin, Inggris, Indonesia, Vietnam, Thailand, dan Filipina."
+    },
+    {
+      "id": "hotline-002-id",
+      "topic": "wage_complaint",
+      "language": "id",
+      "source_title": "Ministry of Labor - 1955 hotline services",
+      "source_url": "https://english.mol.gov.tw/21139/21162/21166/21638/",
+      "verified": false,
+      "text": "Hotline 1955 menyediakan konsultasi dan penanganan pengaduan. Untuk konsultasi, Anda bisa bertanya tentang kontrak, upah, jam kerja, dan cedera kerja. Untuk pengaduan seperti upah tidak dibayar, perlakuan buruk, atau kekerasan, petugas akan meneruskan kasus Anda ke dinas tenaga kerja setempat atau polisi untuk diselidiki."
+    },
+    {
+      "id": "hotline-003-id",
+      "topic": "wage_complaint",
+      "language": "id",
+      "source_title": "Taiwan OFW guide - 1955 hotline case number",
+      "source_url": "https://taiwanofw.com/foreign-workers-free-hotline/",
+      "verified": false,
+      "text": "Setelah Anda menelepon hotline 1955, biasanya Anda akan menerima pesan teks berisi nomor kasus resmi dalam waktu sekitar dua jam. Simpan nomor ini agar Anda bisa memeriksa perkembangan kasus nanti. Hotline juga bisa menyediakan penerjemah langsung untuk membantu Anda dan majikan saling memahami."
+    },
+    {
+      "id": "minwage-001-id",
+      "topic": "wage_complaint",
+      "language": "id",
+      "source_title": "Ministry of Labor - minimum wage from 1 January 2026",
+      "source_url": "https://english.mol.gov.tw/21139/40790/87087/",
+      "verified": false,
+      "text": "Mulai 1 Januari 2026, upah minimum di Taiwan adalah NT$29.500 per bulan, atau NT$196 per jam. Batas minimum resmi ini berlaku untuk pekerja yang dilindungi oleh Undang-Undang Standar Ketenagakerjaan, seperti pekerja manufaktur, konstruksi, dan perawat di institusi. Jika Anda termasuk yang dilindungi tetapi dibayar kurang dari ini, itu bisa menjadi pelanggaran."
+    },
+    {
+      "id": "lsa-coverage-001-id",
+      "topic": "wage_complaint",
+      "language": "id",
+      "source_title": "Ministry of Labor - Labor Standards Act coverage",
+      "source_url": "https://english.mol.gov.tw/",
+      "verified": false,
+      "text": "Undang-Undang Standar Ketenagakerjaan melindungi sebagian besar pekerja migran di manufaktur dan konstruksi, perawat di institusi, serta banyak nelayan. Undang-undang ini menetapkan upah minimum, batas jam kerja, dan hari istirahat. Pekerja di penangkapan ikan laut jauh umumnya tidak dilindungi, sehingga perlindungan mereka lebih sedikit."
+    },
+    {
+      "id": "domestic-excluded-001-id",
+      "topic": "wage_complaint",
+      "language": "id",
+      "source_title": "Direct Hiring Service Center - rules for domestic workers",
+      "source_url": "https://dhsc.wda.gov.tw/en/Media/Notice",
+      "verified": false,
+      "text": "Pekerja perawat rumah tangga dan pekerja rumah tangga yang bekerja di rumah pribadi tidak dilindungi oleh Undang-Undang Standar Ketenagakerjaan. Artinya, upah minimum, jam kerja tetap, dan hari istirahat wajib tidak otomatis berlaku bagi mereka. Sebaliknya, upah dan istirahat mereka diatur oleh kontrak yang mereka tandatangani dengan majikan, jadi penting membaca kontrak dengan teliti."
+    },
+    {
+      "id": "file-wage-001-id",
+      "topic": "wage_complaint",
+      "language": "id",
+      "source_title": "Ministry of Labor - reporting unpaid wages",
+      "source_url": "https://english.mol.gov.tw/",
+      "verified": false,
+      "text": "Jika majikan Anda tidak membayar upah Anda secara penuh atau tepat waktu, Anda bisa melaporkan upah yang tidak dibayar dan mengajukan pengaduan upah dengan menelepon hotline gratis 1955 atau menghubungi dinas tenaga kerja setempat. Dinas tenaga kerja bisa menyelidiki dan membantu menengahi. Anda tidak perlu menghadapinya sendirian."
+    },
+    {
+      "id": "records-001-id",
+      "topic": "wage_complaint",
+      "language": "id",
+      "source_title": "Ministry of Labor - keeping records for a wage dispute",
+      "source_url": "https://english.mol.gov.tw/",
+      "verified": false,
+      "text": "Untuk masalah upah, ada baiknya menyimpan bukti: kontrak kerja Anda, slip gaji, catatan rekening bank yang menunjukkan apa yang Anda terima, dan catatan jam kerja Anda. Catatan yang jelas sangat memudahkan dinas tenaga kerja atau hotline 1955 untuk membantu Anda."
+    },
+    {
+      "id": "centers-001-id",
+      "topic": "wage_complaint",
+      "language": "id",
+      "source_title": "Ministry of Labor - Foreign Workers Consultation Service Centers",
+      "source_url": "https://english.mol.gov.tw/homeinfo/6458/6556/6567/",
+      "verified": false,
+      "text": "Ada Pusat Layanan Konsultasi Pekerja Asing di seluruh Taiwan, dengan staf yang berbicara bahasa Inggris, Indonesia, Vietnam, dan Thailand. Anda bisa datang langsung ke pusat layanan, atau menghubungi lewat telepon, untuk bantuan soal ketenagakerjaan, sengketa gaji, dan penerjemahan antara bahasa Anda dan bahasa Mandarin."
+    },
+    {
+      "id": "broker-fee-001-id",
+      "topic": "wage_complaint",
+      "language": "id",
+      "source_title": "Migrant caregivers in Taiwan - broker service fees",
+      "source_url": "https://en.wikipedia.org/wiki/Migrant_caregivers_in_Taiwan",
+      "verified": false,
+      "text": "Banyak pekerja membayar biaya layanan bulanan kepada agen penyalur, sering kali sekitar NT$1.500 hingga NT$1.800. Ada batas hukum untuk jumlah yang boleh ditagih agen. Jika Anda merasa ditagih terlalu banyak, atau ditagih untuk hal yang seharusnya gratis, Anda bisa menanyakan ke hotline 1955 apakah biaya itu diperbolehkan."
+    },
+    {
+      "id": "illegal-fee-001-id",
+      "topic": "wage_complaint",
+      "language": "id",
+      "source_title": "Borgen Project - illegal broker referral fees",
+      "source_url": "https://borgenproject.org/migration-to-taiwan/",
+      "verified": false,
+      "text": "Agen dilarang menagih biaya penempatan atau biaya rujukan ilegal, termasuk biaya tambahan hanya untuk memperpanjang kontrak Anda. Beberapa pekerja ditagih hal seperti ini secara keliru. Jika agen meminta biaya yang tampak tidak wajar, simpan buktinya dan laporkan ke hotline 1955."
+    },
+    {
+      "id": "deductions-001-id",
+      "topic": "wage_complaint",
+      "language": "id",
+      "source_title": "Ministry of Labor - understanding pay deductions",
+      "source_url": "https://english.mol.gov.tw/",
+      "verified": false,
+      "text": "Slip gaji Anda mungkin menampilkan potongan seperti asuransi tenaga kerja, asuransi kesehatan, pajak penghasilan, dan biaya layanan agen yang diperbolehkan. Ini bisa jadi normal, tetapi Anda berhak memahami setiap potongan. Jika suatu potongan tidak jelas atau tampak salah, tanyakan kepada majikan atau telepon hotline 1955."
+    },
+    {
+      "id": "backpay-001-id",
+      "topic": "wage_complaint",
+      "language": "id",
+      "source_title": "Playroll - minimum wage enforcement and back pay",
+      "source_url": "https://www.playroll.com/minimum-wage/taiwan",
+      "verified": false,
+      "text": "Majikan yang membayar kurang dari upah minimum resmi bisa dikenai denda besar. Klaim atas upah yang tidak dibayar atau kurang dibayar umumnya bisa diajukan hingga lima tahun ke belakang. Karena itulah menyimpan catatan Anda penting, bahkan untuk masalah gaji yang sudah agak lama."
+    },
+    {
+      "id": "injury-001-id",
+      "topic": "wage_complaint",
+      "language": "id",
+      "source_title": "Ministry of Labor - help after a workplace accident",
+      "source_url": "https://english.mol.gov.tw/21139/40790/87087/",
+      "verified": false,
+      "text": "Jika Anda terluka dalam kecelakaan kerja, Anda berhak atas kompensasi dan dukungan, dan ini juga berlaku bagi pekerja asing. Kementerian Tenaga Kerja menjalankan program bantuan untuk pekerja yang cedera saat bekerja beserta keluarganya. Laporkan cedera tersebut dan telepon hotline gratis 1955 untuk panduan."
+    },
+    {
+      "id": "transfer-basic-001-id",
+      "topic": "employer_transfer",
+      "language": "id",
+      "source_title": "Borgen Project - transferring employers in Taiwan",
+      "source_url": "https://borgenproject.org/migration-to-taiwan/",
+      "verified": false,
+      "text": "Pekerja migran di Taiwan memiliki kebebasan terbatas untuk berganti majikan selama masa kontrak. Perpindahan biasanya hanya diizinkan dalam situasi tertentu, seperti tempat kerja tutup, majikan tidak lagi membutuhkan Anda, atau kasus perlakuan buruk, atau ketika majikan Anda setuju. Aturan pastinya bergantung pada jenis pekerjaan Anda dan peraturan yang berlaku."
+    },
+    {
+      "id": "transfer-factory-001-id",
+      "topic": "employer_transfer",
+      "language": "id",
+      "source_title": "Borgen Project - factory worker transfers",
+      "source_url": "https://borgenproject.org/migration-to-taiwan/",
+      "verified": false,
+      "text": "Pekerja pabrik dan manufaktur bisa berganti majikan selama masa kontrak hanya dalam kondisi terbatas, atau ketika majikan menyetujui. Hal ini dimungkinkan sejak 2008, tetapi syaratnya spesifik, jadi periksa situasi Anda ke hotline 1955 sebelum bertindak."
+    },
+    {
+      "id": "transfer-caregiver-001-id",
+      "topic": "employer_transfer",
+      "language": "id",
+      "source_title": "Borgen Project - caregiver transfers",
+      "source_url": "https://borgenproject.org/migration-to-taiwan/",
+      "verified": false,
+      "text": "Pekerja perawat rumah tangga umumnya bisa pindah ke majikan baru bila majikan saat ini menyetujui. Jika majikan Anda setuju, perpindahan diproses bersama pihak berwenang ketenagakerjaan. Jika Anda merasa punya alasan untuk pindah tanpa persetujuan, seperti perlakuan buruk, mintalah nasihat ke hotline 1955 terlebih dahulu."
+    },
+    {
+      "id": "transfer-crossindustry-001-id",
+      "topic": "employer_transfer",
+      "language": "id",
+      "source_title": "Borgen Project - cross-industry transfer limits",
+      "source_url": "https://borgenproject.org/migration-to-taiwan/",
+      "verified": false,
+      "text": "Berpindah antarindustri (misalnya dari perawatan ke pekerjaan pabrik) selama ini dibatasi, dan aturannya berubah dari waktu ke waktu. Karena batasan ini diperbarui secara berkala, pastikan aturan perpindahan antarindustri yang berlaku ke hotline 1955 atau dinas tenaga kerja sebelum merencanakan perpindahan."
+    },
+    {
+      "id": "transfer-verification-001-id",
+      "topic": "employer_transfer",
+      "language": "id",
+      "source_title": "Ministry of Labor - checks before a contract ends",
+      "source_url": "https://english.mol.gov.tw/",
+      "verified": false,
+      "text": "Taiwan menggunakan langkah verifikasi untuk mencegah pekerja dipulangkan secara tidak adil. Jika majikan Anda ingin mengakhiri kontrak Anda, kasusnya bisa diperiksa oleh pihak berwenang ketenagakerjaan. Jika Anda tidak setuju dengan pemutusan kontrak, atau takut dipaksa pergi, hubungi hotline 1955 atau dinas tenaga kerja setempat untuk bantuan."
+    },
+    {
+      "id": "transfer-steps-001-id",
+      "topic": "employer_transfer",
+      "language": "id",
+      "source_title": "Workforce Development Agency - transfer application (general)",
+      "source_url": "https://www.wda.gov.tw/en/",
+      "verified": false,
+      "text": "Perpindahan biasanya berarti mengajukan permohonan ke pihak berwenang ketenagakerjaan, sering kali dengan paspor, ARC, izin kerja saat ini, dan alasan perpindahan. Dokumen dan tenggat waktu pastinya bisa berubah, jadi pastikan persyaratan terbaru sebelum Anda mengajukan."
+    },
+    {
+      "id": "transfer-newemployer-001-id",
+      "topic": "employer_transfer",
+      "language": "id",
+      "source_title": "Workforce Development Agency - finding a new employer",
+      "source_url": "https://www.wda.gov.tw/en/",
+      "verified": false,
+      "text": "Untuk pindah, biasanya Anda memerlukan majikan baru yang bersedia mempekerjakan Anda dalam jenis pekerjaan yang boleh Anda kerjakan. Selama masa perpindahan ada aturan tentang berapa lama waktu Anda untuk menemukan majikan baru, jadi tanyakan ke hotline 1955 berapa lama waktu yang Anda miliki."
+    },
+    {
+      "id": "duration-cap-001-id",
+      "topic": "employer_transfer",
+      "language": "id",
+      "source_title": "Direct Hiring Service Center - maximum employment period",
+      "source_url": "https://dhsc.wda.gov.tw/en/Media/Notice",
+      "verified": false,
+      "text": "Berdasarkan Undang-Undang Layanan Ketenagakerjaan, total waktu pekerja migran bekerja di Taiwan umumnya tidak boleh lebih dari 12 tahun. Untuk perawat, batasnya bisa sampai 14 tahun. Jika Anda ingin tinggal lebih lama, program pekerja terampil menengah bisa menjadi jalan, jadi tanyakanlah."
+    },
+    {
+      "id": "lost-contact-001-id",
+      "topic": "employer_transfer",
+      "language": "id",
+      "source_title": "Direct Hiring Service Center - leaving work without process",
+      "source_url": "https://dhsc.wda.gov.tw/en/Media/Notice",
+      "verified": false,
+      "text": "Jika Anda meninggalkan pekerjaan dan hilang kontak selama tiga hari berturut-turut tanpa mengikuti prosedur yang benar, izin kerja Anda bisa dibatalkan dan Anda bisa diperintahkan meninggalkan Taiwan. Jika Anda bermasalah dengan majikan, jangan langsung kabur. Telepon dulu hotline gratis 1955 dan minta bantuan."
+    },
+    {
+      "id": "oneday-exit-001-id",
+      "topic": "employer_transfer",
+      "language": "id",
+      "source_title": "Borgen Project - end of the one-day exit rule",
+      "source_url": "https://borgenproject.org/migration-to-taiwan/",
+      "verified": false,
+      "text": "Dahulu, pekerja harus meninggalkan Taiwan segera setelah kontrak berakhir. Sejak 2016 aturan keluar satu hari itu dihapus, jadi kini Anda bisa pindah ke majikan baru tanpa harus keluar negara terlebih dahulu. Tanyakan ke hotline 1955 bagaimana hal ini berlaku untuk kasus Anda."
+    },
+    {
+      "id": "transfer-mistreatment-001-id",
+      "topic": "employer_transfer",
+      "language": "id",
+      "source_title": "Ministry of Labor - transfer on grounds of mistreatment",
+      "source_url": "https://english.mol.gov.tw/21139/21162/21166/21638/",
+      "verified": false,
+      "text": "Jika Anda diperlakukan buruk, tidak dibayar, atau mengalami kekerasan, Anda mungkin punya alasan untuk pindah ke majikan baru bahkan tanpa persetujuan majikan saat ini. Ini langkah serius dengan prosedur tertentu. Telepon hotline 1955 untuk panduan sebelum bertindak, dan simpan bukti apa pun tentang kejadian tersebut."
+    },
+    {
+      "id": "transfer-help-001-id",
+      "topic": "employer_transfer",
+      "language": "id",
+      "source_title": "Long-term Retention Service Center - help with transfers",
+      "source_url": "https://go.104.com.tw/expats/article/long-term-retention-of-migrant-workers-guide/",
+      "verified": false,
+      "text": "Anda tidak harus mengurus perpindahan sendirian. Hotline 1955, Pusat Layanan Konsultasi Pekerja Asing, dan Pusat Layanan Retensi Jangka Panjang Pekerja Migran semuanya menyediakan bantuan dalam bahasa Anda. Mereka bisa menjelaskan pilihan Anda dan langkah-langkah yang berlaku."
+    },
+    {
+      "id": "nhi-enroll-001-id",
+      "topic": "nhi_healthcare",
+      "language": "id",
+      "source_title": "National Health Insurance Administration - enrollment for foreign workers",
+      "source_url": "https://www.nhi.gov.tw/en/np-24-2.html",
+      "verified": false,
+      "text": "Sebagian besar pekerja migran ikut Asuransi Kesehatan Nasional (NHI) Taiwan. Jika Anda bekerja secara legal, Anda didaftarkan sejak hari Anda mulai bekerja, dan majikan Anda bertanggung jawab mendaftarkan Anda. Tidak ada masa tunggu enam bulan bagi pekerja yang dipekerjakan."
+    },
+    {
+      "id": "nhi-nowait-001-id",
+      "topic": "nhi_healthcare",
+      "language": "id",
+      "source_title": "NHIA - no waiting period for employees",
+      "source_url": "https://www.nhi.gov.tw/en/cp-1169-2d460-8-2.html",
+      "verified": false,
+      "text": "Penduduk yang tidak bekerja biasanya harus tinggal di Taiwan selama enam bulan sebelum ikut NHI, tetapi pekerja yang punya pekerjaan dan izin kerja langsung tercakup. Jadi sebagai pekerja migran yang dipekerjakan, Anda seharusnya memiliki perlindungan kesehatan sejak hari pertama bekerja."
+    },
+    {
+      "id": "nhi-premium-001-id",
+      "topic": "nhi_healthcare",
+      "language": "id",
+      "source_title": "Foreign Talent Act FAQ - NHI premiums",
+      "source_url": "https://foreigntalentact.ndc.gov.tw/en/Content_List.aspx?n=9D9AEFDF9A45B299",
+      "verified": false,
+      "text": "Premi NHI Anda adalah persentase dari gaji Anda dan ditanggung bersama oleh Anda, majikan Anda, dan pemerintah. Bagi karyawan, bagian yang Anda tanggung sendiri kira-kira sekitar 1,41% dari gaji bulanan Anda, dan majikan biasanya memotongnya dari gaji Anda lalu menyetorkannya ke kantor asuransi."
+    },
+    {
+      "id": "nhi-card-001-id",
+      "topic": "nhi_healthcare",
+      "language": "id",
+      "source_title": "NHIA - receiving your NHI card",
+      "source_url": "https://www.nhi.gov.tw/en/np-24-2.html",
+      "verified": false,
+      "text": "Kartu NHI Anda diterbitkan oleh kantor asuransi dan biasanya tiba lewat pos dalam waktu sekitar satu sampai dua minggu. Sambil menunggu kartu, Anda bisa diberi surat keterangan asuransi sementara yang diterima klinik dan rumah sakit, sehingga Anda tetap bisa berobat."
+    },
+    {
+      "id": "nhi-usecard-001-id",
+      "topic": "nhi_healthcare",
+      "language": "id",
+      "source_title": "NHIA - using your NHI card",
+      "source_url": "https://www.nhi.gov.tw/en/",
+      "verified": false,
+      "text": "Saat Anda sakit, bawa kartu NHI Anda ke klinik, rumah sakit, dokter gigi, apotek, atau praktik pengobatan tradisional Tionghoa. Mereka memindai kartu Anda saat pendaftaran, Anda membayar sebagian kecil biaya (copay), dan asuransi menanggung sebagian besar sisanya."
+    },
+    {
+      "id": "nhi-copay-001-id",
+      "topic": "nhi_healthcare",
+      "language": "id",
+      "source_title": "NHI foreigner guide - copayment amounts",
+      "source_url": "https://migaku.com/blog/language-fun/taiwan-nhi-for-foreigners-enrolling-in-national-health-insurance",
+      "verified": false,
+      "text": "Biaya bagi-tanggung (copay) lebih kecil di klinik lokal daripada di rumah sakit besar. Untuk penyakit ringan seperti pilek, datang ke klinik dulu lebih murah daripada langsung ke pusat medis besar tanpa rujukan. Surat rujukan dari klinik menurunkan biaya jika Anda memang perlu ke rumah sakit."
+    },
+    {
+      "id": "nhi-arclink-001-id",
+      "topic": "nhi_healthcare",
+      "language": "id",
+      "source_title": "NHIA - NHI depends on a valid ARC",
+      "source_url": "https://www.nhi.gov.tw/en/cp-1169-2d460-8-2.html",
+      "verified": false,
+      "text": "NHI Anda terkait dengan ARC Anda. Jika ARC Anda kedaluwarsa atau Anda kehilangan status tinggal, NHI Anda berakhir pada hari yang sama dan Anda tidak bisa lagi memakai kartu Anda. Karena itulah menjaga ARC Anda tetap berlaku sangat penting untuk perlindungan kesehatan Anda."
+    },
+    {
+      "id": "nhi-replace-001-id",
+      "topic": "nhi_healthcare",
+      "language": "id",
+      "source_title": "NHIA - replacing a lost NHI card",
+      "source_url": "https://www.nhi.gov.tw/en/",
+      "verified": false,
+      "text": "Jika Anda kehilangan kartu NHI, Anda bisa mengajukan penggantian. Majikan Anda atau Badan Asuransi Kesehatan Nasional bisa membantu Anda. Sementara itu, tanyakan apakah surat keterangan sementara bisa diterbitkan agar Anda tetap bisa berobat."
+    },
+    {
+      "id": "nhi-dependents-001-id",
+      "topic": "nhi_healthcare",
+      "language": "id",
+      "source_title": "NHIA - enrolling family members",
+      "source_url": "https://www.nhi.gov.tw/en/np-24-2.html",
+      "verified": false,
+      "text": "Jika pasangan atau anak-anak Anda tinggal di Taiwan dan memiliki kartu izin tinggal, mereka mungkin bisa ikut NHI sebagai tanggungan Anda. Beri tahu majikan Anda tentang anggota keluarga Anda agar pendaftaran Anda diperbarui dan mereka bisa mendapat perlindungan kesehatan sendiri."
+    },
+    {
+      "id": "nhi-abroad-001-id",
+      "topic": "nhi_healthcare",
+      "language": "id",
+      "source_title": "NHIA - emergency care outside Taiwan",
+      "source_url": "https://www.nhi.gov.tw/en/",
+      "verified": false,
+      "text": "NHI terutama menanggung perawatan di dalam Taiwan, tetapi bisa mengganti sebagian biaya untuk perawatan darurat atau mendesak yang Anda terima di luar negeri. Jika ini terjadi, simpan kuitansi dan dokumen diagnosis Anda, dan ajukan klaim dalam waktu enam bulan sejak perawatan."
+    },
+    {
+      "id": "nhi-penalty-001-id",
+      "topic": "nhi_healthcare",
+      "language": "id",
+      "source_title": "NHIA - penalty for not enrolling",
+      "source_url": "https://www.nhi.gov.tw/en/cp-1169-2d460-8-2.html",
+      "verified": false,
+      "text": "NHI itu wajib, bukan pilihan. Jika seseorang yang seharusnya terdaftar ternyata tidak, ia bisa dikenai denda dan harus membayar premi yang terlewat sejak seharusnya ia bergabung. Tidak ada manfaat yang diberikan sampai premi yang tertunggak dibayar, jadi sebaiknya pastikan Anda terdaftar dengan benar."
+    },
+    {
+      "id": "nhi-interpret-001-id",
+      "topic": "nhi_healthcare",
+      "language": "id",
+      "source_title": "Workforce Development Agency - medical interpretation via 1955",
+      "source_url": "https://www.wda.gov.tw/en/",
+      "verified": false,
+      "text": "Jika Anda perlu ke dokter tetapi khawatir soal bahasa, hotline gratis 1955 bisa menyediakan penerjemah untuk membantu Anda dan dokter saling memahami. Bawa kartu NHI Anda, dan jika bisa, daftar sederhana gejala Anda serta obat apa pun yang Anda konsumsi."
+    },
+    {
+      "id": "nhi-renew-001-id",
+      "topic": "nhi_healthcare",
+      "language": "id",
+      "source_title": "NHIA - renew your ARC to keep NHI",
+      "source_url": "https://www.nhi.gov.tw/en/cp-1169-2d460-8-2.html",
+      "verified": false,
+      "text": "Perpanjang ARC Anda sebelum kedaluwarsa, karena ARC yang kedaluwarsa langsung memutus NHI Anda. Setiap bulan ada penduduk asing yang kehilangan akses NHI hanya karena kartu izin tinggal mereka habis masa berlakunya. Tandai tanggal perpanjangan Anda lebih awal agar hal ini tidak menimpa Anda."
+    },
+    {
+      "id": "arc-basic-001-id",
+      "topic": "visa_residency",
+      "language": "id",
+      "source_title": "National Immigration Agency - Alien Resident Certificate",
+      "source_url": "https://www.immigration.gov.tw/",
+      "verified": false,
+      "text": "Sebagai pekerja migran, Anda biasanya memegang Kartu Izin Tinggal (ARC), yang merupakan dokumen resmi tempat tinggal Anda di Taiwan. ARC Anda terkait dengan izin kerja dan majikan Anda. Jaga agar tetap berlaku dan bawalah kartu itu atau salinannya, karena Anda mungkin memerlukannya untuk layanan kesehatan, perbankan, dan layanan lain."
+    },
+    {
+      "id": "permit-tied-001-id",
+      "topic": "visa_residency",
+      "language": "id",
+      "source_title": "Workforce Development Agency - work permit basics",
+      "source_url": "https://www.wda.gov.tw/en/",
+      "verified": false,
+      "text": "Izin Anda untuk bekerja di Taiwan terkait dengan majikan dan pekerjaan tertentu. Jika hubungan kerja Anda berakhir, izin kerja dan status tinggal Anda bisa terpengaruh, jadi penting untuk segera mengurus perpindahan atau langkah berikutnya. Jika Anda tidak yakin tentang status Anda, hubungi hotline 1955 atau Badan Imigrasi Nasional."
+    },
+    {
+      "id": "intermediate-program-001-id",
+      "topic": "visa_residency",
+      "language": "id",
+      "source_title": "Workforce Development Agency - intermediate skilled worker program",
+      "source_url": "https://fw.wda.gov.tw/wda-employer/home/mid-foreign-labor/index?locale=en",
+      "verified": false,
+      "text": "Sejak April 2022 Taiwan menjalankan program yang memungkinkan pekerja migran berpengalaman menjadi pekerja terampil menengah. Program ini mencakup manufaktur, konstruksi, pertanian, rumah potong hewan, dan perawatan jangka panjang. Pekerja dengan enam tahun atau lebih di Taiwan yang memenuhi syarat upah dan keterampilan bisa dialihkan ke status ini, yang tidak memiliki batas maksimum jumlah tahun kerja."
+    },
+    {
+      "id": "intermediate-wage-001-id",
+      "topic": "visa_residency",
+      "language": "id",
+      "source_title": "OCAC - intermediate skilled worker wage requirement",
+      "source_url": "https://www.ocac.gov.tw/OCAC/Eng/Pages/Detail.aspx?nodeid=329&pid=80957715",
+      "verified": false,
+      "text": "Untuk memenuhi syarat sebagai pekerja terampil menengah, Anda harus dibayar di atas upah minimum biasa. Misalnya, di manufaktur upah yang disyaratkan sekitar NT$33.000 per bulan. Angka pastinya bergantung pada sektor Anda, jadi periksa persyaratan yang berlaku ke majikan Anda atau dinas tenaga kerja."
+    },
+    {
+      "id": "pr-pathway-001-id",
+      "topic": "visa_residency",
+      "language": "id",
+      "source_title": "Long-term retention guide - path to permanent residency",
+      "source_url": "https://go.104.com.tw/expats/article/long-term-retention-of-migrant-workers-guide/",
+      "verified": false,
+      "text": "Setelah bekerja sebagai pekerja terampil menengah selama lima tahun, Anda mungkin bisa mengajukan izin tinggal tetap jika memenuhi syarat. Karena program ini dimulai pada 2022, pekerja paling awal memenuhi syarat sekitar 2027. Izin tinggal tetap adalah langkah besar menuju masa depan jangka panjang yang stabil di Taiwan."
+    },
+    {
+      "id": "pr-conditions-001-id",
+      "topic": "visa_residency",
+      "language": "id",
+      "source_title": "Long-term retention guide - permanent residency conditions",
+      "source_url": "https://go.104.com.tw/expats/article/long-term-retention-of-migrant-workers-guide/",
+      "verified": false,
+      "text": "Syarat izin tinggal tetap melalui program ini antara lain memperoleh gaji bulanan total sekitar dua kali upah dasar, atau memiliki sertifikat keterampilan profesional Kelas B. Karena persyaratan ini bisa diperbarui, pastikan aturan terbaru ke Badan Imigrasi Nasional sebelum mengajukan."
+    },
+    {
+      "id": "pr-freedom-001-id",
+      "topic": "visa_residency",
+      "language": "id",
+      "source_title": "Long-term retention guide - freedom with permanent residency",
+      "source_url": "https://go.104.com.tw/expats/article/long-term-retention-of-migrant-workers-guide/",
+      "verified": false,
+      "text": "Setelah Anda memiliki izin tinggal tetap, Anda bisa mengajukan izin kerja sendiri, tidak lagi terikat pada satu majikan. Ini memberi Anda kebebasan jauh lebih besar untuk memilih pekerjaan dan merencanakan jangka panjang, yang tidak mungkin dengan izin pekerja migran biasa."
+    },
+    {
+      "id": "family-reunification-001-id",
+      "topic": "visa_residency",
+      "language": "id",
+      "source_title": "Long-term retention guide - bringing your family",
+      "source_url": "https://go.104.com.tw/expats/article/long-term-retention-of-migrant-workers-guide/",
+      "verified": false,
+      "text": "Jika rata-rata gaji bulanan Anda mencapai sekitar NT$53.000 atau lebih, Anda mungkin bisa membawa pasangan dan anak-anak Anda ke Taiwan untuk berkumpul kembali dengan keluarga, dan pasangan Anda mungkin juga bisa mengajukan izin kerja. Periksa persyaratan gaji dan langkah-langkah yang berlaku ke Badan Imigrasi Nasional."
+    },
+    {
+      "id": "duration-caps-002-id",
+      "topic": "visa_residency",
+      "language": "id",
+      "source_title": "Long-term retention guide - work-year limits",
+      "source_url": "https://go.104.com.tw/expats/article/long-term-retention-of-migrant-workers-guide/",
+      "verified": false,
+      "text": "Berdasarkan aturan biasa, sebagian besar pekerja migran bisa bekerja di Taiwan hingga 12 tahun, dan perawat hingga 14 tahun, lalu harus pergi. Beralih ke jalur pekerja terampil menengah menghapus batas tahun ini, yang merupakan salah satu manfaat utamanya."
+    },
+    {
+      "id": "stabilization-fee-001-id",
+      "topic": "visa_residency",
+      "language": "id",
+      "source_title": "Taipei Times - employment stabilization fee",
+      "source_url": "https://www.taipeitimes.com/News/editorials/archives/2025/11/15/2003847231",
+      "verified": false,
+      "text": "Rumah tangga yang mempekerjakan perawat rumah tangga asing membayar biaya stabilisasi ketenagakerjaan bulanan kepada pemerintah (belakangan sekitar NT$2.000, meski jumlahnya berubah-ubah). Perhatikan bahwa ini adalah biaya yang dibayar majikan, bukan sesuatu yang seharusnya dipotong dari gaji Anda. Jika ini dipotong dari gaji Anda, tanyakan ke hotline 1955."
+    },
+    {
+      "id": "undocumented-risk-001-id",
+      "topic": "visa_residency",
+      "language": "id",
+      "source_title": "Borgen Project - risks of becoming undocumented",
+      "source_url": "https://borgenproject.org/migration-to-taiwan/",
+      "verified": false,
+      "text": "Jika Anda meninggalkan majikan tanpa mengikuti aturan, atau membiarkan izin Anda kedaluwarsa, Anda berisiko menjadi tidak berdokumen. Pekerja tidak berdokumen, yang jumlahnya puluhan ribu di Taiwan, kehilangan akses ke layanan kesehatan dan perlindungan hukum serta terancam dipulangkan. Jika Anda dalam situasi sulit, telepon hotline gratis 1955 sebelum status Anda habis."
+    },
+    {
+      "id": "renew-early-001-id",
+      "topic": "visa_residency",
+      "language": "id",
+      "source_title": "National Immigration Agency - renew your ARC early",
+      "source_url": "https://www.immigration.gov.tw/",
+      "verified": false,
+      "text": "Selalu perpanjang ARC Anda sebelum kedaluwarsa. ARC yang kedaluwarsa tidak hanya memengaruhi izin tinggal Anda, tetapi juga langsung mengakhiri asuransi kesehatan Anda. Jika Anda mendekati tanggal perpanjangan, uruslah lebih awal bersama majikan Anda atau Badan Imigrasi Nasional."
+    },
+    {
+      "id": "retention-center-001-id",
+      "topic": "visa_residency",
+      "language": "id",
+      "source_title": "Long-term retention guide - service center and hotline",
+      "source_url": "https://go.104.com.tw/expats/article/long-term-retention-of-migrant-workers-guide/",
+      "verified": false,
+      "text": "Untuk pertanyaan tentang menjadi pekerja terampil menengah atau mengajukan izin tinggal tetap, Pusat Layanan Retensi Jangka Panjang Pekerja Migran menyediakan bantuan dalam beberapa bahasa. Anda bisa menghubunginya lewat hotline gratis 1955. Bantuan dari pemerintah itu gratis, jadi Anda tidak perlu membayar agen untuk informasi dasar."
+    }
+  ]
+}

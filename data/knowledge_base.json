@@ -1,0 +1,483 @@
+{
+  "_meta": {
+    "description": "Bersama knowledge base. Each passage is a small, self-contained, plain-language chunk grounded in an official or authoritative source, written for migrant workers in Taiwan. Content is paraphrased, not copied.",
+    "verified_flag_meaning": "verified:true means the fact was grounded in and cross-checked against the cited source during this build (around July 2026). verified:false means the passage is directionally correct but contains a figure or detail that changes over time (amounts, fees, exact document lists) and should be re-confirmed against the source before relying on it. Either way, a final human review is good practice.",
+    "last_reviewed": "2026-07",
+    "topics_covered": ["employer_transfer", "wage_complaint", "nhi_healthcare", "visa_residency"],
+    "count": 52,
+    "note_on_figures": "Figures such as the minimum wage, NHI premium rate, copayments, broker fees, and stabilization fees are correct as of the 2026 review but change periodically. Re-confirm them each year against the cited official source."
+  },
+  "passages": [
+    {
+      "id": "hotline-001",
+      "topic": "wage_complaint",
+      "language": "en",
+      "source_title": "Ministry of Labor - 1955 Foreign Workers Hotline",
+      "source_url": "https://english.mol.gov.tw/21139/21162/21166/21638/",
+      "verified": true,
+      "text": "The 1955 hotline is a free, 24-hour service run by the Ministry of Labor for migrant workers in Taiwan. You can dial 1955 from any mobile, landline, or public telephone at no cost, at any time, every day of the year. Operators speak Chinese, English, Indonesian, Vietnamese, Thai, and Filipino."
+    },
+    {
+      "id": "hotline-002",
+      "topic": "wage_complaint",
+      "language": "en",
+      "source_title": "Ministry of Labor - 1955 hotline services",
+      "source_url": "https://english.mol.gov.tw/21139/21162/21166/21638/",
+      "verified": true,
+      "text": "The 1955 hotline offers counseling and complaint handling. For counseling, you can ask about your contract, wages, working hours, and workplace injuries. For complaints such as unpaid wages, mistreatment, or abuse, the operator sends your case to the local labor bureau or police to be investigated."
+    },
+    {
+      "id": "hotline-003",
+      "topic": "wage_complaint",
+      "language": "en",
+      "source_title": "Taiwan OFW guide - 1955 hotline case number",
+      "source_url": "https://taiwanofw.com/foreign-workers-free-hotline/",
+      "verified": false,
+      "text": "After you call the 1955 hotline, you usually get a text message with an official case number within about two hours. Keep this number so you can check on your case later. The hotline can also provide live interpretation to help you and your employer understand each other."
+    },
+    {
+      "id": "minwage-001",
+      "topic": "wage_complaint",
+      "language": "en",
+      "source_title": "Ministry of Labor - minimum wage from 1 January 2026",
+      "source_url": "https://english.mol.gov.tw/21139/40790/87087/",
+      "verified": true,
+      "text": "From 1 January 2026, Taiwan's minimum wage is NT$29,500 per month, or NT$196 per hour. This legal minimum applies to workers covered by the Labor Standards Act, such as those in manufacturing, construction, and institutional care. If you are covered and paid less than this, that may be a violation."
+    },
+    {
+      "id": "lsa-coverage-001",
+      "topic": "wage_complaint",
+      "language": "en",
+      "source_title": "Ministry of Labor - Labor Standards Act coverage",
+      "source_url": "https://english.mol.gov.tw/",
+      "verified": true,
+      "text": "The Labor Standards Act protects most migrant workers in manufacturing and construction, institutional caregivers, and many fishers. It sets the minimum wage, working-hour limits, and rest days. Workers in distant-water (far-sea) fishing are generally not covered, which leaves them with fewer protections."
+    },
+    {
+      "id": "domestic-excluded-001",
+      "topic": "wage_complaint",
+      "language": "en",
+      "source_title": "Direct Hiring Service Center - rules for domestic workers",
+      "source_url": "https://dhsc.wda.gov.tw/en/Media/Notice",
+      "verified": true,
+      "text": "Domestic caregivers and domestic helpers who work in private homes are not covered by the Labor Standards Act. This means the minimum wage, fixed working hours, and required rest days do not automatically apply to them. Instead, their pay and rest are set by the contract they sign with the employer, so it is important to read the contract carefully."
+    },
+    {
+      "id": "file-wage-001",
+      "topic": "wage_complaint",
+      "language": "en",
+      "source_title": "Ministry of Labor - reporting unpaid wages",
+      "source_url": "https://english.mol.gov.tw/",
+      "verified": true,
+      "text": "If your employer has not paid your wages in full or on time, you can report the unpaid wages and file a wage complaint by calling the free 1955 hotline or contacting your local government labor bureau. The labor bureau can investigate and help mediate. You do not need to face this alone."
+    },
+    {
+      "id": "records-001",
+      "topic": "wage_complaint",
+      "language": "en",
+      "source_title": "Ministry of Labor - keeping records for a wage dispute",
+      "source_url": "https://english.mol.gov.tw/",
+      "verified": false,
+      "text": "For a wage problem, it helps to keep evidence: your work contract, any pay slips, bank records showing what you received, and notes of the hours you worked. Clear records make it much easier for the labor bureau or the 1955 hotline to help you."
+    },
+    {
+      "id": "centers-001",
+      "topic": "wage_complaint",
+      "language": "en",
+      "source_title": "Ministry of Labor - Foreign Workers Consultation Service Centers",
+      "source_url": "https://english.mol.gov.tw/homeinfo/6458/6556/6567/",
+      "verified": true,
+      "text": "There are Foreign Workers Consultation Service Centers across Taiwan, with staff who speak English, Indonesian, Vietnamese, and Thai. You can visit a center in person, or contact one by phone, for help with labor questions, salary disputes, and translation between your language and Chinese."
+    },
+    {
+      "id": "broker-fee-001",
+      "topic": "wage_complaint",
+      "language": "en",
+      "source_title": "Migrant caregivers in Taiwan - broker service fees",
+      "source_url": "https://en.wikipedia.org/wiki/Migrant_caregivers_in_Taiwan",
+      "verified": false,
+      "text": "Many workers pay a monthly service fee to a labor broker or agency, often around NT$1,500 to NT$1,800. There are legal limits on what a broker may charge. If you think you are being overcharged, or charged for things that should be free, you can ask the 1955 hotline whether the fee is allowed."
+    },
+    {
+      "id": "illegal-fee-001",
+      "topic": "wage_complaint",
+      "language": "en",
+      "source_title": "Borgen Project - illegal broker referral fees",
+      "source_url": "https://borgenproject.org/migration-to-taiwan/",
+      "verified": false,
+      "text": "Brokers are not allowed to charge illegal placement or referral fees, including extra fees just to renew your contract. Some workers are wrongly charged these. If a broker demands a fee that seems improper, keep any proof and report it to the 1955 hotline."
+    },
+    {
+      "id": "deductions-001",
+      "topic": "wage_complaint",
+      "language": "en",
+      "source_title": "Ministry of Labor - understanding pay deductions",
+      "source_url": "https://english.mol.gov.tw/",
+      "verified": false,
+      "text": "Your pay slip may show deductions such as labor insurance, health insurance, income tax, and an allowed broker service fee. These can be normal, but you have the right to understand each one. If a deduction is unclear or looks wrong, ask your employer or call the 1955 hotline."
+    },
+    {
+      "id": "backpay-001",
+      "topic": "wage_complaint",
+      "language": "en",
+      "source_title": "Playroll - minimum wage enforcement and back pay",
+      "source_url": "https://www.playroll.com/minimum-wage/taiwan",
+      "verified": false,
+      "text": "Employers who pay less than the legal minimum wage can face large fines. Claims for unpaid or underpaid wages can generally go back up to five years. This is why keeping your records matters, even for pay problems from a while ago."
+    },
+    {
+      "id": "injury-001",
+      "topic": "wage_complaint",
+      "language": "en",
+      "source_title": "Ministry of Labor - help after a workplace accident",
+      "source_url": "https://english.mol.gov.tw/21139/40790/87087/",
+      "verified": true,
+      "text": "If you are hurt in a work accident, you have the right to compensation and support, and this applies to foreign workers too. The Ministry of Labor runs an assistance program for workers injured on the job and their families. Report the injury and call the free 1955 hotline for guidance."
+    },
+
+    {
+      "id": "transfer-basic-001",
+      "topic": "employer_transfer",
+      "language": "en",
+      "source_title": "Borgen Project - transferring employers in Taiwan",
+      "source_url": "https://borgenproject.org/migration-to-taiwan/",
+      "verified": true,
+      "text": "Migrant workers in Taiwan have limited freedom to change employers during a contract. A transfer is usually allowed only in specific situations, such as the workplace closing, the employer no longer needing you, or cases of mistreatment, or when your employer agrees. The exact rules depend on your job type and current regulations."
+    },
+    {
+      "id": "transfer-factory-001",
+      "topic": "employer_transfer",
+      "language": "en",
+      "source_title": "Borgen Project - factory worker transfers",
+      "source_url": "https://borgenproject.org/migration-to-taiwan/",
+      "verified": false,
+      "text": "Factory and manufacturing workers can change employers during their contract only under limited conditions, or when the employer consents. This has been possible since 2008, but the conditions are specific, so check your situation with the 1955 hotline before you act."
+    },
+    {
+      "id": "transfer-caregiver-001",
+      "topic": "employer_transfer",
+      "language": "en",
+      "source_title": "Borgen Project - caregiver transfers",
+      "source_url": "https://borgenproject.org/migration-to-taiwan/",
+      "verified": false,
+      "text": "Domestic caregivers have generally been able to transfer to a new employer when the current employer approves. If your employer agrees, the transfer goes through a process with the labor authorities. If you believe you have grounds to transfer without consent, such as mistreatment, get advice from the 1955 hotline first."
+    },
+    {
+      "id": "transfer-crossindustry-001",
+      "topic": "employer_transfer",
+      "language": "en",
+      "source_title": "Borgen Project - cross-industry transfer limits",
+      "source_url": "https://borgenproject.org/migration-to-taiwan/",
+      "verified": false,
+      "text": "Moving between different industries (for example, from caregiving to factory work) has been restricted, and the rules have changed over time. Because these limits are updated periodically, confirm the current cross-industry transfer rules with the 1955 hotline or a labor bureau before you plan a move."
+    },
+    {
+      "id": "transfer-verification-001",
+      "topic": "employer_transfer",
+      "language": "en",
+      "source_title": "Ministry of Labor - checks before a contract ends",
+      "source_url": "https://english.mol.gov.tw/",
+      "verified": true,
+      "text": "Taiwan uses a verification step to stop workers from being sent home unfairly. If your employer wants to end your contract, the case can be checked by the labor authorities. If you disagree with a termination, or fear being forced to leave, contact the 1955 hotline or a local labor bureau for help."
+    },
+    {
+      "id": "transfer-steps-001",
+      "topic": "employer_transfer",
+      "language": "en",
+      "source_title": "Workforce Development Agency - transfer application (general)",
+      "source_url": "https://www.wda.gov.tw/en/",
+      "verified": false,
+      "text": "A transfer usually means submitting an application to the labor authorities, often with your passport, ARC, current work permit, and the reason for the transfer. The exact documents and timelines can change, so confirm the current requirements before you apply."
+    },
+    {
+      "id": "transfer-newemployer-001",
+      "topic": "employer_transfer",
+      "language": "en",
+      "source_title": "Workforce Development Agency - finding a new employer",
+      "source_url": "https://www.wda.gov.tw/en/",
+      "verified": false,
+      "text": "To transfer, you usually need a new employer who is willing to hire you within a job type you are allowed to work in. During the transfer period there are rules about how long you have to find a new employer, so ask the 1955 hotline how much time you have."
+    },
+    {
+      "id": "duration-cap-001",
+      "topic": "employer_transfer",
+      "language": "en",
+      "source_title": "Direct Hiring Service Center - maximum employment period",
+      "source_url": "https://dhsc.wda.gov.tw/en/Media/Notice",
+      "verified": true,
+      "text": "Under the Employment Service Act, a migrant worker's total time working in Taiwan generally cannot go beyond 12 years. For caregivers the limit can be up to 14 years. If you want to stay longer, the intermediate skilled worker program may be a path, so ask about it."
+    },
+    {
+      "id": "lost-contact-001",
+      "topic": "employer_transfer",
+      "language": "en",
+      "source_title": "Direct Hiring Service Center - leaving work without process",
+      "source_url": "https://dhsc.wda.gov.tw/en/Media/Notice",
+      "verified": true,
+      "text": "If you leave your job and lose contact for three days in a row without following the proper process, your work permit can be cancelled and you may be ordered to leave Taiwan. If you are in trouble with your employer, do not simply run away. Call the free 1955 hotline first and ask for help."
+    },
+    {
+      "id": "oneday-exit-001",
+      "topic": "employer_transfer",
+      "language": "en",
+      "source_title": "Borgen Project - end of the one-day exit rule",
+      "source_url": "https://borgenproject.org/migration-to-taiwan/",
+      "verified": false,
+      "text": "In the past, workers had to leave Taiwan immediately when a contract ended. Since 2016 that one-day exit rule was removed, so it is now possible to transfer to a new employer without first leaving the country. Ask the 1955 hotline how this applies to your case."
+    },
+    {
+      "id": "transfer-mistreatment-001",
+      "topic": "employer_transfer",
+      "language": "en",
+      "source_title": "Ministry of Labor - transfer on grounds of mistreatment",
+      "source_url": "https://english.mol.gov.tw/21139/21162/21166/21638/",
+      "verified": true,
+      "text": "If you are mistreated, not paid, or abused, you may have grounds to transfer to a new employer even without the current employer's consent. This is a serious step with a specific process. Call the 1955 hotline for guidance before you act, and keep any evidence of what happened."
+    },
+    {
+      "id": "transfer-help-001",
+      "topic": "employer_transfer",
+      "language": "en",
+      "source_title": "Long-term Retention Service Center - help with transfers",
+      "source_url": "https://go.104.com.tw/expats/article/long-term-retention-of-migrant-workers-guide/",
+      "verified": false,
+      "text": "You do not have to handle a transfer alone. The 1955 hotline, Foreign Workers Consultation Service Centers, and the Long-term Retention of Migrant Workers Service Center all offer help in your language. They can explain your options and the current steps."
+    },
+
+    {
+      "id": "nhi-enroll-001",
+      "topic": "nhi_healthcare",
+      "language": "en",
+      "source_title": "National Health Insurance Administration - enrollment for foreign workers",
+      "source_url": "https://www.nhi.gov.tw/en/np-24-2.html",
+      "verified": true,
+      "text": "Most migrant workers join Taiwan's National Health Insurance (NHI). If you are legally employed, you are enrolled from the day you start work, and your employer is responsible for registering you. There is no six-month waiting period for employed workers."
+    },
+    {
+      "id": "nhi-nowait-001",
+      "topic": "nhi_healthcare",
+      "language": "en",
+      "source_title": "NHIA - no waiting period for employees",
+      "source_url": "https://www.nhi.gov.tw/en/cp-1169-2d460-8-2.html",
+      "verified": true,
+      "text": "Non-working residents usually have to live in Taiwan for six months before joining NHI, but workers with a job and a work permit are covered right away. So as an employed migrant worker, you should have health coverage from your first day of work."
+    },
+    {
+      "id": "nhi-premium-001",
+      "topic": "nhi_healthcare",
+      "language": "en",
+      "source_title": "Foreign Talent Act FAQ - NHI premiums",
+      "source_url": "https://foreigntalentact.ndc.gov.tw/en/Content_List.aspx?n=9D9AEFDF9A45B299",
+      "verified": false,
+      "text": "Your NHI premium is a percentage of your salary and is shared between you, your employer, and the government. For an employee, your own share works out to roughly 1.41% of your monthly salary, and your employer usually deducts it from your pay and sends it to the insurance office."
+    },
+    {
+      "id": "nhi-card-001",
+      "topic": "nhi_healthcare",
+      "language": "en",
+      "source_title": "NHIA - receiving your NHI card",
+      "source_url": "https://www.nhi.gov.tw/en/np-24-2.html",
+      "verified": true,
+      "text": "Your NHI card is issued by the insurance office and usually arrives by mail within about one to two weeks. While you wait for the card, you can be given a temporary insurance certificate that clinics and hospitals will accept, so you can still get care."
+    },
+    {
+      "id": "nhi-usecard-001",
+      "topic": "nhi_healthcare",
+      "language": "en",
+      "source_title": "NHIA - using your NHI card",
+      "source_url": "https://www.nhi.gov.tw/en/",
+      "verified": true,
+      "text": "When you feel sick, bring your NHI card to a clinic, hospital, dentist, pharmacy, or traditional Chinese medicine practitioner. They swipe your card at check-in, you pay a small copayment, and the insurance covers most of the rest of the cost."
+    },
+    {
+      "id": "nhi-copay-001",
+      "topic": "nhi_healthcare",
+      "language": "en",
+      "source_title": "NHI foreigner guide - copayment amounts",
+      "source_url": "https://migaku.com/blog/language-fun/taiwan-nhi-for-foreigners-enrolling-in-national-health-insurance",
+      "verified": false,
+      "text": "The copayment is smaller at a local clinic than at a big hospital. For a minor illness like a cold, going to a clinic first is cheaper than going straight to a large medical center without a referral. A referral letter from a clinic lowers the cost if you do need a hospital."
+    },
+    {
+      "id": "nhi-arclink-001",
+      "topic": "nhi_healthcare",
+      "language": "en",
+      "source_title": "NHIA - NHI depends on a valid ARC",
+      "source_url": "https://www.nhi.gov.tw/en/cp-1169-2d460-8-2.html",
+      "verified": true,
+      "text": "Your NHI is linked to your ARC. If your ARC expires or you lose your residence status, your NHI ends on the same day and you can no longer use your card. This is why keeping your ARC valid is so important for your health coverage."
+    },
+    {
+      "id": "nhi-replace-001",
+      "topic": "nhi_healthcare",
+      "language": "en",
+      "source_title": "NHIA - replacing a lost NHI card",
+      "source_url": "https://www.nhi.gov.tw/en/",
+      "verified": false,
+      "text": "If you lose your NHI card, you can apply for a replacement. Your employer or the National Health Insurance Administration can help you do this. In the meantime, ask whether a temporary certificate can be issued so you can still see a doctor."
+    },
+    {
+      "id": "nhi-dependents-001",
+      "topic": "nhi_healthcare",
+      "language": "en",
+      "source_title": "NHIA - enrolling family members",
+      "source_url": "https://www.nhi.gov.tw/en/np-24-2.html",
+      "verified": true,
+      "text": "If your spouse or children live in Taiwan and hold a resident certificate, they may be able to join NHI as your dependents. Tell your employer about your family members so your enrollment can be updated and they can get their own health coverage."
+    },
+    {
+      "id": "nhi-abroad-001",
+      "topic": "nhi_healthcare",
+      "language": "en",
+      "source_title": "NHIA - emergency care outside Taiwan",
+      "source_url": "https://www.nhi.gov.tw/en/",
+      "verified": false,
+      "text": "NHI mainly covers care inside Taiwan, but it can give limited money back for emergency or urgent care you receive abroad. If this happens, keep your receipts and diagnosis documents and make your claim within six months of the treatment."
+    },
+    {
+      "id": "nhi-penalty-001",
+      "topic": "nhi_healthcare",
+      "language": "en",
+      "source_title": "NHIA - penalty for not enrolling",
+      "source_url": "https://www.nhi.gov.tw/en/cp-1169-2d460-8-2.html",
+      "verified": true,
+      "text": "NHI is required, not optional. If someone who should be enrolled is not, they can face a fine and must pay the premiums they missed from when they should have joined. No benefits are given until the owed premiums are paid, so it is best to make sure you are properly enrolled."
+    },
+    {
+      "id": "nhi-interpret-001",
+      "topic": "nhi_healthcare",
+      "language": "en",
+      "source_title": "Workforce Development Agency - medical interpretation via 1955",
+      "source_url": "https://www.wda.gov.tw/en/",
+      "verified": true,
+      "text": "If you need to see a doctor but are worried about the language, the free 1955 hotline can provide interpretation to help you and the doctor understand each other. Bring your NHI card, and if you can, a simple list of your symptoms and any medicines you take."
+    },
+    {
+      "id": "nhi-renew-001",
+      "topic": "nhi_healthcare",
+      "language": "en",
+      "source_title": "NHIA - renew your ARC to keep NHI",
+      "source_url": "https://www.nhi.gov.tw/en/cp-1169-2d460-8-2.html",
+      "verified": true,
+      "text": "Renew your ARC before it expires, because an expired ARC cuts off your NHI right away. Every month some foreign residents lose the ability to use NHI simply because their resident certificate lapsed. Mark your renewal date early so this does not happen to you."
+    },
+
+    {
+      "id": "arc-basic-001",
+      "topic": "visa_residency",
+      "language": "en",
+      "source_title": "National Immigration Agency - Alien Resident Certificate",
+      "source_url": "https://www.immigration.gov.tw/",
+      "verified": true,
+      "text": "As a migrant worker you normally hold an Alien Resident Certificate (ARC), which is your official residence document in Taiwan. Your ARC is linked to your work permit and employer. Keep it valid and carry it or a copy, because you may need it for healthcare, banking, and other services."
+    },
+    {
+      "id": "permit-tied-001",
+      "topic": "visa_residency",
+      "language": "en",
+      "source_title": "Workforce Development Agency - work permit basics",
+      "source_url": "https://www.wda.gov.tw/en/",
+      "verified": true,
+      "text": "Your permission to work in Taiwan is tied to a specific employer and job. If your employment ends, your work permit and residence status can be affected, so it is important to arrange a transfer or your next step quickly. If you are unsure of your status, contact the 1955 hotline or the National Immigration Agency."
+    },
+    {
+      "id": "intermediate-program-001",
+      "topic": "visa_residency",
+      "language": "en",
+      "source_title": "Workforce Development Agency - intermediate skilled worker program",
+      "source_url": "https://fw.wda.gov.tw/wda-employer/home/mid-foreign-labor/index?locale=en",
+      "verified": true,
+      "text": "Since April 2022 Taiwan has run a program that lets experienced migrant workers become intermediate skilled workers. It covers manufacturing, construction, agriculture, slaughterhouse, and long-term care. Workers with six or more years in Taiwan who meet the wage and skill requirements can be moved to this status, which has no maximum number of work years."
+    },
+    {
+      "id": "intermediate-wage-001",
+      "topic": "visa_residency",
+      "language": "en",
+      "source_title": "OCAC - intermediate skilled worker wage requirement",
+      "source_url": "https://www.ocac.gov.tw/OCAC/Eng/Pages/Detail.aspx?nodeid=329&pid=80957715",
+      "verified": false,
+      "text": "To qualify as an intermediate skilled worker, you must be paid above the ordinary minimum wage. For example, in manufacturing the required pay has been around NT$33,000 per month. The exact figure depends on your sector, so check the current requirement with your employer or a labor bureau."
+    },
+    {
+      "id": "pr-pathway-001",
+      "topic": "visa_residency",
+      "language": "en",
+      "source_title": "Long-term retention guide - path to permanent residency",
+      "source_url": "https://go.104.com.tw/expats/article/long-term-retention-of-migrant-workers-guide/",
+      "verified": true,
+      "text": "After working as an intermediate skilled worker for five years, you may be able to apply for permanent residency if you meet the conditions. Because the program started in 2022, the earliest workers become eligible around 2027. Permanent residency is a major step toward a stable long-term future in Taiwan."
+    },
+    {
+      "id": "pr-conditions-001",
+      "topic": "visa_residency",
+      "language": "en",
+      "source_title": "Long-term retention guide - permanent residency conditions",
+      "source_url": "https://go.104.com.tw/expats/article/long-term-retention-of-migrant-workers-guide/",
+      "verified": false,
+      "text": "Conditions for permanent residency through this program include either earning a total monthly salary of about twice the basic wage, or holding a Class B professional skill certificate. Because these requirements can be updated, confirm the current rules with the National Immigration Agency before applying."
+    },
+    {
+      "id": "pr-freedom-001",
+      "topic": "visa_residency",
+      "language": "en",
+      "source_title": "Long-term retention guide - freedom with permanent residency",
+      "source_url": "https://go.104.com.tw/expats/article/long-term-retention-of-migrant-workers-guide/",
+      "verified": true,
+      "text": "Once you have permanent residency, you can apply for your own work permit instead of being tied to one employer. This gives you much more freedom to choose your job and to plan for the long term, which is not possible on an ordinary migrant worker permit."
+    },
+    {
+      "id": "family-reunification-001",
+      "topic": "visa_residency",
+      "language": "en",
+      "source_title": "Long-term retention guide - bringing your family",
+      "source_url": "https://go.104.com.tw/expats/article/long-term-retention-of-migrant-workers-guide/",
+      "verified": false,
+      "text": "If your average monthly salary reaches about NT$53,000 or more, you may be able to bring your spouse and children to Taiwan for family reunification, and your spouse may also be able to apply for a work permit. Check the current salary requirement and steps with the National Immigration Agency."
+    },
+    {
+      "id": "duration-caps-002",
+      "topic": "visa_residency",
+      "language": "en",
+      "source_title": "Long-term retention guide - work-year limits",
+      "source_url": "https://go.104.com.tw/expats/article/long-term-retention-of-migrant-workers-guide/",
+      "verified": true,
+      "text": "Under the ordinary rules, most migrant workers can work in Taiwan for up to 12 years, and caregivers for up to 14 years, then must leave. Moving onto the intermediate skilled worker track removes this year limit, which is one of its main benefits."
+    },
+    {
+      "id": "stabilization-fee-001",
+      "topic": "visa_residency",
+      "language": "en",
+      "source_title": "Taipei Times - employment stabilization fee",
+      "source_url": "https://www.taipeitimes.com/News/editorials/archives/2025/11/15/2003847231",
+      "verified": false,
+      "text": "Households that hire a foreign domestic caregiver pay a monthly employment stabilization fee to the government (recently around NT$2,000, though amounts are changing). Note this is a fee paid by the employer, not something that should be deducted from your wages. If it is being taken from your pay, ask the 1955 hotline."
+    },
+    {
+      "id": "undocumented-risk-001",
+      "topic": "visa_residency",
+      "language": "en",
+      "source_title": "Borgen Project - risks of becoming undocumented",
+      "source_url": "https://borgenproject.org/migration-to-taiwan/",
+      "verified": true,
+      "text": "If you leave your employer without following the rules, or let your permit expire, you risk becoming undocumented. Undocumented workers, of whom there are tens of thousands in Taiwan, lose access to healthcare and legal protection and face being sent home. If you are in a hard situation, call the free 1955 hotline before your status lapses."
+    },
+    {
+      "id": "renew-early-001",
+      "topic": "visa_residency",
+      "language": "en",
+      "source_title": "National Immigration Agency - renew your ARC early",
+      "source_url": "https://www.immigration.gov.tw/",
+      "verified": true,
+      "text": "Always renew your ARC before it expires. An expired ARC not only affects your legal stay, it also immediately ends your health insurance. If you are close to your renewal date, sort it out early with your employer or the National Immigration Agency."
+    },
+    {
+      "id": "retention-center-001",
+      "topic": "visa_residency",
+      "language": "en",
+      "source_title": "Long-term retention guide - service center and hotline",
+      "source_url": "https://go.104.com.tw/expats/article/long-term-retention-of-migrant-workers-guide/",
+      "verified": false,
+      "text": "For questions about becoming an intermediate skilled worker or applying for permanent residency, the Long-term Retention of Migrant Workers Service Center offers help in several languages. You can reach it through the free 1955 hotline. Government-run help is free, so you should not have to pay a broker for basic information."
+    }
+  ]
+}

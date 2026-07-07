@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bersama — help for migrant workers in Taiwan</title>
+<style>
+  :root{
+    --ink:#14252c;         /* near-black text */
+    --ink-soft:#4a5a62;    /* secondary text */
+    --teal:#0e4d64;        /* primary: calm, trustworthy */
+    --teal-deep:#0a3a4d;
+    --amber:#e39a2e;       /* warm accent, used sparingly */
+    --bg:#eef2f4;          /* cool light background */
+    --card:#ffffff;
+    --line:#d6dfe3;
+    --ok:#1c7c54;
+    --warn:#9a5b12;
+    --radius:14px;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;height:100%}
+  body{
+    background:var(--bg);
+    color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size:17px;line-height:1.55;
+    display:flex;flex-direction:column;
+  }
+  header{
+    background:var(--teal);color:#fff;padding:18px 20px;
+    display:flex;align-items:center;gap:16px;flex-wrap:wrap;
+  }
+  header .brand{display:flex;flex-direction:column}
+  header h1{margin:0;font-size:22px;letter-spacing:.3px}
+  header p{margin:2px 0 0;font-size:14px;color:#cfe4ec}
+  header .badges{margin-left:auto;display:flex;gap:8px;flex-wrap:wrap}
+  .badge{
+    background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.25);
+    padding:5px 10px;border-radius:999px;font-size:12.5px;white-space:nowrap;
+  }
+  .badge.on{background:var(--amber);border-color:var(--amber);color:#2a1c05;font-weight:600}
+
+  .langbar{
+    background:var(--card);border-bottom:1px solid var(--line);
+    padding:10px 20px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;
+  }
+  .langbar span{font-size:13px;color:var(--ink-soft);margin-right:4px}
+  .pill{
+    border:1.5px solid var(--line);background:#fff;color:var(--ink);
+    padding:6px 12px;border-radius:999px;font-size:14px;cursor:pointer;
+  }
+  .pill[aria-pressed="true"]{background:var(--teal);border-color:var(--teal);color:#fff}
+  .pill:focus-visible{outline:3px solid var(--amber);outline-offset:2px}
+
+  .tabs{display:flex;gap:4px;padding:12px 20px 0;background:var(--bg)}
+  .tab{
+    border:none;background:transparent;color:var(--ink-soft);
+    padding:10px 14px;font-size:15px;cursor:pointer;border-radius:10px 10px 0 0;
+  }
+  .tab[aria-selected="true"]{background:var(--card);color:var(--ink);font-weight:600;
+    box-shadow:0 -1px 0 var(--line),-1px 0 0 var(--line),1px 0 0 var(--line)}
+  .tab:focus-visible{outline:3px solid var(--amber);outline-offset:2px}
+
+  main{flex:1;overflow:hidden;padding:0 20px 20px;display:flex}
+  .panel{
+    background:var(--card);border:1px solid var(--line);border-radius:0 var(--radius) var(--radius) var(--radius);
+    flex:1;display:flex;flex-direction:column;overflow:hidden;
+  }
+
+  .messages{flex:1;overflow-y:auto;padding:20px;display:flex;flex-direction:column;gap:16px}
+  .msg{max-width:760px}
+  .msg.user{align-self:flex-end}
+  .bubble{padding:12px 15px;border-radius:14px}
+  .msg.user .bubble{background:var(--teal);color:#fff;border-bottom-right-radius:4px}
+  .msg.bot .bubble{background:#f2f6f8;border:1px solid var(--line);border-bottom-left-radius:4px;white-space:pre-wrap}
+  .msg.bot.declined .bubble{background:#fff7ec;border-color:#f0d8ad}
+
+  .sources{margin-top:8px;display:flex;flex-direction:column;gap:6px}
+  .sources h4{margin:2px 0;font-size:12.5px;letter-spacing:.4px;color:var(--ink-soft);text-transform:uppercase}
+  .source{
+    display:flex;gap:8px;align-items:flex-start;font-size:13.5px;
+    background:#fff;border:1px solid var(--line);border-left:3px solid var(--amber);
+    border-radius:8px;padding:8px 10px;
+  }
+  .source a{color:var(--teal-deep);text-decoration:none;word-break:break-all}
+  .source a:hover{text-decoration:underline}
+  .tag{font-size:11px;background:#e7eef1;color:var(--ink-soft);padding:2px 7px;border-radius:999px;white-space:nowrap}
+
+  .composer{border-top:1px solid var(--line);padding:14px;display:flex;gap:10px;background:#fbfcfd}
+  .composer input{
+    flex:1;font-size:16px;padding:12px 14px;border:1.5px solid var(--line);border-radius:10px;
+  }
+  .composer input:focus{outline:3px solid var(--amber);outline-offset:1px;border-color:var(--teal)}
+  button.send{
+    background:var(--teal);color:#fff;border:none;border-radius:10px;padding:0 20px;
+    font-size:16px;font-weight:600;cursor:pointer;
+  }
+  button.send:hover{background:var(--teal-deep)}
+  button.send:focus-visible{outline:3px solid var(--amber);outline-offset:2px}
+  button.send:disabled{opacity:.6;cursor:default}
+
+  .hint{padding:0 20px 14px;color:var(--ink-soft);font-size:13.5px}
+  .examples{display:flex;gap:8px;flex-wrap:wrap;padding:12px 20px 0}
+  .chip{border:1px dashed var(--line);background:#fff;color:var(--ink-soft);
+    padding:6px 11px;border-radius:999px;font-size:13px;cursor:pointer}
+  .chip:hover{border-color:var(--teal);color:var(--teal)}
+
+  /* Form view */
+  .formwrap{padding:20px;overflow-y:auto}
+  .formwrap p.lead{margin:0 0 16px;color:var(--ink-soft)}
+  .field{margin-bottom:14px}
+  .field label{display:block;font-size:14.5px;margin-bottom:6px}
+  .field .req{color:var(--warn);font-size:12px;margin-left:6px}
+  .field input{width:100%;font-size:16px;padding:11px 13px;border:1.5px solid var(--line);border-radius:10px}
+  .field input:focus{outline:3px solid var(--amber);outline-offset:1px;border-color:var(--teal)}
+  .draft{margin-top:10px;background:#0f2b36;color:#e8f2f6;border-radius:12px;padding:16px;
+    white-space:pre-wrap;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:13.5px}
+  .note{background:#fff7ec;border:1px solid #f0d8ad;border-radius:10px;padding:12px 14px;font-size:13.5px;color:#6b4a12;margin-bottom:16px}
+
+  .hidden{display:none}
+  @media (prefers-reduced-motion: no-preference){
+    .msg{animation:rise .18s ease-out}
+    @keyframes rise{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:none}}
+  }
+  @media (max-width:640px){
+    header .badges{width:100%;margin-left:0}
+    .msg{max-width:100%}
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="brand">
+    <h1>Bersama</h1>
+    <p>Clear answers about work, rights, and services in Taiwan</p>
+  </div>
+  <div class="badges">
+    <span class="badge {% if llm_on %}on{% endif %}">
+      {% if llm_on %}Full answers on{% else %}Offline demo mode{% endif %}
+    </span>
+    <span class="badge">{{ coverage.total }} sources loaded</span>
+    <span class="badge">retriever: {{ retriever }}</span>
+  </div>
+</header>
+
+<div class="langbar" role="group" aria-label="Choose your language">
+  <span>Language</span>
+  {% for code, name in languages.items() %}
+    <button class="pill" data-lang="{{ code }}" aria-pressed="{{ 'true' if code=='en' else 'false' }}">{{ name }}</button>
+  {% endfor %}
+</div>
+
+<div class="tabs" role="tablist">
+  <button class="tab" id="tab-ask" role="tab" aria-selected="true" aria-controls="view-ask">Ask a question</button>
+  <button class="tab" id="tab-form" role="tab" aria-selected="false" aria-controls="view-form">Transfer employer form</button>
+</div>
+
+<main>
+  <!-- ASK VIEW -->
+  <section class="panel" id="view-ask" role="tabpanel" aria-labelledby="tab-ask">
+    <div class="examples" aria-label="Example questions">
+      <button class="chip">How can I change to a new employer?</button>
+      <button class="chip">My employer has not paid my salary</button>
+      <button class="chip">Do migrant workers get health insurance?</button>
+      <button class="chip">What is an ARC?</button>
+    </div>
+    <div class="hint">Every answer is grounded in official sources, shown below it. In offline demo mode answers appear in English; turn on the language model for full multilingual replies.</div>
+    <div class="messages" id="messages" aria-live="polite"></div>
+    <div class="composer">
+      <input id="q" type="text" placeholder="Type your question..." autocomplete="off" aria-label="Your question">
+      <button class="send" id="send">Ask</button>
+    </div>
+  </section>
+
+  <!-- FORM VIEW -->
+  <section class="panel hidden" id="view-form" role="tabpanel" aria-labelledby="tab-form">
+    <div class="formwrap">
+      <div class="note">This tool creates a <strong>draft only</strong>. It never submits anything. Have an NGO caseworker or the labor bureau check it, and confirm the current required documents, before you submit.</div>
+      <p class="lead">Fill in what you can. Fields marked required are needed for the draft.</p>
+      <div id="fields">
+        {% for f in form_fields %}
+          <div class="field">
+            <label for="f-{{ f.key }}">{{ f.question }}{% if f.required %}<span class="req">required</span>{% endif %}</label>
+            <input id="f-{{ f.key }}" data-key="{{ f.key }}" type="text" autocomplete="off">
+          </div>
+        {% endfor %}
+      </div>
+      <button class="send" id="make-draft">Create draft</button>
+      <div id="draft-out"></div>
+    </div>
+  </section>
+</main>
+
+<script>
+  let lang = "en";
+
+  // Language selection
+  document.querySelectorAll(".pill").forEach(btn=>{
+    btn.addEventListener("click",()=>{
+      document.querySelectorAll(".pill").forEach(b=>b.setAttribute("aria-pressed","false"));
+      btn.setAttribute("aria-pressed","true");
+      lang = btn.dataset.lang;
+    });
+  });
+
+  // Tabs
+  function selectTab(which){
+    const ask = which==="ask";
+    document.getElementById("tab-ask").setAttribute("aria-selected", ask);
+    document.getElementById("tab-form").setAttribute("aria-selected", !ask);
+    document.getElementById("view-ask").classList.toggle("hidden", !ask);
+    document.getElementById("view-form").classList.toggle("hidden", ask);
+  }
+  document.getElementById("tab-ask").addEventListener("click",()=>selectTab("ask"));
+  document.getElementById("tab-form").addEventListener("click",()=>selectTab("form"));
+
+  // Messages
+  const messages = document.getElementById("messages");
+  function esc(s){const d=document.createElement("div");d.textContent=s;return d.innerHTML;}
+
+  function addUser(text){
+    const el=document.createElement("div");
+    el.className="msg user";
+    el.innerHTML=`<div class="bubble">${esc(text)}</div>`;
+    messages.appendChild(el);
+    messages.scrollTop=messages.scrollHeight;
+  }
+  function addBot(result){
+    const el=document.createElement("div");
+    el.className="msg bot"+(result.grounded?"":" declined");
+    let html=`<div class="bubble">${esc(result.answer)}</div>`;
+    if(result.sources && result.sources.length){
+      html+=`<div class="sources"><h4>Sources</h4>`;
+      result.sources.forEach(s=>{
+        html+=`<div class="source"><span class="tag">official</span>
+               <a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title)}</a></div>`;
+      });
+      html+=`</div>`;
+    }
+    el.innerHTML=html;
+    messages.appendChild(el);
+    messages.scrollTop=messages.scrollHeight;
+  }
+
+  async function ask(text){
+    if(!text.trim()) return;
+    addUser(text);
+    const input=document.getElementById("q");
+    const send=document.getElementById("send");
+    input.value=""; send.disabled=true; send.textContent="...";
+    try{
+      const res=await fetch("/ask",{
+        method:"POST",headers:{"Content-Type":"application/json"},
+        body:JSON.stringify({question:text,lang})
+      });
+      const data=await res.json();
+      if(data.error){ addBot({answer:"Something went wrong. Please try again.",grounded:false,sources:[]}); }
+      else{ addBot(data); }
+    }catch(e){
+      addBot({answer:"Could not reach the server. Is the app running?",grounded:false,sources:[]});
+    }finally{
+      send.disabled=false; send.textContent="Ask"; input.focus();
+    }
+  }
+
+  document.getElementById("send").addEventListener("click",()=>ask(document.getElementById("q").value));
+  document.getElementById("q").addEventListener("keydown",e=>{ if(e.key==="Enter") ask(e.target.value); });
+  document.querySelectorAll(".chip").forEach(c=>c.addEventListener("click",()=>ask(c.textContent)));
+
+  // Form -> draft
+  document.getElementById("make-draft").addEventListener("click", async ()=>{
+    const answers={};
+    document.querySelectorAll("#fields input").forEach(i=>{ answers[i.dataset.key]=i.value; });
+    const res=await fetch("/draft-transfer",{
+      method:"POST",headers:{"Content-Type":"application/json"},
+      body:JSON.stringify({answers})
+    });
+    const data=await res.json();
+    const out=document.getElementById("draft-out");
+    out.innerHTML=`<div class="draft">${esc(data.draft)}</div>`;
+    out.scrollIntoView({behavior:"smooth",block:"nearest"});
+  });
+</script>
+</body>
+</html>

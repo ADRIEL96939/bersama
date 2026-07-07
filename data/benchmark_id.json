@@ -1,0 +1,972 @@
+{
+  "_meta": {
+    "description": "Bersama evaluation benchmark in Bahasa Indonesia. Same questions and labels as the English benchmark, translated, with Indonesian keywords that a correct grounded answer should contain. Run: python eval.py id",
+    "language": "id",
+    "counts": {
+      "in_scope": 112,
+      "out_of_scope_clear": 13,
+      "out_of_scope_hard": 10
+    }
+  },
+  "in_scope": [
+    {
+      "id": "w01",
+      "question": "Apakah hotline 1955 gratis?",
+      "expected_topic": "wage_complaint",
+      "expect_contains": [
+        "1955"
+      ]
+    },
+    {
+      "id": "w02",
+      "question": "Bahasa apa saja yang bisa dilayani hotline 1955?",
+      "expected_topic": "wage_complaint",
+      "expect_contains": [
+        "indonesia"
+      ]
+    },
+    {
+      "id": "w03",
+      "question": "Bisakah saya menelepon 24 jam untuk masalah kerja?",
+      "expected_topic": "wage_complaint",
+      "expect_contains": [
+        "24 jam"
+      ]
+    },
+    {
+      "id": "w04",
+      "question": "Hotline 1955 bisa membantu saya dengan apa saja?",
+      "expected_topic": "wage_complaint",
+      "expect_contains": [
+        "pengaduan"
+      ]
+    },
+    {
+      "id": "w05",
+      "question": "Apakah saya akan mendapat nomor kasus setelah menelepon 1955?",
+      "expected_topic": "wage_complaint",
+      "expect_contains": [
+        "nomor kasus"
+      ]
+    },
+    {
+      "id": "w06",
+      "question": "Berapa upah minimum di Taiwan?",
+      "expected_topic": "wage_complaint",
+      "expect_contains": [
+        "29.500"
+      ]
+    },
+    {
+      "id": "w07",
+      "question": "Berapa upah minimum per jam?",
+      "expected_topic": "wage_complaint",
+      "expect_contains": [
+        "196"
+      ]
+    },
+    {
+      "id": "w08",
+      "question": "Apakah saya dilindungi Undang-Undang Standar Ketenagakerjaan?",
+      "expected_topic": "wage_complaint",
+      "expect_contains": [
+        "standar ketenagakerjaan"
+      ]
+    },
+    {
+      "id": "w09",
+      "question": "Apakah perawat rumah tangga dilindungi undang-undang ketenagakerjaan?",
+      "expected_topic": "wage_complaint",
+      "expect_contains": [
+        "tidak dilindungi"
+      ]
+    },
+    {
+      "id": "w10",
+      "question": "Majikan saya tidak membayar gaji saya, apa yang harus saya lakukan?",
+      "expected_topic": "wage_complaint",
+      "expect_contains": [
+        "tidak dibayar"
+      ]
+    },
+    {
+      "id": "w11",
+      "question": "Bagaimana cara melaporkan upah yang tidak dibayar?",
+      "expected_topic": "wage_complaint",
+      "expect_contains": [
+        "tidak dibayar"
+      ]
+    },
+    {
+      "id": "w12",
+      "question": "Catatan apa yang harus saya simpan untuk sengketa gaji?",
+      "expected_topic": "wage_complaint",
+      "expect_contains": [
+        "slip gaji"
+      ]
+    },
+    {
+      "id": "w13",
+      "question": "Di mana saya bisa mendapat bantuan dalam bahasa saya untuk masalah gaji?",
+      "expected_topic": "wage_complaint",
+      "expect_contains": [
+        "pusat layanan konsultasi"
+      ]
+    },
+    {
+      "id": "w14",
+      "question": "Berapa biaya yang boleh ditagih agen setiap bulan?",
+      "expected_topic": "wage_complaint",
+      "expect_contains": [
+        "agen"
+      ]
+    },
+    {
+      "id": "w15",
+      "question": "Bolehkah agen menagih biaya hanya untuk memperpanjang kontrak saya?",
+      "expected_topic": "wage_complaint",
+      "expect_contains": [
+        "rujukan"
+      ]
+    },
+    {
+      "id": "w16",
+      "question": "Apa saja potongan pada slip gaji saya?",
+      "expected_topic": "wage_complaint",
+      "expect_contains": [
+        "potongan"
+      ]
+    },
+    {
+      "id": "w17",
+      "question": "Bisakah saya menuntut upah dari waktu yang sudah lama?",
+      "expected_topic": "wage_complaint",
+      "expect_contains": [
+        "lima tahun"
+      ]
+    },
+    {
+      "id": "w18",
+      "question": "Saya cedera saat bekerja, apa hak saya?",
+      "expected_topic": "wage_complaint",
+      "expect_contains": [
+        "kecelakaan"
+      ]
+    },
+    {
+      "id": "w19",
+      "question": "Kepada siapa saya melaporkan perlakuan buruk di tempat kerja?",
+      "expected_topic": "wage_complaint",
+      "expect_contains": [
+        "pengaduan"
+      ]
+    },
+    {
+      "id": "w20",
+      "question": "Adakah bantuan gratis untuk pekerja asing dengan masalah uang?",
+      "expected_topic": "wage_complaint",
+      "expect_contains": [
+        "gratis"
+      ]
+    },
+    {
+      "id": "t01",
+      "question": "Bagaimana cara saya pindah ke majikan baru?",
+      "expected_topic": "employer_transfer",
+      "expect_contains": [
+        "pindah"
+      ]
+    },
+    {
+      "id": "t02",
+      "question": "Bisakah saya berganti majikan selama masa kontrak?",
+      "expected_topic": "employer_transfer",
+      "expect_contains": [
+        "pindah"
+      ]
+    },
+    {
+      "id": "t03",
+      "question": "Bisakah pekerja pabrik berganti majikan?",
+      "expected_topic": "employer_transfer",
+      "expect_contains": [
+        "pabrik"
+      ]
+    },
+    {
+      "id": "t04",
+      "question": "Bisakah seorang perawat pindah ke majikan baru?",
+      "expected_topic": "employer_transfer",
+      "expect_contains": [
+        "perawat"
+      ]
+    },
+    {
+      "id": "t05",
+      "question": "Bisakah saya pindah dari pekerjaan perawatan ke pekerjaan pabrik?",
+      "expected_topic": "employer_transfer",
+      "expect_contains": [
+        "antarindustri"
+      ]
+    },
+    {
+      "id": "t06",
+      "question": "Majikan saya ingin mengakhiri kontrak saya, apa yang bisa saya lakukan?",
+      "expected_topic": "employer_transfer",
+      "expect_contains": [
+        "verifikasi"
+      ]
+    },
+    {
+      "id": "t07",
+      "question": "Dokumen apa yang saya butuhkan untuk pindah majikan?",
+      "expected_topic": "employer_transfer",
+      "expect_contains": [
+        "dokumen"
+      ]
+    },
+    {
+      "id": "t08",
+      "question": "Apakah saya perlu majikan baru sebelum pindah?",
+      "expected_topic": "employer_transfer",
+      "expect_contains": [
+        "majikan baru"
+      ]
+    },
+    {
+      "id": "t09",
+      "question": "Berapa total tahun saya bisa bekerja di Taiwan?",
+      "expected_topic": "employer_transfer",
+      "expect_contains": [
+        "12 tahun"
+      ],
+      "acceptable_topics": [
+        "employer_transfer",
+        "visa_residency"
+      ]
+    },
+    {
+      "id": "t10",
+      "question": "Apa yang terjadi jika saya kabur dari majikan saya?",
+      "expected_topic": "employer_transfer",
+      "expect_contains": [
+        "tiga hari"
+      ]
+    },
+    {
+      "id": "t11",
+      "question": "Apakah saya harus meninggalkan Taiwan saat kontrak saya berakhir?",
+      "expected_topic": "employer_transfer",
+      "expect_contains": [
+        "satu hari"
+      ]
+    },
+    {
+      "id": "t12",
+      "question": "Majikan saya melakukan kekerasan, bisakah saya pindah?",
+      "expected_topic": "employer_transfer",
+      "expect_contains": [
+        "diperlakukan buruk"
+      ]
+    },
+    {
+      "id": "t13",
+      "question": "Siapa yang bisa membantu saya pindah majikan?",
+      "expected_topic": "employer_transfer",
+      "expect_contains": [
+        "pusat layanan"
+      ]
+    },
+    {
+      "id": "t14",
+      "question": "Bisakah saya ganti majikan tanpa persetujuan majikan saya?",
+      "expected_topic": "employer_transfer",
+      "expect_contains": [
+        "persetujuan"
+      ]
+    },
+    {
+      "id": "t15",
+      "question": "Apakah mudah untuk pindah majikan di Taiwan?",
+      "expected_topic": "employer_transfer",
+      "expect_contains": [
+        "terbatas"
+      ]
+    },
+    {
+      "id": "t16",
+      "question": "Bisakah izin kerja saya dibatalkan jika saya meninggalkan pekerjaan?",
+      "expected_topic": "employer_transfer",
+      "expect_contains": [
+        "dibatalkan"
+      ]
+    },
+    {
+      "id": "t17",
+      "question": "Saya ingin berhenti dari majikan saya dengan aman, apa yang harus saya lakukan?",
+      "expected_topic": "employer_transfer",
+      "expect_contains": [
+        "1955"
+      ]
+    },
+    {
+      "id": "t18",
+      "question": "Apakah perawat perlu persetujuan majikan untuk pindah?",
+      "expected_topic": "employer_transfer",
+      "expect_contains": [
+        "menyetujui"
+      ]
+    },
+    {
+      "id": "t19",
+      "question": "Apa aturan untuk berpindah antarindustri?",
+      "expected_topic": "employer_transfer",
+      "expect_contains": [
+        "antarindustri"
+      ]
+    },
+    {
+      "id": "t20",
+      "question": "Bisakah dinas tenaga kerja memeriksa sebelum kontrak saya diakhiri?",
+      "expected_topic": "employer_transfer",
+      "expect_contains": [
+        "verifikasi"
+      ]
+    },
+    {
+      "id": "n01",
+      "question": "Apakah pekerja migran mendapat asuransi kesehatan?",
+      "expected_topic": "nhi_healthcare",
+      "expect_contains": [
+        "asuransi kesehatan nasional"
+      ]
+    },
+    {
+      "id": "n02",
+      "question": "Kapan asuransi kesehatan saya mulai berlaku?",
+      "expected_topic": "nhi_healthcare",
+      "expect_contains": [
+        "mulai bekerja"
+      ]
+    },
+    {
+      "id": "n03",
+      "question": "Apakah saya harus menunggu enam bulan untuk asuransi kesehatan?",
+      "expected_topic": "nhi_healthcare",
+      "expect_contains": [
+        "langsung"
+      ]
+    },
+    {
+      "id": "n04",
+      "question": "Berapa premi asuransi kesehatan saya?",
+      "expected_topic": "nhi_healthcare",
+      "expect_contains": [
+        "premi"
+      ]
+    },
+    {
+      "id": "n05",
+      "question": "Bagaimana cara menggunakan kartu NHI saya?",
+      "expected_topic": "nhi_healthcare",
+      "expect_contains": [
+        "klinik"
+      ]
+    },
+    {
+      "id": "n06",
+      "question": "Kapan saya akan menerima kartu NHI saya?",
+      "expected_topic": "nhi_healthcare",
+      "expect_contains": [
+        "dua minggu"
+      ]
+    },
+    {
+      "id": "n07",
+      "question": "Bisakah saya ke dokter sebelum kartu saya tiba?",
+      "expected_topic": "nhi_healthcare",
+      "expect_contains": [
+        "sementara"
+      ]
+    },
+    {
+      "id": "n08",
+      "question": "Lebih murah ke klinik atau ke rumah sakit besar?",
+      "expected_topic": "nhi_healthcare",
+      "expect_contains": [
+        "copay"
+      ]
+    },
+    {
+      "id": "n09",
+      "question": "Apa yang terjadi pada NHI saya jika ARC saya kedaluwarsa?",
+      "expected_topic": "nhi_healthcare",
+      "expect_contains": [
+        "berakhir"
+      ]
+    },
+    {
+      "id": "n10",
+      "question": "Saya kehilangan kartu asuransi kesehatan saya, apa yang harus saya lakukan?",
+      "expected_topic": "nhi_healthcare",
+      "expect_contains": [
+        "penggantian"
+      ]
+    },
+    {
+      "id": "n11",
+      "question": "Bisakah anak-anak saya mendapat asuransi kesehatan?",
+      "expected_topic": "nhi_healthcare",
+      "expect_contains": [
+        "tanggungan"
+      ]
+    },
+    {
+      "id": "n12",
+      "question": "Bisakah pasangan saya ikut NHI?",
+      "expected_topic": "nhi_healthcare",
+      "expect_contains": [
+        "pasangan"
+      ]
+    },
+    {
+      "id": "n13",
+      "question": "Apakah NHI menanggung saya saat di luar negeri?",
+      "expected_topic": "nhi_healthcare",
+      "expect_contains": [
+        "luar negeri"
+      ]
+    },
+    {
+      "id": "n14",
+      "question": "Bagaimana jika saya tidak mendaftar asuransi kesehatan?",
+      "expected_topic": "nhi_healthcare",
+      "expect_contains": [
+        "denda"
+      ]
+    },
+    {
+      "id": "n15",
+      "question": "Saya butuh penerjemah untuk ke dokter",
+      "expected_topic": "nhi_healthcare",
+      "expect_contains": [
+        "penerjemah"
+      ]
+    },
+    {
+      "id": "n16",
+      "question": "Bagaimana cara menjaga asuransi kesehatan saya tetap aktif?",
+      "expected_topic": "nhi_healthcare",
+      "expect_contains": [
+        "perpanjang"
+      ]
+    },
+    {
+      "id": "n17",
+      "question": "Di mana lagi saya bisa memakai kartu NHI selain di rumah sakit?",
+      "expected_topic": "nhi_healthcare",
+      "expect_contains": [
+        "apotek"
+      ]
+    },
+    {
+      "id": "n18",
+      "question": "Apakah asuransi kesehatan wajib bagi pekerja asing?",
+      "expected_topic": "nhi_healthcare",
+      "expect_contains": [
+        "wajib"
+      ]
+    },
+    {
+      "id": "n19",
+      "question": "Siapa yang mengurus pendaftaran NHI saya?",
+      "expected_topic": "nhi_healthcare",
+      "expect_contains": [
+        "majikan"
+      ]
+    },
+    {
+      "id": "n20",
+      "question": "Kartu NHI saya tidak berfungsi, apakah mungkin karena ARC saya?",
+      "expected_topic": "nhi_healthcare",
+      "expect_contains": [
+        "arc"
+      ]
+    },
+    {
+      "id": "v01",
+      "question": "Apa itu ARC?",
+      "expected_topic": "visa_residency",
+      "expect_contains": [
+        "tempat tinggal"
+      ]
+    },
+    {
+      "id": "v02",
+      "question": "Untuk apa saya menggunakan ARC saya?",
+      "expected_topic": "visa_residency",
+      "expect_contains": [
+        "perbankan"
+      ]
+    },
+    {
+      "id": "v03",
+      "question": "Apakah izin kerja saya terikat pada majikan saya?",
+      "expected_topic": "visa_residency",
+      "expect_contains": [
+        "terkait"
+      ]
+    },
+    {
+      "id": "v04",
+      "question": "Apa yang terjadi pada visa saya jika saya kehilangan pekerjaan?",
+      "expected_topic": "visa_residency",
+      "expect_contains": [
+        "hubungan kerja"
+      ],
+      "acceptable_topics": [
+        "visa_residency",
+        "employer_transfer"
+      ]
+    },
+    {
+      "id": "v05",
+      "question": "Apa itu pekerja terampil menengah?",
+      "expected_topic": "visa_residency",
+      "expect_contains": [
+        "terampil menengah"
+      ],
+      "acceptable_topics": [
+        "visa_residency",
+        "employer_transfer"
+      ]
+    },
+    {
+      "id": "v06",
+      "question": "Berapa tahun sampai saya bisa menjadi pekerja terampil menengah?",
+      "expected_topic": "visa_residency",
+      "expect_contains": [
+        "terampil menengah"
+      ],
+      "acceptable_topics": [
+        "visa_residency",
+        "employer_transfer"
+      ]
+    },
+    {
+      "id": "v07",
+      "question": "Berapa yang harus saya hasilkan untuk menjadi pekerja terampil menengah?",
+      "expected_topic": "visa_residency",
+      "expect_contains": [
+        "33.000"
+      ],
+      "acceptable_topics": [
+        "visa_residency",
+        "employer_transfer"
+      ]
+    },
+    {
+      "id": "v08",
+      "question": "Bisakah saya mendapat izin tinggal tetap di Taiwan?",
+      "expected_topic": "visa_residency",
+      "expect_contains": [
+        "izin tinggal tetap"
+      ]
+    },
+    {
+      "id": "v09",
+      "question": "Kapan saya bisa mengajukan izin tinggal tetap?",
+      "expected_topic": "visa_residency",
+      "expect_contains": [
+        "lima tahun"
+      ]
+    },
+    {
+      "id": "v10",
+      "question": "Apa syarat untuk izin tinggal tetap?",
+      "expected_topic": "visa_residency",
+      "expect_contains": [
+        "sertifikat keterampilan"
+      ]
+    },
+    {
+      "id": "v11",
+      "question": "Bisakah saya memilih pekerjaan sendiri dengan izin tinggal tetap?",
+      "expected_topic": "visa_residency",
+      "expect_contains": [
+        "izin kerja sendiri"
+      ]
+    },
+    {
+      "id": "v12",
+      "question": "Bisakah saya membawa keluarga saya ke Taiwan?",
+      "expected_topic": "visa_residency",
+      "expect_contains": [
+        "berkumpul kembali"
+      ]
+    },
+    {
+      "id": "v13",
+      "question": "Berapa gaji yang saya butuhkan untuk membawa pasangan saya?",
+      "expected_topic": "visa_residency",
+      "expect_contains": [
+        "53.000"
+      ]
+    },
+    {
+      "id": "v14",
+      "question": "Berapa jumlah tahun maksimum saya bisa bekerja di sini?",
+      "expected_topic": "visa_residency",
+      "expect_contains": [
+        "12 tahun"
+      ],
+      "acceptable_topics": [
+        "visa_residency",
+        "employer_transfer"
+      ]
+    },
+    {
+      "id": "v15",
+      "question": "Apa itu biaya stabilisasi ketenagakerjaan?",
+      "expected_topic": "visa_residency",
+      "expect_contains": [
+        "stabilisasi"
+      ]
+    },
+    {
+      "id": "v16",
+      "question": "Apa yang terjadi jika saya menjadi tidak berdokumen?",
+      "expected_topic": "visa_residency",
+      "expect_contains": [
+        "tidak berdokumen"
+      ]
+    },
+    {
+      "id": "v17",
+      "question": "Mengapa saya harus memperpanjang ARC saya lebih awal?",
+      "expected_topic": "visa_residency",
+      "expect_contains": [
+        "kedaluwarsa"
+      ]
+    },
+    {
+      "id": "v18",
+      "question": "Siapa yang membantu pengajuan izin tinggal tetap?",
+      "expected_topic": "visa_residency",
+      "expect_contains": [
+        "pusat layanan"
+      ]
+    },
+    {
+      "id": "v19",
+      "question": "Bisakah perawat bekerja lebih dari 14 tahun?",
+      "expected_topic": "visa_residency",
+      "expect_contains": [
+        "14 tahun"
+      ],
+      "acceptable_topics": [
+        "visa_residency",
+        "employer_transfer"
+      ]
+    },
+    {
+      "id": "v20",
+      "question": "Apakah izin tinggal saya terkait dengan pekerjaan saya?",
+      "expected_topic": "visa_residency",
+      "expect_contains": [
+        "terkait"
+      ]
+    },
+    {
+      "id": "w21",
+      "question": "Majikan saya membayar saya kurang dari upah minimum",
+      "expected_topic": "wage_complaint",
+      "expect_contains": [
+        "29.500"
+      ]
+    },
+    {
+      "id": "w22",
+      "question": "Majikan saya memotong terlalu banyak dari gaji saya",
+      "expected_topic": "wage_complaint",
+      "expect_contains": [
+        "potongan"
+      ]
+    },
+    {
+      "id": "w23",
+      "question": "Bagaimana cara menelepon hotline 1955?",
+      "expected_topic": "wage_complaint",
+      "expect_contains": [
+        "1955"
+      ]
+    },
+    {
+      "id": "w24",
+      "question": "Majikan saya tidak mau memberi saya slip gaji",
+      "expected_topic": "wage_complaint",
+      "expect_contains": [
+        "slip gaji"
+      ]
+    },
+    {
+      "id": "w25",
+      "question": "Apakah hotline ketenagakerjaan buka pada malam hari?",
+      "expected_topic": "wage_complaint",
+      "expect_contains": [
+        "24 jam"
+      ]
+    },
+    {
+      "id": "w26",
+      "question": "Agen mengambil terlalu banyak uang dari saya",
+      "expected_topic": "wage_complaint",
+      "expect_contains": [
+        "agen"
+      ]
+    },
+    {
+      "id": "w27",
+      "question": "Saya terluka saat bekerja, siapa yang membantu saya?",
+      "expected_topic": "wage_complaint",
+      "expect_contains": [
+        "kecelakaan"
+      ]
+    },
+    {
+      "id": "w28",
+      "question": "Adakah kantor yang stafnya berbicara bahasa saya?",
+      "expected_topic": "wage_complaint",
+      "expect_contains": [
+        "pusat layanan konsultasi"
+      ]
+    },
+    {
+      "id": "t21",
+      "question": "Saya benci pekerjaan saya, bisakah saya mendapat majikan baru?",
+      "expected_topic": "employer_transfer",
+      "expect_contains": [
+        "pindah"
+      ]
+    },
+    {
+      "id": "t22",
+      "question": "Majikan saya setuju melepas saya, apa langkah selanjutnya?",
+      "expected_topic": "employer_transfer",
+      "expect_contains": [
+        "dokumen"
+      ]
+    },
+    {
+      "id": "t23",
+      "question": "Bagaimana jika saya menghilang dari pekerjaan selama beberapa hari?",
+      "expected_topic": "employer_transfer",
+      "expect_contains": [
+        "tiga hari"
+      ]
+    },
+    {
+      "id": "t24",
+      "question": "Bisakah saya mendapat majikan baru jika majikan saya kasar?",
+      "expected_topic": "employer_transfer",
+      "expect_contains": [
+        "diperlakukan buruk"
+      ]
+    },
+    {
+      "id": "t25",
+      "question": "Berapa lama pekerja asing bisa terus bekerja di sini?",
+      "expected_topic": "employer_transfer",
+      "expect_contains": [
+        "12 tahun"
+      ],
+      "acceptable_topics": [
+        "employer_transfer",
+        "visa_residency"
+      ]
+    },
+    {
+      "id": "t26",
+      "question": "Apakah saya perlu paspor untuk pindah majikan?",
+      "expected_topic": "employer_transfer",
+      "expect_contains": [
+        "paspor"
+      ]
+    },
+    {
+      "id": "t27",
+      "question": "Apakah pindah dari pekerjaan pabrik ke perawatan diperbolehkan?",
+      "expected_topic": "employer_transfer",
+      "expect_contains": [
+        "antarindustri"
+      ]
+    },
+    {
+      "id": "t28",
+      "question": "Apakah kabur dari majikan itu berbahaya?",
+      "expected_topic": "employer_transfer",
+      "expect_contains": [
+        "dibatalkan"
+      ]
+    },
+    {
+      "id": "n21",
+      "question": "Bagaimana cara mendaftar asuransi kesehatan?",
+      "expected_topic": "nhi_healthcare",
+      "expect_contains": [
+        "asuransi kesehatan nasional"
+      ]
+    },
+    {
+      "id": "n22",
+      "question": "Berapa yang saya bayar untuk NHI setiap bulan?",
+      "expected_topic": "nhi_healthcare",
+      "expect_contains": [
+        "premi"
+      ]
+    },
+    {
+      "id": "n23",
+      "question": "Bisakah saya ke dokter gigi dengan kartu NHI saya?",
+      "expected_topic": "nhi_healthcare",
+      "expect_contains": [
+        "dokter gigi"
+      ]
+    },
+    {
+      "id": "n24",
+      "question": "Kartu asuransi kesehatan saya hilang",
+      "expected_topic": "nhi_healthcare",
+      "expect_contains": [
+        "penggantian"
+      ]
+    },
+    {
+      "id": "n25",
+      "question": "Apakah bayi saya mendapat asuransi kesehatan?",
+      "expected_topic": "nhi_healthcare",
+      "expect_contains": [
+        "tanggungan"
+      ]
+    },
+    {
+      "id": "n26",
+      "question": "Bagaimana jika saya sakit di luar Taiwan?",
+      "expected_topic": "nhi_healthcare",
+      "expect_contains": [
+        "luar negeri"
+      ]
+    },
+    {
+      "id": "n27",
+      "question": "Adakah denda jika tidak punya asuransi kesehatan?",
+      "expected_topic": "nhi_healthcare",
+      "expect_contains": [
+        "denda"
+      ]
+    },
+    {
+      "id": "n28",
+      "question": "Saya tidak bisa bahasa Mandarin di rumah sakit, apa yang bisa saya lakukan?",
+      "expected_topic": "nhi_healthcare",
+      "expect_contains": [
+        "penerjemah"
+      ]
+    },
+    {
+      "id": "v21",
+      "question": "Kartu apa yang menunjukkan saya boleh tinggal di Taiwan?",
+      "expected_topic": "visa_residency",
+      "expect_contains": [
+        "tempat tinggal"
+      ]
+    },
+    {
+      "id": "v22",
+      "question": "ARC saya akan segera kedaluwarsa, apa yang harus saya lakukan?",
+      "expected_topic": "visa_residency",
+      "expect_contains": [
+        "kedaluwarsa"
+      ]
+    },
+    {
+      "id": "v23",
+      "question": "Bisakah saya tinggal di Taiwan secara permanen?",
+      "expected_topic": "visa_residency",
+      "expect_contains": [
+        "izin tinggal tetap"
+      ]
+    },
+    {
+      "id": "v24",
+      "question": "Saya ingin membawa suami dan anak-anak saya ke Taiwan",
+      "expected_topic": "visa_residency",
+      "expect_contains": [
+        "berkumpul kembali"
+      ]
+    },
+    {
+      "id": "v25",
+      "question": "Apa yang terjadi jika saya melebihi masa izin saya?",
+      "expected_topic": "visa_residency",
+      "expect_contains": [
+        "tidak berdokumen"
+      ]
+    },
+    {
+      "id": "v26",
+      "question": "Bagaimana cara menjadi pekerja terampil untuk gaji lebih tinggi?",
+      "expected_topic": "visa_residency",
+      "expect_contains": [
+        "terampil menengah"
+      ],
+      "acceptable_topics": [
+        "visa_residency",
+        "employer_transfer"
+      ]
+    },
+    {
+      "id": "v27",
+      "question": "Bisakah saya bekerja mandiri jika mendapat izin tinggal tetap?",
+      "expected_topic": "visa_residency",
+      "expect_contains": [
+        "izin kerja sendiri"
+      ]
+    },
+    {
+      "id": "v28",
+      "question": "Siapa yang saya hubungi tentang status tinggal saya?",
+      "expected_topic": "visa_residency",
+      "expect_contains": [
+        "pusat layanan"
+      ]
+    }
+  ],
+  "out_of_scope_clear": [
+    "Bagaimana cara memasak mi daging sapi?",
+    "Siapa yang menang pertandingan bisbol tadi malam?",
+    "Bisakah Anda membantu saya menulis surat cinta?",
+    "Bagaimana cara belajar bermain gitar?",
+    "Apa ibu kota Indonesia?",
+    "Film apa yang tayang akhir pekan ini?",
+    "Di mana saya bisa membeli pakaian murah?",
+    "Apa lagu karaoke yang bagus?",
+    "Bagaimana cara mengambil foto yang bagus?",
+    "Bagaimana cara memasak nasi?",
+    "Bisakah Anda menceritakan lelucon?",
+    "Apa hadiah yang bagus untuk ibu saya?",
+    "Apa warna favorit Anda?"
+  ],
+  "out_of_scope_hard": [
+    "Ponsel apa yang terbaik untuk dibeli di Taiwan?",
+    "Apa gunung tertinggi di Taiwan?",
+    "Jam berapa pasar malam buka di Taipei?",
+    "Bagaimana cuaca hari ini di Taipei?",
+    "Bagaimana cara ke Taipei 101?",
+    "Berapa nilai tukar dolar AS?",
+    "Bagaimana cara berteman di Taiwan?",
+    "Makanan apa yang harus saya coba di Taiwan?",
+    "Pantai apa yang terbaik di Taiwan?",
+    "Bagaimana cara mengucapkan halo dalam bahasa Mandarin?"
+  ]
+}
