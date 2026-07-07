@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Bersama - answers for migrant workers in Taiwan</title>
+<meta name="description" content="Ask about wages, health insurance, changing employers, and visas in Taiwan. Plain-language answers grounded in official sources, in your own language." />
+<style>
+  :root{
+    --ink:#0B3D3A;        /* deep teal, near-black */
+    --teal:#0F766E;
+    --teal-soft:#12857b;
+    --amber:#F5B342;
+    --amber-deep:#d99524;
+    --paper:#F7F5F0;
+    --card:#FFFFFF;
+    --muted:#5B7B77;
+    --line:#dfe6e3;
+    --shadow:0 1px 2px rgba(11,61,58,.06),0 8px 24px rgba(11,61,58,.08);
+    --radius:16px;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0;background:var(--paper);color:var(--ink);
+    font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Noto Sans",Arial,sans-serif;
+    font-size:18px;line-height:1.55;
+  }
+  .wrap{max-width:720px;margin:0 auto;padding:20px 18px 64px}
+  a{color:var(--teal)}
+  /* Header */
+  header{padding:14px 0 6px}
+  .mark{display:flex;align-items:baseline;gap:12px}
+  .logo{font-weight:800;font-size:34px;letter-spacing:-.02em;color:var(--ink)}
+  .logo .dot{color:var(--amber-deep)}
+  .kicker{font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:700}
+  .lead{margin:10px 0 0;color:#22514d;font-size:18px;max-width:52ch}
+  /* Language pills */
+  .langs{display:flex;gap:8px;flex-wrap:wrap;margin:20px 0 6px}
+  .lang{
+    appearance:none;border:2px solid var(--line);background:var(--card);
+    color:var(--ink);font:inherit;font-weight:700;font-size:16px;
+    padding:10px 16px;border-radius:999px;cursor:pointer;min-height:46px;
+    transition:border-color .15s,background .15s,transform .05s;
+  }
+  .lang[aria-pressed="true"]{background:var(--ink);color:#fff;border-color:var(--ink)}
+  .lang:hover{border-color:var(--teal)}
+  .lang:active{transform:translateY(1px)}
+  /* Ask box */
+  .ask{margin-top:14px;background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:14px}
+  .ask label{display:block;font-weight:700;font-size:14px;color:var(--muted);margin:0 2px 8px}
+  .row{display:flex;gap:10px}
+  textarea{
+    flex:1;border:2px solid var(--line);border-radius:12px;padding:12px 14px;
+    font:inherit;resize:vertical;min-height:58px;color:var(--ink);background:#fff;
+  }
+  textarea:focus{outline:none;border-color:var(--teal)}
+  .btn{
+    appearance:none;border:0;cursor:pointer;font:inherit;font-weight:800;
+    border-radius:12px;padding:0 20px;min-height:58px;background:var(--amber);color:#3a2a06;
+    box-shadow:0 1px 0 var(--amber-deep);transition:filter .15s,transform .05s;white-space:nowrap;
+  }
+  .btn:hover{filter:brightness(1.03)}
+  .btn:active{transform:translateY(1px)}
+  .btn.secondary{background:var(--card);color:var(--ink);border:2px solid var(--line);box-shadow:none;font-weight:700}
+  .btn.small{min-height:44px;padding:0 14px;font-size:15px}
+  .examples{margin:12px 2px 2px;display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+  .examples .hint{font-size:14px;color:var(--muted);margin-right:2px}
+  .chip{
+    border:1px dashed var(--line);background:#fff;color:#22514d;border-radius:999px;
+    padding:7px 12px;font-size:15px;cursor:pointer;min-height:38px;
+  }
+  .chip:hover{border-color:var(--teal);color:var(--teal)}
+  /* Answer */
+  .answer{margin-top:18px}
+  .card{
+    background:var(--card);border:1px solid var(--line);border-left:6px solid var(--teal);
+    border-radius:var(--radius);box-shadow:var(--shadow);padding:18px 18px;
+  }
+  .card.decline{border-left-color:var(--amber-deep);background:#fffdf7}
+  .tag{display:inline-block;font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;
+    color:var(--teal);background:#e7f2f0;border-radius:999px;padding:4px 10px;margin-bottom:10px}
+  .card.decline .tag{color:var(--amber-deep);background:#fdf3dd}
+  .intro{font-weight:700;margin:0 0 8px}
+  .points{margin:0;padding:0;list-style:none}
+  .points li{padding:8px 0;border-top:1px solid var(--line)}
+  .points li:first-child{border-top:0}
+  .src{margin-top:14px;padding-top:12px;border-top:1px solid var(--line)}
+  .src h3{margin:0 0 8px;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+  .src a{display:block;font-size:15px;word-break:break-word;margin:4px 0}
+  /* Reveal animation */
+  @media (prefers-reduced-motion:no-preference){
+    .reveal{animation:rise .28s ease both}
+    @keyframes rise{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+  }
+  /* Form */
+  details.form{margin-top:22px;background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden}
+  details.form>summary{list-style:none;cursor:pointer;padding:16px 18px;font-weight:800;display:flex;justify-content:space-between;align-items:center}
+  details.form>summary::-webkit-details-marker{display:none}
+  details.form>summary .plus{color:var(--amber-deep);font-size:24px;line-height:1}
+  .form-body{padding:2px 18px 18px;border-top:1px solid var(--line)}
+  .form-body p.note{color:var(--muted);font-size:15px;margin:12px 0 14px}
+  .field{margin:0 0 12px}
+  .field label{display:block;font-weight:700;font-size:14px;margin:0 0 6px}
+  .field input{width:100%;border:2px solid var(--line);border-radius:10px;padding:11px 12px;font:inherit;background:#fff}
+  .field input:focus{outline:none;border-color:var(--teal)}
+  pre.draft{white-space:pre-wrap;background:#0b3d3a;color:#eaf3f1;border-radius:12px;padding:16px;font-size:14.5px;line-height:1.5;overflow:auto;margin:14px 0 0;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+  footer{margin-top:34px;color:var(--muted);font-size:14px;line-height:1.6}
+  footer .disc{background:#eef4f2;border-radius:12px;padding:12px 14px;margin-bottom:12px;color:#22514d}
+  .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);border:0}
+  .loading{color:var(--muted);padding:8px 2px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="kicker">2026 Presidential Hackathon</div>
+    <div class="mark"><div class="logo">Bersama<span class="dot">.</span></div></div>
+    <p class="lead" id="lead">Ask about wages, health insurance, changing employers, or visas in Taiwan. You get a plain-language answer in your own language, grounded in official sources.</p>
+  </header>
+
+  <div class="langs" role="group" aria-label="Choose your language" id="langs">
+    <button class="lang" data-lang="en" aria-pressed="true">English</button>
+    <button class="lang" data-lang="id" aria-pressed="false">Bahasa Indonesia</button>
+    <button class="lang" data-lang="vi" aria-pressed="false">Tiếng Việt</button>
+  </div>
+
+  <div class="ask">
+    <label for="q" id="qLabel">Your question</label>
+    <div class="row">
+      <textarea id="q" rows="2" placeholder="Type your question here"></textarea>
+      <button class="btn" id="askBtn">Ask</button>
+    </div>
+    <div class="examples" id="examples"><span class="hint" id="exHint">Try:</span></div>
+  </div>
+
+  <div class="answer" id="answer" aria-live="polite"></div>
+
+  <details class="form" id="formBlock">
+    <summary><span id="formToggle">Draft an employer-transfer request</span><span class="plus">+</span></summary>
+    <div class="form-body" id="formBody"></div>
+  </details>
+
+  <footer>
+    <div class="disc" id="disclaimer">Bersama gives general information and points to official sources. It is not legal advice, and it never submits a form for you. When in doubt, call the free government hotline 1955.</div>
+    <div id="footNote">Answers are grounded in public information from the Ministry of Labor, the National Health Insurance Administration, the National Immigration Agency, and the 1955 hotline. Indonesian and Vietnamese text is translated and pending native-speaker review.</div>
+  </footer>
+</div>
+
+<script type="module">
+import { buildIndex, answer, formFields, renderDraft } from "./bersama.js";
+
+const UI = {
+  en: {
+    htmlLang:"en",
+    lead:"Ask about wages, health insurance, changing employers, or visas in Taiwan. You get a plain-language answer in your own language, grounded in official sources.",
+    qLabel:"Your question", placeholder:"Type your question here", ask:"Ask",
+    tryLabel:"Try:", answerTag:"Grounded answer", declineTag:"No verified source",
+    formToggle:"Draft an employer-transfer request",
+    formNote:"Answer these, then create a draft to review. Nothing is submitted.",
+    create:"Create draft", copy:"Copy", copied:"Copied",
+    disclaimer:"Bersama gives general information and points to official sources. It is not legal advice, and it never submits a form for you. When in doubt, call the free government hotline 1955.",
+    examples:["How do I change to a new employer?","What is the minimum wage in Taiwan?","When does my health insurance start?"],
+    thinking:"Looking through official sources...",
+  },
+  id: {
+    htmlLang:"id",
+    lead:"Tanyakan tentang gaji, asuransi kesehatan, pindah majikan, atau visa di Taiwan. Anda mendapat jawaban sederhana dalam bahasa Anda, berdasarkan sumber resmi.",
+    qLabel:"Pertanyaan Anda", placeholder:"Ketik pertanyaan Anda di sini", ask:"Tanya",
+    tryLabel:"Coba:", answerTag:"Jawaban bersumber", declineTag:"Tidak ada sumber terverifikasi",
+    formToggle:"Buat draf permohonan pindah majikan",
+    formNote:"Isi ini, lalu buat draf untuk ditinjau. Tidak ada yang dikirim.",
+    create:"Buat draf", copy:"Salin", copied:"Tersalin",
+    disclaimer:"Bersama memberi informasi umum dan mengarahkan ke sumber resmi. Ini bukan nasihat hukum, dan tidak pernah mengirim formulir untuk Anda. Jika ragu, telepon hotline gratis pemerintah 1955.",
+    examples:["Bagaimana cara pindah ke majikan baru?","Berapa upah minimum di Taiwan?","Kapan asuransi kesehatan saya mulai?"],
+    thinking:"Mencari di sumber resmi...",
+  },
+  vi: {
+    htmlLang:"vi",
+    lead:"Hỏi về tiền lương, bảo hiểm y tế, chuyển chủ, hoặc visa ở Đài Loan. Bạn nhận được câu trả lời đơn giản bằng ngôn ngữ của mình, dựa trên các nguồn chính thức.",
+    qLabel:"Câu hỏi của bạn", placeholder:"Nhập câu hỏi của bạn ở đây", ask:"Hỏi",
+    tryLabel:"Thử:", answerTag:"Câu trả lời có nguồn", declineTag:"Không có nguồn đã xác minh",
+    formToggle:"Soạn đơn xin chuyển chủ",
+    formNote:"Điền các mục này, rồi tạo bản nháp để xem lại. Không có gì được nộp.",
+    create:"Tạo bản nháp", copy:"Sao chép", copied:"Đã sao chép",
+    disclaimer:"Bersama cung cấp thông tin chung và chỉ đến các nguồn chính thức. Đây không phải tư vấn pháp lý, và không bao giờ nộp đơn thay bạn. Khi chưa chắc, hãy gọi đường dây nóng miễn phí 1955 của chính phủ.",
+    examples:["Làm sao để tôi chuyển sang chủ mới?","Lương tối thiểu ở Đài Loan là bao nhiêu?","Khi nào bảo hiểm y tế của tôi bắt đầu?"],
+    thinking:"Đang tìm trong các nguồn chính thức...",
+  },
+};
+
+const FILES = { en:"data/knowledge_base.json", id:"data/knowledge_base_id.json", vi:"data/knowledge_base_vi.json" };
+const indexes = {};
+let current = "en";
+
+const el = (id) => document.getElementById(id);
+const answerBox = el("answer");
+
+async function loadAll(){
+  answerBox.innerHTML = '<div class="loading">Loading knowledge base...</div>';
+  await Promise.all(Object.entries(FILES).map(async ([lang, path]) => {
+    const res = await fetch(path);
+    const data = await res.json();
+    indexes[lang] = buildIndex(data.passages, lang);
+  }));
+  answerBox.innerHTML = "";
+  applyLanguage("en");
+}
+
+function applyLanguage(lang){
+  current = lang;
+  const t = UI[lang];
+  document.documentElement.lang = t.htmlLang;
+  el("lead").textContent = t.lead;
+  el("qLabel").textContent = t.qLabel;
+  el("q").placeholder = t.placeholder;
+  el("askBtn").textContent = t.ask;
+  el("exHint").textContent = t.tryLabel;
+  el("formToggle").textContent = t.formToggle;
+  el("disclaimer").textContent = t.disclaimer;
+  // language buttons
+  document.querySelectorAll(".lang").forEach((b) =>
+    b.setAttribute("aria-pressed", b.dataset.lang === lang ? "true" : "false"));
+  // example chips
+  const ex = el("examples");
+  ex.querySelectorAll(".chip").forEach((c) => c.remove());
+  t.examples.forEach((q) => {
+    const c = document.createElement("button");
+    c.className = "chip"; c.type = "button"; c.textContent = q;
+    c.addEventListener("click", () => { el("q").value = q; ask(); });
+    ex.appendChild(c);
+  });
+  buildForm(lang);
+  answerBox.innerHTML = "";
+}
+
+function esc(s){ return s.replace(/[&<>"']/g, (c) => ({ "&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;" }[c])); }
+
+function ask(){
+  const q = el("q").value.trim();
+  if (!q) return;
+  const t = UI[current];
+  const a = answer(indexes[current], q);
+  if (!a.grounded){
+    answerBox.innerHTML =
+      `<div class="card decline reveal"><span class="tag">${t.declineTag}</span>`
+      + `<p style="margin:0">${esc(a.text)}</p></div>`;
+    return;
+  }
+  const points = a.items.map((x) => `<li>${esc(x)}</li>`).join("");
+  const srcs = a.sources.map((s) => `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title)}</a>`).join("");
+  answerBox.innerHTML =
+    `<div class="card reveal"><span class="tag">${t.answerTag}</span>`
+    + `<p class="intro">${esc(a.intro)}</p>`
+    + `<ul class="points">${points}</ul>`
+    + `<div class="src"><h3>${esc(a.sourcesLabel)}</h3>${srcs}</div></div>`;
+}
+
+function buildForm(lang){
+  const t = UI[lang];
+  const L = formFields(lang);
+  const body = el("formBody");
+  let html = `<p class="note">${esc(t.formNote)}</p>`;
+  for (const key of Object.keys(L.fields)){
+    html += `<div class="field"><label for="f_${key}">${esc(L.fields[key])}</label>`
+      + `<input id="f_${key}" type="text" autocomplete="off"></div>`;
+  }
+  html += `<button class="btn small" id="mkDraft">${esc(t.create)}</button>`
+    + `<div id="draftOut"></div>`;
+  body.innerHTML = html;
+  el("mkDraft").addEventListener("click", () => {
+    const L2 = formFields(current);
+    const vals = {};
+    Object.keys(L2.fields).forEach((k) => { vals[k] = (el("f_"+k).value || "").trim(); });
+    const text = renderDraft(vals, current);
+    el("draftOut").innerHTML =
+      `<pre class="draft">${esc(text)}</pre>`
+      + `<button class="btn secondary small" id="copyDraft" style="margin-top:10px">${esc(UI[current].copy)}</button>`;
+    el("copyDraft").addEventListener("click", async (e) => {
+      try { await navigator.clipboard.writeText(text); e.target.textContent = UI[current].copied; }
+      catch { /* clipboard blocked; ignore */ }
+    });
+  });
+}
+
+// wire up
+el("langs").addEventListener("click", (e) => {
+  const b = e.target.closest(".lang"); if (b) applyLanguage(b.dataset.lang);
+});
+el("askBtn").addEventListener("click", ask);
+el("q").addEventListener("keydown", (e) => {
+  if (e.key === "Enter" && (e.metaKey || e.ctrlKey)) ask();
+});
+
+loadAll().catch(() => {
+  answerBox.innerHTML = '<div class="card decline"><p style="margin:0">Could not load the knowledge base files. If you are opening this file directly from disk, run a local web server instead (see the README), or view it on the published GitHub Pages site.</p></div>';
+});
+</script>
+</body>
+</html>
